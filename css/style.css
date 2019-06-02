@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 235, 144);
+    height: 10000px;
+}
+
+.pane, .side-pane {
+    background-color: white;
+    border: 20px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 50px;
+    padding: 50px !important;
+    height: 2000px;
+}
+
+.pane {
+}
+
+.side-pane {
+    background-color: rgb(16, 109, 16);
+    color: white;
+    height: auto;
+}

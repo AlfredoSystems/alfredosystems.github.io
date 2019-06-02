@@ -2,15 +2,50 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Alfredo Electronics</title>
 </head>
 
 <body>
-	<header>
-		the nabigation will be here
-	</header>
-	we done some robotos
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper green">
+				<a href="#" class="brand-logo" style="padding-left: 10px">Alfredo Electronics</a>
+				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li class="active"><a href="image.png">Home</a></li>
+					<li><a href="image.png">Link</a></li>
+					<li><a href="image.png">Another link</a></li>
+					<li><a href="image.png">Link 3</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<ul class="sidenav" id="mobile-sidenav">
+		<li class="active"><a href="image.png">Home</a></li>
+		<li><a href="image.png">Link</a></li>
+		<li><a href="image.png">Another link</a></li>
+		<li><a href="image.png">Link 3</a></li>
+	</ul>
+
+	<div class="row">
+		<div class="col s12 m7 offset-m1 pane">
+			The site is under construction!
+		</div>
+		<div class="col s0 m3 hide-on-small-only side-pane">
+			Feed
+		</div>
+	</div>
+	
+	<script>
+		$(document).ready(function() {
+			$('.sidenav').sidenav();
+		});
+	</script>
 </body>
 
 </html>
