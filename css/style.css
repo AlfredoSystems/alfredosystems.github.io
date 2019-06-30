@@ -59,3 +59,23 @@ body {
     right: 50px;
     z-index: 2;
 }
+
+.product-list-element {
+    padding-right: 0;
+    height: 15em;
+    transition: background .2s ease-in;
+}
+
+.product-list-element:hover {
+    background: lightgrey;
+}
+
+.product-image {
+    max-height: 100%;
+    float: right;
+    padding-left: 10px;
+}
+
+.product-text {
+    padding: 1em;
+}
