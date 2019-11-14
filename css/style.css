@@ -1,6 +1,6 @@
 body {
     background-color: rgb(239, 228, 176);
-    height: 10000px;
+    height: auto;
 }
 
 .pane, .side-pane {
@@ -11,7 +11,7 @@ body {
     background-clip: padding-box;
     border-radius: 25px;
     padding: 50px !important;
-    height: 2000px;
+    height: auto;
 }
 
 .side-pane {
@@ -78,4 +78,9 @@ body {
 
 .product-text {
     padding: 1em;
+}
+
+.product-page-image {
+    max-width: 100%;
+    max-height: 100%;
 }

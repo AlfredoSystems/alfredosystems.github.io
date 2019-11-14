@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Alfredo Electronics</title>
+</head>
+
+<body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper green">
+				<a href="../.." class="brand-logo" style="padding-left: 10px">Alfredo Electronics</a>
+				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="/">Home</a></li>
+					<li class="active"><a href="/products">Products</a></li>
+					<!-- <li><a href="image.png">Tutorials</a></li>
+					<li><a href="image.png">News</a></li>
+					<li><a href="image.png">About</a></li> -->
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<ul class="sidenav" id="mobile-sidenav">
+		<li><a href="/">Home</a></li>
+		<li class="active"><a href="/products">Products</a></li>
+		<!-- <li><a href="image.png">Tutorials</a></li>
+		<li><a href="image.png">News</a></li>
+		<li><a href="image.png">About</a></li> -->
+	</ul>
+
+	<div class="row">
+		<div class="col s12 m8 offset-m2 pane">
+			<div class="row">
+				<div class="col s5">
+					<img class="product-page-image" src="../../images/nou.jpg">
+				</div>
+				<div class="col s7">
+					<h4>Alfredo NoU</h4>
+					<h5>Price: $10.00</h5>
+					<!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src=".../js/materialize.js"></script>
+</body>
+</html>
