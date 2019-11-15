@@ -21,14 +21,14 @@ body {
 }
 
 .main-carousel {
-    height: 50vh;
+    height: 65vh;
     background-color: rgb(51, 51, 51);
 }
 
 .slide > img {
     object-fit: cover;
     width: 85vw;
-    height: 50vh;
+    height: 65vh;
     margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ body {
 .slick-slide > div {
     width: auto;
     width: 85vw;
-    height: 50vh;
+    height: 65vh;
 }
 
 .slick-prev {
