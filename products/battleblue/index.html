@@ -2,10 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="../../css/style.css">
-	<link rel="stylesheet" href="../../css/materialize.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<title>Alfredo Electronics</title>
 </head>
 
@@ -17,7 +19,7 @@
 				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="/">Home</a></li>
-					<li class="active"><a href="/products">Products</a></li>
+					<li class="active"><a href="..">Products</a></li>
 					<!-- <li><a href="image.png">Tutorials</a></li>
 					<li><a href="image.png">News</a></li>
 					<li><a href="image.png">About</a></li> -->
@@ -27,25 +29,29 @@
 	</div>
 	<ul class="sidenav" id="mobile-sidenav">
 		<li><a href="/">Home</a></li>
-		<li class="active"><a href="/products">Products</a></li>
+		<li class="active"><a href="..">Products</a></li>
 		<!-- <li><a href="image.png">Tutorials</a></li>
 		<li><a href="image.png">News</a></li>
 		<li><a href="image.png">About</a></li> -->
 	</ul>
 
-	<div class="row">
-		<div class="col s12 m8 offset-m2 pane">
+	<div class="container" style="width: 85%">
+		<div class="col s12 m12 l12 pane">
+			<div id="product-container"></div>
+			<br/><hr/><br/>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiqjvcJdVbMs6H7IabbahszrhP_y4192kgPJw7qlW_2tNQ1w/viewform?embedded=true" width=100% height=460px frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+	<script id="product-page-template" type="text/x-jQuery-tmpl">
+		<div>
 			<div class="row">
-				<div class="col s5">
-					<img class="product-page-image" src="../../images/battleblue-2.jpg">
+				<div class="col s12 m5 l5">
+					<img class="product-page-image" src="../../images/${image}">
 				</div>
-				<div class="col s7">
-					<h4>BattleBlue</h4>
-					<!-- <h5>Price: TBD</h5> -->
-					The BattleBlue is a tiny, lightweight, all-in-one solution for combat
-					robotics. Remotely control up to 2 brushed motors and output 2 PWM
-					signals for brushless motor ESCs using an app for your Android
-					smartphone (iOS support coming soon).
+				<div class="col s12 m7 l7">
+					<h4>${name}</h4>
+					<h5>Price: ${price}</h5>
+					${blurb}
 				</div>
 			</div>
 			<div>
@@ -73,10 +79,53 @@
 					<li>iOS and physical controller support coming soon</li>
 				</div>
 			</div>
-			<br/><hr/><br/>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiqjvcJdVbMs6H7IabbahszrhP_y4192kgPJw7qlW_2tNQ1w/viewform?embedded=true" width=100% height=460px frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 		</div>
-	</div>
-	<script src="../../js/materialize.js"></script>
+	</script>
+	<script type="text/javascript">
+		var products = [
+			{
+				name: "BattleBlue",
+				price: "TBD",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				blurb: `The BattleBlue is a tiny, lightweight, all-in-one solution for combat
+				robotics. Remotely control up to 2 brushed motors and output 2 PWM
+				signals for brushless motor ESCs using an app for your Android
+				smartphone (iOS support coming soon).`,
+				description: `Around the world, the sport of Combat Robotics is popular and growing. This
+				is particularly true for the 150-gram, 1-pound, and 3-pound weight
+				classes, with over 6500 fights in the last two years. Despite the
+				popularity, the controls system used to wirelessly control robots was designed
+				decades ago for RC aircraft, and today is seriously outdated and expensive.
+				The Battleblue is a lightweight and inexpensive Bluetooth-based robot control system.<br/><br/>
+				<strong>Key features:</strong>
+				<div style="margin-left: 10px">
+					<li>Small</li>
+					<li>Lightweight</li>
+					<li>Controls 2 brushed DC motors, perfect for a drivetrain</li>
+					<li>2 configurable PWM channels, perfect for brushless ESCs or servos</li>
+					<li>Controlled using a smartphone app instead of an expensive transmitter</li>
+				</div>
+				<br/>
+				<strong>App features:</strong>
+				<div style="margin-left: 10px">
+					<li>Runs on any device with Android 7.0 and up</li>
+					<li>Configurable on-screen joysticks, buttons, and sliders</li>
+					<li>Built-in channel mixing</li>
+					<li>Advanced channel mixing</li>
+					<li>iOS and physical controller support coming soon</li>
+				</div>`
+			}
+		]
+		//$("#product-page-template").tmpl(products).appendTo("#product-container");
+		var str = $("#product-page-template").tmpl(products).html();
+		console.log(str);
+		$("#product-container").append(str);
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('.sidenav').sidenav();
+		});
+	</script>
 </body>
 </html>

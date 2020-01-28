@@ -2,13 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet"/>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/materialize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<title>Alfredo Electronics</title>
 </head>
 
@@ -19,7 +18,7 @@
 				<a href=".." class="brand-logo" style="padding-left: 10px">Alfredo Electronics</a>
 				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="/">Home</a></li>
+					<li><a href="..">Home</a></li>
 					<li class="active"><a href="/products">Products</a></li>
 					<!-- <li><a href="image.png">Tutorials</a></li>
 					<li><a href="image.png">News</a></li>
@@ -29,178 +28,148 @@
 		</nav>
 	</div>
 	<ul class="sidenav" id="mobile-sidenav">
-		<li><a href="/">Home</a></li>
-		<li class="active"><a href="/products">Products</a></li>
+		<li><a href="..">Home</a></li>
+		<li class="active"><a href="">Products</a></li>
 		<!-- <li><a href="image.png">Tutorials</a></li>
 		<li><a href="image.png">News</a></li>
 		<li><a href="image.png">About</a></li> -->
 	</ul>
-
-	<div class="row">
-		<div class="col s12 m7 offset-m1 pane">
+	<div class="container" style="width: 85%">
+		<div class="row">
+			<div class="col s12 m12 l12 xl8 pane product-list" id="product-list">
 				<div class="divider"></div>
-				<a href="battleblue" style="color:inherit">
-					<div class="product-list-element">
-						<img class="product-image" src="../images/battleblue-2.jpg">
-						<div class="product-text">
-							<h5 style="margin-top: 0">BattleBlue</h5>
-							<!-- <h6>Price: TBD</h6> -->
-							The BattleBlue is a tiny, lightweight, all-in-one solution for combat
-							robotics. Remotely control up to 2 brushed and 2 brushless motors using
-							an app for your Android smartphone (iOS support coming soon).
-						</div>
-					</div>
-				</a>
-			<div class="divider"></div>
-			<!-- <a href="alfredo-nou" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/nou.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">Alfredo NoU</h5>
-						<h6>Price: $10.00</h6>
-						The Alfredo NoU Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="arduino-uno" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">Arduino Uno</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="hc-06" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/hc-06-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">HC-06</h5>
-						<h6>Price: $$$</h6>
-						HC-06 blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="esp32" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/esp-32-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">ESP32</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="adafruit-motor-shield" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/adafruit-motor-shield-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">Adafruit Motor Shield v1</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="bno055" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">BNO055</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="5v-regulator" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">5V Regulator</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="tt-motor" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/tt-motor-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">TT Motor</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="n20-motor" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">N20 Motor</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="9g-servo" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">9g Servo</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="50g-servo" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">50g Servo</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="9v-li-ion-battery" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">9V Li-ion Battery</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div>
-			<a href="barrel-jack-cable" style="color:inherit">
-				<div class="product-list-element">
-					<img class="product-image" src="../images/arduino-uno-1.jpg">
-					<div class="product-text">
-						<h5 style="margin-top: 0">Barrel Jack Cable</h5>
-						<h6>Price: $$$</h6>
-						Arduino Product blurb
-					</div>
-				</div>
-			</a>
-			<div class="divider" style="clear:both"></div> -->
-		</div>
-		<div class="col s0 m3 hide-on-small-only side-pane">
-			Feed
+			</div>
+			<div class="col xl3 offset-xl1 hide-on-med-and-down side-pane">
+				Blog
+			</div>
 		</div>
 	</div>
-	<script src="../js/materialize.js"></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+	<script id="product-template" type="text/x-jQuery-tmpl">
+		<a href="${link}" style="color:inherit">
+			<div class="product-list-element">
+				<img class="product-image" src="../images/${image}">
+				<div class="product-text">
+					<h5 style="margin-top: 0">${name}</h5>
+					<h6>Price: ${price}</h6>
+					<p class="fade">
+						${description}
+					</p>
+				</div>
+			</div>
+		</a>
+		<div class="divider"></div>
+	</script>
+	<script type="text/javascript">
+		var products = [
+			{
+				name: "Arduino Uno Clone",
+				link: "battleblue",
+				image: "arduino-uno-1.jpg",
+				price: "TBD",
+				description: `Arduino Uno Clone description`
+			},
+			{
+				name: "Adafruit Motor Shield v1",
+				link: "battleblue",
+				image: "adafruit-motor-shield-1.jpg",
+				price: "TBD",
+				description: `Adafruit Motor Shield v1 description`
+			},
+			{
+				name: "HC-06",
+				link: "battleblue",
+				image: "hc-06-1.jpg",
+				price: "TBD",
+				description: `HC-06 chips have provided wireless communication to MiniFRC robots since 2016.
+				Consider using this classic and reliable chip for your MiniFRC robot.`
+			},
+			{
+				name: "ESP32",
+				link: "battleblue",
+				image: "esp-32-1.jpg",
+				price: "TBD",
+				description: `ESP32 description`
+			},
+			{
+				name: "TT Motor",
+				link: "battleblue",
+				image: "tt-motor-1.jpg",
+				price: "TBD",
+				description: `TT Motors description`
+			},
+			{
+				name: "N20 Motor",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "$4.99",
+				description: ` description`
+			},
+			{
+				name: "9g Servo",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `9g Servo description`
+			},
+			{
+				name: "50g Servo",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `50g Servo description`
+			},
+			{
+				name: "9V Li-ion Battery",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `9V Li-ion Battery description`
+			},
+			{
+				name: "9V Battery Barrel Jack Cable",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `9V Battery Barrel Jack Cable description`
+			},
+			{
+				name: "MiniFRC Infinite Recharge Kit of Parts",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "$20.00",
+				description: `MiniFRC Infinite Recharge Kit of Parts description`
+			},
+			{
+				name: "BattleBlue",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `The BattleBlue is a tiny, lightweight, all-in-one solution for combat robotics.
+				Remotely control up to 2 brushed and 2 brushless motors using an app for your Android smartphone (iOS support coming soon).`
+			},
+			{
+				name: "NoU 2.7",
+				link: "alfredo-nou",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `NoU 2.7 description`
+			},
+			{
+				name: "E Deck",
+				link: "battleblue",
+				image: "battleblue-2.jpg",
+				price: "TBD",
+				description: `E Deck description`
+			}
+		];
+		$("#product-template").tmpl(products).appendTo("#product-list");
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.sidenav').sidenav();
+		});
+	</script>
 </body>
 
 </html>
