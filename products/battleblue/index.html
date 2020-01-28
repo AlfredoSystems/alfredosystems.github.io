@@ -41,46 +41,7 @@
 			<br/><hr/><br/>
 			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiqjvcJdVbMs6H7IabbahszrhP_y4192kgPJw7qlW_2tNQ1w/viewform?embedded=true" width=100% height=460px frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 	</div>
-	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
-	<script id="product-page-template" type="text/x-jQuery-tmpl">
-		<div>
-			<div class="row">
-				<div class="col s12 m5 l5">
-					<img class="product-page-image" src="../../images/${image}">
-				</div>
-				<div class="col s12 m7 l7">
-					<h4>${name}</h4>
-					<h5>Price: ${price}</h5>
-					${blurb}
-				</div>
-			</div>
-			<div>
-				Around the world, the sport of Combat Robotics is popular and growing. This
-				is particularly true for the 150-gram, 1-pound, and 3-pound weight
-				classes, with over 6500 fights in the last two years. Despite the
-				popularity, the controls system used to wirelessly control robots was designed
-				decades ago for RC aircraft, and today is seriously outdated and expensive.
-				The Battleblue is a lightweight and inexpensive Bluetooth-based robot control system.<br/><br/>
-				<strong>Key features:</strong>
-				<div style="margin-left: 10px">
-					<li>Small</li>
-					<li>Lightweight</li>
-					<li>Controls 2 brushed DC motors, perfect for a drivetrain</li>
-					<li>2 configurable PWM channels, perfect for brushless ESCs or servos</li>
-					<li>Controlled using a smartphone app instead of an expensive transmitter</li>
-				</div>
-				<br/>
-				<strong>App features:</strong>
-				<div style="margin-left: 10px">
-					<li>Runs on any device with Android 7.0 and up</li>
-					<li>Configurable on-screen joysticks, buttons, and sliders</li>
-					<li>Built-in channel mixing</li>
-					<li>Advanced channel mixing</li>
-					<li>iOS and physical controller support coming soon</li>
-				</div>
-			</div>
-		</div>
-	</script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.5/jsrender.min.js"></script>
 	<script type="text/javascript">
 		var products = [
 			{
@@ -117,10 +78,15 @@
 				</div>`
 			}
 		]
-		//$("#product-page-template").tmpl(products).appendTo("#product-container");
-		var str = $("#product-page-template").tmpl(products).html();
-		console.log(str);
-		$("#product-container").append(str);
+		// $.when($.get("../product-page.tmpl.html"))
+		// .done(function(tmplData) {
+		// 	$.templates({ tmpl: tmplData });
+		// 	$("product-container").append($.render.tmpl(products.data));
+		// });
+		$.get("../product-page.tmpl.html", "text").done(function(template) {
+			$("#product-container").append($.templates(template).render(products));
+		});
+
 	</script>
 	<script>
 		$(document).ready(function() {
