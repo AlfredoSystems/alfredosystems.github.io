@@ -92,6 +92,11 @@ body {
     padding-left: 30px;
 }
 
+.product-image-mobile {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .product-text {
     height: 13em;
     margin: 1em;

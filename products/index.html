@@ -43,15 +43,17 @@
 	<script type="text/javascript" src="products.js"></script>
 	<script type="text/javascript">
 		$("#product-list").append($.templates("#product-template").render(products));
-		function fadeProductText() {
+		function formatForScreenSize() {
 			$(".product-text").each(function() {
 				var em = parseFloat($("html").css("font-size"));
 				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(this).addClass("fade");
 				else $(this).removeClass("fade");
 			});
+			if ($(window).width() <= 600) $(".product-image").addClass("product-image-mobile");
+			else $(".product-image").removeClass("product-image-mobile");
 		}
-		$(document).ready(fadeProductText);
-		$(window).resize(fadeProductText);
+		$(document).ready(formatForScreenSize);
+		$(window).resize(formatForScreenSize);
 	</script>
 </body>
 </html>
