@@ -71,7 +71,7 @@ let products = [
     {
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
-        image: "battleblue-2.jpg",
+        image: "9v-barrel-jack-1.png",
         price: "TBD",
         blurb: `Just snap your 9V battery into this and connect the barrel jack end into your desired board. It’s as simple as that!`
     },
@@ -127,5 +127,12 @@ let products = [
         image: "battleblue-2.jpg",
         price: "TBD",
         blurb: `Tiny foam power cell units for MiniFRC.`
+    },
+    {
+        name: "Chip0",
+        link: "chip0",
+        image: "chip0-1.png",
+        price: "TBD",
+        blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a BT06 Bluetooth module to an Adafruit motor shield v1.`
     }
 ]
