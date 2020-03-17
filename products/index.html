@@ -12,28 +12,6 @@
 </head>
 
 <body>
-	<div class="navbar-fixed">
-		<nav>
-			<div class="nav-wrapper green">
-				<a href=".." class="brand-logo" style="padding-left: 10px">Alfredo Electronics</a>
-				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="..">Home</a></li>
-					<li class="active"><a href="/products">Products</a></li>
-					<!-- <li><a href="image.png">Tutorials</a></li>
-					<li><a href="image.png">News</a></li>
-					<li><a href="image.png">About</a></li> -->
-				</ul>
-			</div>
-		</nav>
-	</div>
-	<ul class="sidenav" id="mobile-sidenav">
-		<li><a href="..">Home</a></li>
-		<li class="active"><a href="">Products</a></li>
-		<!-- <li><a href="image.png">Tutorials</a></li>
-		<li><a href="image.png">News</a></li>
-		<li><a href="image.png">About</a></li> -->
-	</ul>
 	<div class="container" style="width: 85%">
 		<div class="row">
 			<div class="col s12 m12 l12 xl8 pane product-list" id="product-list">
@@ -44,6 +22,7 @@
 			</div>
 		</div>
 	</div>
+
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.5/jsrender.min.js"></script>
 	<script id="product-template" type="text/x-jsrender">
 		<a href={{:link}} style="color:inherit">
@@ -52,123 +31,27 @@
 				<div class="product-text">
 					<h5 style="margin-top: 0">{{:name}}</h5>
 					<h6>Price: {{:price}}</h6>
-					<p class="fade">
-						{{:description}}
-					</p>
+					<p>{{:blurb}}</p>
 				</div>
 			</div>
 		</a>
 		<div class="divider"></div>
 	</script>
+
+	<script type="text/javascript" src="/templates/navbar.js"></script>
+
+	<script type="text/javascript" src="products.js"></script>
 	<script type="text/javascript">
-		var products = [
-			{
-				name: "Arduino Uno Clone",
-				link: "battleblue",
-				image: "arduino-uno-1.jpg",
-				price: "TBD",
-				description: `Arduino Uno Clone description`
-			},
-			{
-				name: "Adafruit Motor Shield v1",
-				link: "battleblue",
-				image: "adafruit-motor-shield-1.jpg",
-				price: "TBD",
-				description: `Adafruit Motor Shield v1 description`
-			},
-			{
-				name: "HC-06",
-				link: "battleblue",
-				image: "hc-06-1.jpg",
-				price: "TBD",
-				description: `HC-06 description`
-			},
-			{
-				name: "ESP32",
-				link: "battleblue",
-				image: "esp-32-1.jpg",
-				price: "TBD",
-				description: `ESP32 description`
-			},
-			{
-				name: "TT Motor",
-				link: "tt-motor",
-				image: "tt-motor-3.png",
-				price: "TBD",
-				description: `TT Motors description`
-			},
-			{
-				name: "N20 Motor",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "$4.99",
-				description: ` description`
-			},
-			{
-				name: "9g Servo",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `9g Servo description`
-			},
-			{
-				name: "50g Servo",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `50g Servo description`
-			},
-			{
-				name: "9V Li-ion Battery",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `9V Li-ion Battery description`
-			},
-			{
-				name: "9V Battery Barrel Jack Cable",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `9V Battery Barrel Jack Cable description`
-			},
-			{
-				name: "MiniFRC Infinite Recharge Kit of Parts",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "$20.00",
-				description: `MiniFRC Infinite Recharge Kit of Parts description`
-			},
-			{
-				name: "BattleBlue",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `The BattleBlue is a tiny, lightweight, all-in-one solution for combat robotics.
-				Remotely control up to 2 brushed and 2 brushless motors using an app for your Android smartphone (iOS support coming soon).`
-			},
-			{
-				name: "NoU 2.7",
-				link: "alfredo-nou",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `NoU 2.7 description`
-			},
-			{
-				name: "E Deck",
-				link: "battleblue",
-				image: "battleblue-2.jpg",
-				price: "TBD",
-				description: `E Deck description`
-			}
-		];
 		$("#product-list").append($.templates("#product-template").render(products));
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.sidenav').sidenav();
-		});
+		function fadeProductText() {
+			$(".product-text").each(function() {
+				var em = parseFloat($("html").css("font-size"));
+				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(this).addClass("fade");
+				else $(this).removeClass("fade");
+			});
+		}
+		$(document).ready(fadeProductText);
+		$(window).resize(fadeProductText);
 	</script>
 </body>
-
 </html>
