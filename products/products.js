@@ -5,7 +5,7 @@ let products = [
         image: "infinite-recharge-kit-of-parts-1.png",
         price: "$20.00 - $25.00",
         blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC: Infinite Recharge.`,
-        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an Uno with the Adafruit motor shield v1 or the ESP32 with the Alfredo-custom NoU2 as their desired controller.
+        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom NoU2 as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>. See the bottom of <a href="/news/what-is-alfredo/">this post</a> for information about the shipping timeline for MiniFRC.
         <br/><br/>
         <strong>This bundle contains:</strong>
         <div style="margin-left:10px">
