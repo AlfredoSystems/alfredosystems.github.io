@@ -14,7 +14,7 @@
 <body>
 	<div class="container" style="width: 85%">
 		<div class="row">
-			<div class="col s12 m12 l12 xl8 pane product-list" id="product-list">
+			<div class="col s12 m12 l8 pane product-list" id="product-list">
 				<div class="divider"></div>
 			</div>
 			<div class="side-pane"></div>
@@ -29,7 +29,7 @@
 				<div class="product-text">
 					<h5 style="margin-top: 0">{{:name}}</h5>
 					<h6>Price: {{:price}}</h6>
-					<p>{{:blurb}}</p>
+					{{:blurb}}
 				</div>
 			</div>
 		</a>
@@ -45,7 +45,7 @@
 		function formatForScreenSize() {
 			$(".product-text").each(function() {
 				var em = parseFloat($("html").css("font-size"));
-				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(this).addClass("fade-product-text");
+				if ($(this).prop("scrollHeight") > $(this).outerHeight()) $(this).addClass("fade-product-text");
 				else $(this).removeClass("fade-product-text");
 			});
 			if ($(window).width() <= 600) $(".product-image").addClass("product-image-mobile");

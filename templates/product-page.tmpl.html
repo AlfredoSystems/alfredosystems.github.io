@@ -1,18 +1,20 @@
 <div class="container" style="width: 85%">
-    <div class="col s12 m12 l12 pane">
-        <div class="row">
-            <div class="col s12 m5 l5">
-                <img class="product-page-image" src="../../images/{{:image}}">
+    <div class="row">
+        <div class="col s12 m12 l10 offset-l1 pane">
+            <div class="row">
+                <div class="col s12 m5 l3">
+                    <img class="product-page-image" src="../../images/{{:image}}">
+                </div>
+                <div class="col s12 m7 l9">
+                    <h4>{{:name}}</h4>
+                    <h5>Price: {{:price}}</h5>
+                    {{:buy}}
+                    {{:blurb}}
+                </div>
             </div>
-            <div class="col s12 m7 l7">
-                <h4>{{:name}}</h4>
-                <h5>Price: {{:price}}</h5>
-                {{:buy}}
-                {{:blurb}}
+            <div>
+                {{:description}}
             </div>
         </div>
-        <div>
-            {{:description}}
-        </div>
-    </div>
+    </div class="row">
 </div>

@@ -152,6 +152,29 @@ body {
     overflow: hidden;
 }
 
+.news-image {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    max-height: 100%;
+    max-width: 30vw;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.news-image-mobile {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.news-text-author {
+    font-style: italic;
+    color: grey;
+    margin-bottom: 5px;
+}
+
 .fade-news-text {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87) 4em, rgba(0, 0, 0, 0));
     background-origin: content-box;

@@ -15,7 +15,7 @@
 	<div class="container" style="width: 85%">
 		<div class="row">
 			<div class="col s12 m12 l12 pane news-list" id="news-list">
-				<div style="padding-left: 20px">
+				<div class="news-title" style="padding-left: 20px">
 					<h2>Alfredo News</h2>
 				</div>
 				<div class="divider"></div>
@@ -27,9 +27,11 @@
 	<script id="news-template" type="text/x-jsrender">
 		<a href={{:link}} style="color:inherit">
 			<div class="news-list-element">
+				<img class="news-image" src="../images/{{:image}}">
 				<div class="news-text">
 					<h5 style="margin-top: 0">{{:title}}</h5>
-					<p>{{:blurb}}</p>
+					<div class="news-text-author">Written by {{:author}}</div>
+					<span class="news-text-blurb">{{:blurb}}</span>
 				</div>
 			</div>
 		</a>
@@ -45,9 +47,17 @@
 		function formatForScreenSize() {
 			$(".news-text").each(function() {
 				var em = parseFloat($("html").css("font-size"));
-				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(this).addClass("fade-news-text");
-				else $(this).removeClass("fade-news-text");
+				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(".news-text-blurb").hide();
+				else $(".news-text-blurb").show();
 			});
+			if ($(window).width() <= 600) {
+				$(".news-image").addClass("news-image-mobile");
+				$(".news-title").addClass("center-align");
+			}
+			else {
+				$(".news-image").removeClass("news-image-mobile");
+				$(".news-title").removeClass("center-align");
+			}
 		}
 		$(document).ready(() => {
 			formatForScreenSize();
