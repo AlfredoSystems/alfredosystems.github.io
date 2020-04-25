@@ -14,21 +14,21 @@
 <body>
 	<div class="container" style="width: 85%">
 		<div class="row">
-			<div class="col s12 m12 l12 xl8 pane product-list" id="product-list">
+			<div class="col s12 m12 l12 pane news-list" id="news-list">
+				<div style="padding-left: 20px">
+					<h2>Alfredo News</h2>
+				</div>
 				<div class="divider"></div>
 			</div>
-			<div class="side-pane"></div>
 		</div>
 	</div>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.5/jsrender.min.js"></script>
-	<script id="product-template" type="text/x-jsrender">
+	<script id="news-template" type="text/x-jsrender">
 		<a href={{:link}} style="color:inherit">
-			<div class="product-list-element">
-				<img class="product-image" src="../images/{{:image}}">
-				<div class="product-text">
-					<h5 style="margin-top: 0">{{:name}}</h5>
-					<h6>Price: {{:price}}</h6>
+			<div class="news-list-element">
+				<div class="news-text">
+					<h5 style="margin-top: 0">{{:title}}</h5>
 					<p>{{:blurb}}</p>
 				</div>
 			</div>
@@ -39,17 +39,15 @@
 	<script type="text/javascript" src="/templates/navbar.js"></script>
 	<script type="text/javascript" src="/templates/side-pane.js"></script>
 
-	<script type="text/javascript" src="products.js"></script>
+	<script type="text/javascript" src="news.js"></script>
 	<script type="text/javascript">
-		$("#product-list").append($.templates("#product-template").render(products));
+		$("#news-list").append($.templates("#news-template").render(newsList));
 		function formatForScreenSize() {
-			$(".product-text").each(function() {
+			$(".news-text").each(function() {
 				var em = parseFloat($("html").css("font-size"));
-				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(this).addClass("fade-product-text");
-				else $(this).removeClass("fade-product-text");
+				if ($(this).prop("scrollHeight") > $(this).outerHeight() + em) $(this).addClass("fade-news-text");
+				else $(this).removeClass("fade-news-text");
 			});
-			if ($(window).width() <= 600) $(".product-image").addClass("product-image-mobile");
-			else $(".product-image").removeClass("product-image-mobile");
 		}
 		$(document).ready(() => {
 			formatForScreenSize();

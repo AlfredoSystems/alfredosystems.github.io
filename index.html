@@ -13,29 +13,34 @@
 
 <body>
 	<div class="main-carousel">
-		<div class="slide"><img src="images/battleblue-1.jpg"></img></div>
-		<div class="slide"><img src="images/nou.jpg"></img></div>
+		<div class="slide"><img src="images/homepage-1.jpg"></img></div>
+		<div class="slide"><img src="images/homepage-2.jpg"></img></div>
+		<div class="slide"><img src="images/homepage-3.jpg"></img></div>
+		<div class="slide"><img src="images/homepage-4.jpg"></img></div>
+		<div class="slide"><img src="images/homepage-5.png"></img></div>
+		<div class="slide"><img src="images/homepage-6.jpg"></img></div>
 	</div>
 	
 	<div class="container" style="width: 85%">
 		<div class="row">
-			<div class="col s12 m12 l12 xl8 pane" style="margin-top: 0">
+			<div class="col s12 m12 l12 xl8 pane" style="margin-top: 0;">
 				<h5>About Us</h5>
 				<hr>
+				Alfredo Electronics is a group of good friends passionately dedicated to getting more people into the intoxicating hobby of building robots. Newcomers and even experienced builders can get bogged down by the intimidating mountain of impenetrable information out there when trying to start a new project. The folks here at Alfredo have years of experience knocking down these roadblocks, and we want to use it to create products, documentation, and tutorials that simplify the engineering process, getting you from zero to a finished project with as little pain as possible. Our original products are designed to take the typical problems builders encounter and solve them in an elegant, inexpensive, and easy-to-use form factor, along with all the tutorials you need to get started at any skill level.
 			</div>
-			<div class="col xl3 offset-xl1 hide-on-med-and-down side-pane" style="margin-top: 0">
-				Blog
-			</div>
+			<div class="side-pane" style="margin-top: 0"></div>
 		</div>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/materialize.min.js"></script>
 	<script type="text/javascript" src="/templates/navbar.js"></script>
+	<script type="text/javascript" src="/templates/side-pane.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('.main-carousel').slick({
+				autoplay: true,
 				centerMode: true,
 				infinite: true,
 				fade: true,
