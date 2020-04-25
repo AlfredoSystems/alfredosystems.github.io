@@ -4,18 +4,18 @@ let products = [
         link: "uno",
         image: "arduino-uno-1.png",
         price: "$4.43",
-        blurb: `A classic microcontroller to bring any project to life. Connect servos, LEDs, switches, or other devices to the pins and program using the free <a href="https://www.arduino.cc/en/main/software">programming IDE provided by Arduino</a>.`,
-        description: `With thousands of tutorials crafted by members of the community, the Uno is a great microcontroller for any beginner project. An Uno can be powered through the barrel jack, USB-B port, or directly through its pins, offering a wide range of options. A versatile tool, the Uno can be used anywhere from simple robotics applications to complex home automation. An Uno can even be extended to fit any project requirements due to the <a href="https://learn.sparkfun.com/tutorials/arduino-shields/all">dozens of different shields</a> available, including the <a href="/products/adafruit-motor-shield-v1">Adafruit Motor Shield v1</a>.`
+        blurb: `A classic microcontroller to bring any project to life. Connect servos, LEDs, switches, or other devices to the pins and program using the free <object><a href="https://www.arduino.cc/en/main/software">programming IDE provided by Arduino</a></object></object>.`,
+        description: `With thousands of tutorials crafted by members of the community, the Uno is a great microcontroller for any beginner project. An Uno can be powered through the barrel jack, USB-B port, or directly through its pins, offering a wide range of options. A versatile tool, the Uno can be used anywhere from simple robotics applications to complex home automation. An Uno can even be extended to fit any project requirements due to the <object><a href="https://learn.sparkfun.com/tutorials/arduino-shields/all">dozens of different shields</a></object> available, including the <object><a href="/products/adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object>.`
     },
     {
         name: "Adafruit Motor Shield v1 Clone",
         link: "adafruit-motor-shield-v1",
         image: "adafruit-motor-shield-1.png",
         price: "$3.76",
-        blurb: `Streamline and simplify projects that require multiple motors by adding this simple motor shield. Just mount the shield to an <a href="/products/uno">Arduino Uno</a>, add up to 4 DC motors, and plug a power source into the screw-down terminals to get started.`,
-        description: `The <a href="/products/uno">Uno</a> on its own often can’t supply motors with the voltage and current they need. This shield provides a compact solution by adding ports for four DC motors and two servos, all powered by an external power source up to 25V. For help with setup and programming, check out <a href="https://learn.adafruit.com/adafruit-motor-shield/overview">Adafruit's step-by-step guide</a>.
+        blurb: `Streamline and simplify projects that require multiple motors by adding this simple motor shield. Just mount the shield to an <object><a href="/products/uno">Arduino Uno</a></object>, add up to 4 DC motors, and plug a power source into the screw-down terminals to get started.`,
+        description: `The <object><a href="/products/uno">Uno</a></object> on its own often can’t supply motors with the voltage and current they need. This shield provides a compact solution by adding ports for four DC motors and two servos, all powered by an external power source up to 25V. For help with setup and programming, check out <object><a href="https://learn.adafruit.com/adafruit-motor-shield/overview">Adafruit's step-by-step guide</a></object>.
         <br/><br/>
-        If you’re going to be using this shield with a <a href="/products/bt06/">BT06 Bluetooth module</a>, check out the <a href="/products/chip0-1.png">Chip0</a> for a simple option to robustly connect the two.`
+        If you’re going to be using this shield with a <object><a href="/products/bt06/">BT06 Bluetooth module</a></object>, check out the <object><a href="/products/chip0-1.png">Chip0</a></object> for a simple option to robustly connect the two.`
     },
     {
         name: "BT06",
@@ -23,14 +23,14 @@ let products = [
         image: "bt06-1.png",
         price: "$2.73",
         blurb: `A wireless Bluetooth module with an easy-to-use four-pin interface.  This module makes communicating with your project wirelessly a piece of cake by turning Bluetooth communication into a standard Serial port, allowing you to wirelessly send input to your microcontroller as if you were connected over USB.`,
-        description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They’re a great option to send input using Bluetooth Classic to an <a href="/products/uno">Arduino Uno</a> and a variety of other platforms.`
+        description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They’re a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Arduino Uno</a></object> and a variety of other platforms.`
     },
     {
         name: "Chip0",
         link: "chip0",
         image: "chip0-1.png",
         price: "$1.00",
-        blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <a href="/products/bt06">BT06 Bluetooth module</a> to an <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a>.`,
+        blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
         description: ``
     },
     {
@@ -39,7 +39,7 @@ let products = [
         image: "esp32-1.png",
         price: "$5.48",
         blurb: `The ESP32 is a high-performance microcontroller perfect for projects ranging from small robots to large-scale IoT implementations. The ESP32 comes with built-in Wi-Fi and Bluetooth capability, making it an outstanding choice to wrap logic, wireless communication, and input/output into an elegant, tiny package.`,
-        description: `The ESP32 can be programmed with the <a href="https://www.arduino.cc/reference/en">Arduino language</a>, <a href="https://micropython.org/">MicroPython</a>, <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/">ESP-IDF</a>, and many more. Because of its integrated Bluetooth Low Energy chip, the ESP32 is ideal for hobby robotics applications.`
+        description: `The ESP32 can be programmed with the <object><a href="https://www.arduino.cc/reference/en">Arduino language</a></object>, <object><a href="https://micropython.org/">MicroPython</a></object>, <object><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/">ESP-IDF</a></object>, and many more. Because of its integrated Bluetooth Low Energy chip, the ESP32 is ideal for hobby robotics applications.`
     },
     {
         name: "NoU2",
@@ -52,8 +52,8 @@ let products = [
         // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         // </form>`,
-        blurb: `Give power to your projects with this Alfredo-original <a href="/products/esp32">ESP32</a> shield. Built with six DC motor ports, support for continuous servos, a custom and intuitive library, and a sleek, compact design, the NoU2 is perfect for virtually any small robotics project.`,
-        description: `Simply plug a <a href="/products/9v-li-ion-battery">9V power source</a> into the <a href="/products/9v-barrel-jack">barrel jack</a> and the NoU2 is ready to drive your latest project robotics project. The NoU2 marks the next advancement in Alfredo’s multipurpose small robotics technology. This shield improves on the features pioneered by the original NoU, including:
+        blurb: `Give power to your projects with this Alfredo-original <object><a href="/products/esp32">ESP32</a></object> shield. Built with six DC motor ports, support for continuous servos, a custom and intuitive library, and a sleek, compact design, the NoU2 is perfect for virtually any small robotics project.`,
+        description: `Simply plug a <object><a href="/products/9v-li-ion-battery">9V power source</a></object> into the <object><a href="/products/9v-barrel-jack">barrel jack</a></object> and the NoU2 is ready to drive your latest project robotics project. The NoU2 marks the next advancement in Alfredo’s multipurpose small robotics technology. This shield improves on the features pioneered by the original NoU, including:
         <div style="margin-left: 10px">
             <li>6 DC motor ports, two more than the original NoU</li>
             <li>3.3V and 5V switch mode regulators reduce the risk of brownouts</li>
@@ -70,7 +70,7 @@ let products = [
         image: "tt-motor-1.png",
         price: "$2.14",
         blurb: `Often used in small robot drivetrains and winches, this motor comes equipped with a gearbox for added torque, as well as a removable plastic wheel.`,
-        description: `An inexpensive and reliable package with a motor, gearbox, and wheel that’ll keep your robot moving forward. There are two terminals on the back of the motor for attaching wires. Simply reverse the polarity on these wires to change direction. Operating at 9 volts, these motors are a great choice to run off of either an <a href="adafruit-motor-shield-v1">Adafruit Motor Shield v1</a> or an <a href="alfredo-nou2">Alfredo NoU2</a>.
+        description: `An inexpensive and reliable package with a motor, gearbox, and wheel that’ll keep your robot moving forward. There are two terminals on the back of the motor for attaching wires. Simply reverse the polarity on these wires to change direction. Operating at 9 volts, these motors are a great choice to run off of either an <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object> or an <object><a href="alfredo-nou2">Alfredo NoU2</a></object>.
         <br/><br/>
         <strong>Specifications</strong>
         <div style="margin-left: 10px">
@@ -88,7 +88,7 @@ let products = [
         link: "n20-motor",
         image: "n20-motor-1.png",
         price: "$3.96",
-        blurb: `N20 motors are compact and versatile gearbox/motor combo nearly as powerful as <a href="/products/tt-motor">TT motors</a> at one-third the weight. These brushed DC motors are perfect for manipulator and intake mechanisms in your next robotics project.`,
+        blurb: `N20 motors are compact and versatile gearbox/motor combo nearly as powerful as <object><a href="/products/tt-motor">TT motors</a></object> at one-third the weight. These brushed DC motors are perfect for manipulator and intake mechanisms in your next robotics project.`,
         description: `These tiny brushed DC gearmotors come in three ratios and can be supplied up to 9V.
         </br></br>
         <table class="striped" style="width: auto">
@@ -175,7 +175,7 @@ let products = [
         <div style="margin-left: 10px">
             <li>We can absolutely guarantee these are the lowest quality high quality cards money can buy</li>
             <li>This is my magnum opus, I spent like 60hrs on it</li>
-            <li>Full list of cards: <a href=http://bitly.com/98K8eH>http://bitly.com/98K8eH</a></li>
+            <li>Full list of cards: <object><a href=http://bitly.com/98K8eH>http://bitly.com/98K8eH</a></object></li>
             <li>But don't just take our word for it, hear it from our customers:</li>
         </div>
         <blockquote>
