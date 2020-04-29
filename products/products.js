@@ -61,7 +61,7 @@ let products = [
             <li>Better power management using bulk and distributive capacitors</li>
             <li>A power in barrel jack, lowering the chance of shorting your board</li>
             <li>Library support for motors and servos</li>
-            <li>More GPIO pins accessible</li>
+            <li>Improved GPIO pin layout</li>
         </ul>
         <br\><br\>
         Resources:
