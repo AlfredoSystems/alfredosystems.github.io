@@ -13,7 +13,7 @@ let products = [
             <li>4 <a href="/products/tt-motor">TT motors and wheels</a></li>
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
-            <li>1 <a href="https://upload.wikimedia.org/wikipedia/commons/3/3d/Sixlets-Candies.jpg">power cell</a></li>
+            <li>1 <a href="/products/power-cell">power cell</a></li>
             <li>For the Uno kit ($20.00):</li>
             <ul class="browser-default">
                 <li>1 <a href="/products/uno/">Uno microcontroller</a> with USB-B upload cable</li>
@@ -122,6 +122,19 @@ let products = [
         <ul class="browser-default">
             <li><a href="/downloads/N20 Motor (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
         </ul>`
+    },
+    {
+        name: "Power Cell",
+        link: "power-cell",
+        image: "power-cell-1.png",
+        price: "$0.50",
+        blurb: "Tiny foam power cell for MiniFRC.",
+        description: `
+        <ul class="browser-default">
+            <li>Diameter: 1.5 in</li>
+            <li>Material: foam</li>
+            <li>Expression: &nbsp; ：）</li>
+        <ul/>`
     },
     {
         name: "Arduino Uno Clone",
