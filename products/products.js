@@ -164,7 +164,7 @@ let products = [
         name: "Power Cell",
         link: "power-cell",
         image: "power-cell-1.png",
-        price: "$0.50",
+        price: "$1.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
