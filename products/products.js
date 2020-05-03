@@ -48,11 +48,12 @@ let products = [
         image: "nou2-1.png",
         price: "$9.00",
         // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        // </form>`,
+        //     <input type="hidden" name="cmd" value="_s-xclick">
+        //     <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
+        //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        //     </form>
+        //     `,
         blurb: `Give power to your projects with this Alfredo-original <object><a href="/products/esp32">ESP32</a></object> shield. Built with six DC motor ports, support for four servos, a custom and intuitive library, and a sleek, compact design, the NoU2 is perfect for virtually any small robotics project.`,
         description: `Simply plug a <object><a href="/products/9v-li-ion-battery">9V power source</a></object> into the <object><a href="/products/9v-barrel-jack">barrel jack</a></object> and the NoU2 is ready to drive your latest project robotics project. The NoU2 marks the next advancement in Alfredo’s multipurpose small robotics technology. This shield improves on the features pioneered by the original NoU, including:
         <ul class="browser-default">
@@ -131,7 +132,7 @@ let products = [
         blurb: "Tiny foam power cell for MiniFRC.",
         description: `
         <ul class="browser-default">
-            <li>Diameter: 1.5 in</li>
+            <li>Nominal diameter: 1.5 in</li>
             <li>Material: foam</li>
             <li>Expression: &nbsp; ：）</li>
         <ul/>`

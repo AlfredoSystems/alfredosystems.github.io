@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<title>Alfredo Electronics</title>
+</head>
+
+<body>
+	<div class="container" style="width: 85%">
+		<div class="row">
+			<div class="col s12 m12 l8 offset-l2 pane" style="font-size: 13pt;">
+				<h3>Fun Facts about Batteries</h3>
+				<hr/>
+				<img src="/images/fun-facts-about-batteries-2.jpg" style="width:100%; max-width: 100%;"/>
+				<div class="news-text-author">
+					Written by Kevin Wassel, edited by Jacob Williams and Julian Berla
+				</div>
+				<p>Here are two important facts about the <a href="/products/9v-li-ion-battery/">9 Volt 650 mAh Li-ion batteries</a> we are selling as part of the MiniFRC Kit of Parts (and individually). First, the voltage of the batteries is not 9 volts, and second, the capacity is not 650 mAh. In this article, we discuss why most 9V li-ion batteries “lie” about their capacity, why these batteries are more than good enough for MiniFRC, and why you should consider having at least two batteries, particularly for competition.</p>
+				<p>First, a note about voltage. We call them 9-Volt batteries because of their form factor and because they use a standard 9-Volt connector, not because they provide 9 Volts of potential. Yes, it’s confusing. The batteries are analogous to 2-cell Lithium Polymer (Li-Po) batteries, which means they have a fully charged voltage of about 8.5 volts, and a nominal voltage of 7.4 volts. Despite the slightly lower voltage, these batteries still have a huge edge over any NiCd robot battery due to their much higher current rating.</p>
+				<p>Next, capacity. We have measured the capacity of our batteries to be around 360 mAh, not 650 mAh as written on their casing. This sounds like a significant downgrade, but this discrepancy is normal for a battery of this price range. For example, although <a href="https://www.amazon.com/POOVER-Rechargeable-9-8inches-Keyboard-Microphone/dp/B079FPR7GL/">Poover batteries sold on Amazon</a> are advertised to have a capacity of 680 mAh, we have measured them to have a capacity of 343 mAh. Li-ion batteries that charge at a dedicated charging dock will have a slightly higher capacity as they can utilize their full volume instead of requiring a built in charging circuit, but their advertised capacity is likely overstated as well.</p>
+				<p>While 360 mAh is much less than the advertised 650 mAh, it is more than sufficient for MiniFRC robots. To calculate the time it takes to deplete the battery we use the following formula (learn more about battery calculations <a href="https://www.youtube.com/watch?v=cxkVxi9P0EA">here</a>):</p>
+				\[\frac{Capacity\;(\text{Amp-hours})}{Load\;(\text{Amps})} = Discharge\;Time\;(\text{Hours})\]
+				To calculate the current drawn the following assumptions have been made:
+				<ul>
+					<li>The average robot will have around four TT motors and two N20 or similar motors</li>
+					<li>The communication receiver draws a negligible amount of current</li>
+					<li>For average current, we used double the free-spin current. Your mileage may vary, so we recommend taking measurements for your robot and performing the calculations outlined in this post.</li>
+				</ul>
+				<table class="striped" style="width: auto">
+					<tr><th>        </th> <th>Free-spin current (mA)</th><th>Estimated average current draw (mA)</th><th>Current draw (mA)</th></tr>
+					<tr><th>N20 Motor</th><td>45</td>                    <td>90</td>                                 <td>45</td>            <tr>
+					<tr><th>TT Motor</th> <td>112</td>                   <td>224</td>                                <td>41</td>            <tr>
+				</table><br/>
+				For a robot with two N20 motors and four TT motors, that puts the total average robot current draw at
+				\[2 \cdot 90 \text{mA} + 4 \cdot 224 \text{mA} = 1.07 \text{A,}\]
+				which puts the amount of time you can drive an average robot with one of these batteries at
+				\[\frac{360 \text{ mAh}}{1076 \text{ mA}} = 0.334 \text{ hours.}\]
+				<p>With these assumptions, the time to be discharged is about 20.07 minutes or about 5 MiniFRC matches. Finding how much time it takes to charge a battery is much more straightforward. In our tests, it took a little over an hour to charge a fully drained battery back to 100%. Assuming you arrive at the competition with a charged battery, you would in theory only have to charge your battery for a total of two hours throughout the day to never run out of charge right? Maybe not. This math assumes that teams will always remember to plug in their one battery to charge in between matches, and doesn't account for when teams are in queue, time spent before and after a match, and most critically time spent practicing and testing your robot. Because of this, please consider having two robot batteries so you don't have to worry about keeping your one battery charged, and can practice with and test your robot between matches without having to worry about running out of power.</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/templates/navbar.js"></script>
+	<script type="text/javascript" src="/templates/side-pane.js"></script>
+</body>
+</html>

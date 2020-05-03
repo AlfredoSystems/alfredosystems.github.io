@@ -1,5 +1,32 @@
 let newsList = [
     {
+        title: "Fun Facts about Batteries",
+        link: "/news/fun-facts-about-batteries/",
+        image: "fun-facts-about-batteries-1.png",
+        blurb: "Learn more about the batteries we sell and batteries in general.",
+        author: "Kevin Wassel",
+        date: "5 May, 2020",
+        contents: "contents"
+    },
+    {
+        title: "How to Make a Flywheel with a TT Motor",
+        link: "/news/tt-motor-flywheel-guide/",
+        image: "tt-motor-flywheel-guide-6.png",
+        blurb: "A guide to turning a TT Motor into a high speed flywheel.",
+        author: "Kevin Wassel",
+        date: "5 May, 2020",
+        contents: "contents"
+    },
+    {
+        title: "How to Solder a TT Motor",
+        link: "/news/tt-motor-soldering-guide/",
+        image: "tt-motor-soldering-guide-11.png",
+        blurb: "A step-by-step guide to get your TT motors soldered up.",
+        author: "Kevin Wassel",
+        date: "5 May, 2020",
+        contents: "contents"
+    },
+    {
         title: "The Alfredo CAD Package",
         link: "/news/alfredo-cad-package/",
         image: "alfredo-cad-package-1.png",
