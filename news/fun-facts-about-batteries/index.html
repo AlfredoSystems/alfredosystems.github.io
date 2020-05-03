@@ -29,16 +29,17 @@
 				<p>While 360 mAh is much less than the advertised 650 mAh, it is more than sufficient for MiniFRC robots. To calculate the time it takes to deplete the battery we use the following formula (learn more about battery calculations <a href="https://www.youtube.com/watch?v=cxkVxi9P0EA">here</a>):</p>
 				\[\frac{Capacity\;(\text{Amp-hours})}{Load\;(\text{Amps})} = Discharge\;Time\;(\text{Hours})\]
 				To calculate the current drawn the following assumptions have been made:
-				<ul>
+				<ul class="browser-default">
 					<li>The average robot will have around four TT motors and two N20 or similar motors</li>
 					<li>The communication receiver draws a negligible amount of current</li>
 					<li>For average current, we used double the free-spin current. Your mileage may vary, so we recommend taking measurements for your robot and performing the calculations outlined in this post.</li>
 				</ul>
-				<table class="striped" style="width: auto">
-					<tr><th>        </th> <th>Free-spin current</th><th>Estimated average current draw</th><th>Current draw</th></tr>
-					<tr><th>N20 Motor</th><td>45 mA</td>                    <td>90 mA</td>                                 <td>45 mA</td>            <tr>
-					<tr><th>TT Motor</th> <td>112 mA</td>                   <td>224 mA</td>                                <td>41 mA</td>            <tr>
-				</table><br/>
+					<table class="striped" style="width: auto; margin-left:auto; margin-right:auto;">
+						<tr><th>        </th> <th>Free-spin current</th><th>Estimated average current draw</th><th>Current draw</th></tr>
+						<tr><th>N20 Motor</th><td>45 mA</td>                    <td>90 mA</td>                                 <td>45 mA</td>            <tr>
+						<tr><th>TT Motor</th> <td>112 mA</td>                   <td>224 mA</td>                                <td>41 mA</td>            <tr>
+					</table>
+				<br/>
 				For a robot with two N20 motors and four TT motors, that puts the total average robot current draw at
 				\[2 \cdot 90 \text{ mA} + 4 \cdot 224 \text{ mA} = 1.07 \text{ A,}\]
 				which puts the amount of time you can drive an average robot with one of these batteries at
