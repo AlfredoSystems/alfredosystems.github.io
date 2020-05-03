@@ -1,5 +1,14 @@
 let newsList = [
     {
+        title: "Shop/Shipping Update",
+        link: "/news/shop-shipping-update/",
+        image: "shop-shipping-update-1.png",
+        blurb: "PayPal buttons are now live for each of our products!",
+        author: "Jacob Williams",
+        date: "6 May, 2020",
+        contents: "contents"
+    },
+    {
         title: "Fun Facts about Batteries",
         link: "/news/fun-facts-about-batteries/",
         image: "fun-facts-about-batteries-1.png",
