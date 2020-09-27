@@ -87,6 +87,7 @@ let products = [
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/Alfredo NoU2 (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
+            <li><a href="https://github.com/AlfredoElectronics/Alfredo-NoU2" download>Software library on GitHub</a></li>
         </ul>`
     },
     {
