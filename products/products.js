@@ -1,8 +1,8 @@
 let products = [
     {
-        name: "MiniFRC Infinite Recharge Kit of Parts",
-        link: "infinite-recharge-kit-of-parts",
-        image: "infinite-recharge-kit-of-parts-1.png",
+        name: "MiniFRC Kit of Parts",
+        link: "minifrc-kit-of-parts",
+        image: "nou2-minifrc-kit-of-parts-1.png",
         price: "$20.00 - $25.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
@@ -17,8 +17,8 @@ let products = [
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>`,
-        blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC: Infinite Recharge.`,
-        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom NoU2 as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>. See the bottom of <a href="/news/what-is-alfredo/">this post</a> for information about the shipping timeline for MiniFRC.
+        blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with either a ESP32 and NoU2 (pictured) or an Uno and Adafruit motor shield.`,
+        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>.
         <br/><br/>
         <strong>This bundle contains:</strong>
         <div style="margin-left:10px">
@@ -311,27 +311,27 @@ let products = [
     //     <br/><hr/><br/>
 	// 	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiqjvcJdVbMs6H7IabbahszrhP_y4192kgPJw7qlW_2tNQ1w/viewform?embedded=true" width=100% height=460px frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
     // },
-    {
-        name: "E Deck",
-        link: "e-deck",
-        image: "e-deck-1.png",
-        price: "$20.69",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="69LVA6B52TFWS">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `A deep-fried meme card deck.`,
-        description: `
-        <div style="margin-left: 10px">
-            <li>We can absolutely guarantee these are the lowest quality high quality cards money can buy</li>
-            <li>This is my magnum opus, I spent like 60hrs on it</li>
-            <li>Full list of cards: <object><a href=http://bitly.com/98K8eH>http://bitly.com/98K8eH</a></object></li>
-            <li>But don't just take our word for it, hear it from our customers:</li>
-        </div>
-        <blockquote>
-        “Oh dude yea you gotta buy this deck. It doesn't come with a box and some of the cat memes kinda suck, but the cards are often quite hard to read”
-        </blockquote>`
-    }
+    // {
+    //     name: "E Deck",
+    //     link: "e-deck",
+    //     image: "e-deck-1.png",
+    //     price: "$20.69",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="69LVA6B52TFWS">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `A deep-fried meme card deck.`,
+    //     description: `
+    //     <div style="margin-left: 10px">
+    //         <li>We can absolutely guarantee these are the lowest quality high quality cards money can buy</li>
+    //         <li>This is my magnum opus, I spent like 60hrs on it</li>
+    //         <li>Full list of cards: <object><a href=http://bitly.com/98K8eH>http://bitly.com/98K8eH</a></object></li>
+    //         <li>But don't just take our word for it, hear it from our customers:</li>
+    //     </div>
+    //     <blockquote>
+    //     “Oh dude yea you gotta buy this deck. It doesn't come with a box and some of the cat memes kinda suck, but the cards are often quite hard to read”
+    //     </blockquote>`
+    // }
 ]
