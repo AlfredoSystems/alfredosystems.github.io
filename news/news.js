@@ -1,5 +1,14 @@
 let newsList = [
     {
+        title: "Shipping Update for MiniFRC 7.1",
+        link: "/news/shipping-update-for-minifrc-7.1/",
+        image: "shipping-update-for-minifrc-7.1-1.png",
+        blurb: "A quick update on shipping options for MiniFRC 7.1.",
+        author: "Jacob Williams",
+        date: "25 April, 2021",
+        contents: "contents"
+    },
+    {
         title: "Shop/Shipping Update",
         link: "/news/shop-shipping-update/",
         image: "shop-shipping-update-1.png",
@@ -60,6 +69,6 @@ let newsList = [
         blurb: "Learn a bit about us and what we're trying to do.",
         author: "Jacob Williams",
         date: "25 Apr, 2020",
-        contents: "contents"
+        contents: "contents" // Placeholder, newspost contents could be here and page could be generated from it
     }
 ]
