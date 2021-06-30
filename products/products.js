@@ -140,9 +140,7 @@ let products = [
         link: "n20-motor",
         image: "n20-motor-1.png",
         price: "$4.00",
-        buy: `
-        <span style="color: #ff6666; font-weight: bold">NOTE: 290 RPM and 650 RPM motors almost out of stock.</span><br/>
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="CX5VJLUR6A9U8">
         <input type="hidden" name="on0" value="RPM Selection">RPM Selection
