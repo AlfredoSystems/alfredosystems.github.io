@@ -3,14 +3,14 @@ let products = [
         name: "MiniFRC Kit of Parts",
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.png",
-        price: "$20.00 - $25.00",
+        price: "$20.00–$25.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
             <input type="hidden" name="on0" value="Kit Variations">Kit Variations
             <select class="browser-default" name="os0" style="width: 200px">
-                <option value="NoU Kit">NoU Kit $25.00 USD</option>
-                <option value="Uno Kit">Uno Kit $20.00 USD</option>
+                <option value="NoU Kit">NoU Kit $25.00</option>
+                <option value="Uno Kit">Uno Kit $20.00</option>
             </select>
             <div style="height: 10px"/>
             <input type="hidden" name="currency_code" value="USD">
@@ -83,11 +83,13 @@ let products = [
             <li>Library support for motors and servos</li>
             <li>Improved GPIO pin layout</li>
         </ul>
+        For more details, see our <a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">hardware documentation</a>, and to get started programming your NoU2, see our <a href="https://github.com/AlfredoElectronics/Alfredo-NoU2">software library</a>, which will walk you through the basics of uploading code to an ESP32 and getting a NoU2 moving.
         <br\><br\>
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/Alfredo NoU2 (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
-            <li><a href="https://github.com/AlfredoElectronics/Alfredo-NoU2" download>Software library on GitHub</a></li>
+            <li><a href="https://github.com/AlfredoElectronics/Alfredo-NoU2">Software library (GitHub)</a></li>
+            <li><a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">Hardware documentation (Google Docs)</a></li>
         </ul>`
     },
     {
@@ -107,14 +109,22 @@ let products = [
     {
         name: "TT Motor",
         link: "tt-motor",
-        image: "tt-motor-1.png",
-        price: "$2.00",
+        image: "tt-motor-unsoldered.png",
+        price: "$2.00–$4.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
+        <input type="hidden" name="on0" value="Soldered?">Soldered?
+        <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
+            <option value="Unsoldered">Unsoldered $2.00</option>
+            <option value="Soldered">Soldered $4.00</option>
+        </select>
+        <div style="height: 10px"/>
+        <input type="hidden" name="currency_code" value="USD">
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
+        </form>
+        `,
         blurb: `Often used in small robot drivetrains and winches, this motor comes equipped with a gearbox for added torque, as well as a removable plastic wheel.`,
         description: `An inexpensive and reliable package with a motor, gearbox, and wheel that’ll keep your robot moving forward. There are two terminals on the back of the motor for attaching wires. Simply reverse the polarity on these wires to change direction. Operating at 9 volts, these motors are a great choice to run off of either an <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object> or an <object><a href="alfredo-nou2">Alfredo NoU2</a></object>.
         <br/><br/>
@@ -170,23 +180,54 @@ let products = [
         </ul>`
     },
     {
-        name: "Power Cell",
-        link: "power-cell",
-        image: "power-cell-1.png",
-        price: "$1.00",
+        name: "9g Servo",
+        link: "9g-servo",
+        image: "9g-servo-1.png",
+        price: "$3.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
+        <input type="hidden" name="hosted_button_id" value="KWWTS5ZQSVD5S">
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
-        blurb: "Tiny foam power cell for MiniFRC.",
-        description: `
-        <ul class="browser-default">
-            <li>Nominal diameter: 1.5 in</li>
-            <li>Material: foam</li>
-            <li>Expression: &nbsp; ：）</li>
-        <ul/>`
+        blurb: `These miniature actuators are used to move to precise angles. Weighing a total of 9 grams, these servos are a great way to add finer and more complex movement to your projects.`,
+        description: `Hook it up to power, ground, and a PPM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and three servo horns of various sizes.
+        <br/><br/>
+        <strong>Specifications</strong>
+        <div style="margin-left: 10px">
+            <li>Range: 180 degrees</li>
+            <li>Size: 22.8 mm × 12.2 mm × 31.4 mm</li>
+            <li>Angular velocity: 60 degrees / 0.3 seconds</li>
+            <li>Max torque: 1.5 kg·cm</li>
+            <li>Mass: 9 g</li>
+            <li>Working voltage: 4.2 V–6 V</li>
+            <li>Three servo horns included</li>
+        </div>`
+    },
+    {
+        name: "70g Servo",
+        link: "70g-servo",
+        image: "70g-servo-1.png",
+        price: "$15.00",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="5CDQQSD3CL23Y">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: `The heftier cousin of the <object><a href="/products/9g-servo">9g servo</a></object>, the 70g servo is a noticeably larger form factor that is capable of providing significantly greater torque. They have the kick needed for larger scale projects and the user experience of a 9g servo.`,
+        description: `These are the big cousins to the 9 gram servo, best used if you want precise movement to a particular angle instead of continuous rotation, but you also want more power behind your project’s movements.
+        <br/><br/>
+        <strong>Specifications</strong>
+        <div style="margin-left: 10px">
+            <li>Range: 180 degrees</li>
+            <li>Size: 40 mm × 20 mm × 46 mm</li>
+            <li>Angular velocity: 0.16 seconds / 60 degrees</li>
+            <li>Max torque: 21.5 kg·cm</li>
+            <li>Mass: 68 g ± 2 g</li>
+            <li>Working voltage: 4.8 V–6.8 V</li>
+            <li>Five servo horns included: four plastic, one metal</li>
+        </div>`
     },
     {
         name: "Arduino Uno Clone",
@@ -246,24 +287,6 @@ let products = [
         blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
         description: ``
     },
-    // {
-    //     name: "9g Servo",
-    //     link: "9g-servo",
-    //     image: "battleblue-2.jpg",
-    //     price: "TBD",
-    //     blurb: `Unlike traditional motors, these miniature actuators are able to rotate to precise angles. Weighing a miniscule 9 grams, these servos are a great way to add finer and more complex movement to your projects.`,
-    //     description: `Simply hook it up to power, ground, and a PWM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and three servo horns of various sizes.
-    //     <br/><br/>
-    //     <strong>Specifications</strong>
-    //     <div style="margin-left: 10px">
-    //         <li>180 degrees of rotation</li>
-    //         <li>Size: 23 mm x 12.2 mm x 29 mm</li>
-    //         <li>Angular velocity: 60 degrees / 0.3 seconds</li>
-    //         <li>Max torque: 1.5 kg-cm</li>
-    //         <li>Mass: 9g</li>
-    //         <li>Working voltage: 4.2-6V</li>
-    //     </div>`
-    // },
     {
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
@@ -277,6 +300,25 @@ let products = [
         </form>`,
         blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It’s as simple as that!`,
         description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
+    },
+    {
+        name: "Power Cell",
+        link: "power-cell",
+        image: "power-cell-1.png",
+        price: "$1.00",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: "Tiny foam power cell for MiniFRC.",
+        description: `
+        <ul class="browser-default">
+            <li>Nominal diameter: 1.5 in</li>
+            <li>Material: foam</li>
+            <li>Expression: &nbsp; ：）</li>
+        <ul/>`
     },
     // {
     //     name: "BattleBlue",
