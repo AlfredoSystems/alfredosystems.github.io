@@ -3,14 +3,14 @@ let products = [
         name: "MiniFRC Kit of Parts",
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.png",
-        price: "$20.00–$25.00",
+        price: "$28.69-$34.43",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
             <input type="hidden" name="on0" value="Kit Variations">Kit Variations
             <select class="browser-default" name="os0" style="width: 200px">
-                <option value="NoU Kit">NoU Kit $25.00</option>
-                <option value="Uno Kit">Uno Kit $20.00</option>
+                <option value="NoU Kit">NoU Kit $34.43</option>
+                <option value="Uno Kit">Uno Kit $28.69</option>
             </select>
             <div style="height: 10px"/>
             <input type="hidden" name="currency_code" value="USD">
@@ -27,7 +27,7 @@ let products = [
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
             <li>1 <a href="/products/power-cell">power cell</a></li>
-            <li>For the Uno kit ($20.00):</li>
+            <li>For the Uno kit ($28.69):</li>
             <ul class="browser-default">
                 <li>1 <a href="/products/uno/">Uno microcontroller</a> with USB-B upload cable</li>
                 <li>1 <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> with female headers</li>
@@ -35,7 +35,7 @@ let products = [
                 <li>1 <a href="/products/chip0">Chip0</a></li>
             </ul>
             </li>
-            <li>For the NoU kit ($25.00):</li>
+            <li>For the NoU kit ($34.43):</li>
             <ul class="browser-default">
                 <li>1 <a href="/products/esp32">ESP32 microcontroller</a></li>
                 <li>1 <a href="/products/alfredo-nou2">Alfredo NoU2 motor shield</a></li>
@@ -46,7 +46,7 @@ let products = [
         name: "9V Rechargable Li-ion Battery",
         link: "9v-li-ion-battery",
         image: "9v-li-ion-battery-1.png",
-        price: "$5.00",
+        price: "$6.31",
         blurb: `More powerful than ones you’ll find on store shelves, these Li-ion 9V batteries are perfect for powering small projects that require more current than conventional AAs and 9Vs. Comes complete with a built-in micro USB port for recharging.`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -66,7 +66,7 @@ let products = [
         name: "NoU2",
         link: "alfredo-nou2",
         image: "nou2-1.png",
-        price: "$9.00",
+        price: "$13.27",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
@@ -96,7 +96,7 @@ let products = [
         name: "ESP32",
         link: "esp32",
         image: "esp32-1.png",
-        price: "$6.00",
+        price: "$6.71",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="QGQ9J4N7552BL">
@@ -110,14 +110,14 @@ let products = [
         name: "TT Motor",
         link: "tt-motor",
         image: "tt-motor-unsoldered.png",
-        price: "$2.00–$4.00",
+        price: "$2.86–$4.24",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
         <input type="hidden" name="on0" value="Soldered?">Soldered?
         <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
-            <option value="Unsoldered">Unsoldered $2.00</option>
-            <option value="Soldered">Soldered $4.00</option>
+            <option value="Unsoldered">Unsoldered $2.86</option>
+            <option value="Soldered">Soldered $4.24</option>
         </select>
         <div style="height: 10px"/>
         <input type="hidden" name="currency_code" value="USD">
@@ -149,7 +149,7 @@ let products = [
         name: "N20 Motor",
         link: "n20-motor",
         image: "n20-motor-1.png",
-        price: "$4.00",
+        price: "$5.33",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="CX5VJLUR6A9U8">
@@ -183,7 +183,7 @@ let products = [
         name: "9g Servo",
         link: "9g-servo",
         image: "9g-servo-1.png",
-        price: "$3.00",
+        price: "$3.27",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="KWWTS5ZQSVD5S">
@@ -233,7 +233,7 @@ let products = [
         name: "Arduino Uno Clone",
         link: "uno",
         image: "arduino-uno-1.png",
-        price: "$4.00",
+        price: "$4.65",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="FTG4WJRY2AYAY">
@@ -247,7 +247,7 @@ let products = [
         name: "Adafruit Motor Shield v1 Clone",
         link: "adafruit-motor-shield-v1",
         image: "adafruit-motor-shield-1.png",
-        price: "$4.00",
+        price: "$4.65",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="7UKZC36MC5JE4">
@@ -263,7 +263,7 @@ let products = [
         name: "BT06",
         link: "bt06",
         image: "bt06-1.png",
-        price: "$3.00",
+        price: "$3.32",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="46CMEPGSCCULJ">
@@ -277,7 +277,7 @@ let products = [
         name: "Chip0",
         link: "chip0",
         image: "chip0-1.png",
-        price: "$2.00",
+        price: "$1.37",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
@@ -291,7 +291,7 @@ let products = [
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
         image: "9v-barrel-jack-1.png",
-        price: "$3.00",
+        price: "$2.93",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="RYY2YVJLRCKZN">
@@ -305,7 +305,7 @@ let products = [
         name: "Power Cell",
         link: "power-cell",
         image: "power-cell-1.png",
-        price: "$1.00",
+        price: "$0.67",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
