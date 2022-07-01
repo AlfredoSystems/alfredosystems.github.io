@@ -205,31 +205,6 @@ let products = [
         </div>`
     },
     {
-        name: "70g Servo",
-        link: "70g-servo",
-        image: "70g-servo-1.png",
-        price: "$15.00",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="5CDQQSD3CL23Y">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `The heftier cousin of the <object><a href="/products/9g-servo">9g servo</a></object>, the 70g servo is a noticeably larger form factor that is capable of providing significantly greater torque. They have the kick needed for larger scale projects and the user experience of a 9g servo.`,
-        description: `These are the big cousins to the 9 gram servo, best used if you want precise movement to a particular angle instead of continuous rotation, but you also want more power behind your project’s movements.
-        <br/><br/>
-        <strong>Specifications</strong>
-        <div style="margin-left: 10px">
-            <li>Range: 180 degrees</li>
-            <li>Size: 40 mm × 20 mm × 46 mm</li>
-            <li>Angular velocity: 0.16 seconds / 60 degrees</li>
-            <li>Max torque: 21.5 kg·cm</li>
-            <li>Mass: 68 g ± 2 g</li>
-            <li>Working voltage: 4.8 V–6.8 V</li>
-            <li>Five servo horns included: four plastic, one metal</li>
-        </div>`
-    },
-    {
         name: "Arduino Uno Clone",
         link: "uno",
         image: "arduino-uno-1.png",
@@ -320,59 +295,4 @@ let products = [
             <li>Expression: &nbsp; ：）</li>
         <ul/>`
     },
-    // {
-    //     name: "BattleBlue",
-    //     link: "battleblue",
-    //     image: "battleblue-2.jpg",
-    //     price: "TBD",
-    //     blurb: `Arm your latest battlebot project with this highly competent Alfredo-original robot control system. A low cost, lightweight solution to your most recent battle bots project, the BattleBlue has built in support for 2 DC motors and 2 PWM channels. Bypass the need for complex RC controls with the custom Alfredo Battle Blue app, capable of running on any android device.`,
-    //     description: `Around the world, the sport of Combat Robotics is popular and growing. This
-    //     is particularly true for the 150-gram, 1-pound, and 3-pound weight
-    //     classes, with over 6500 fights in the last two years. Despite the
-    //     popularity, the controls system used to wirelessly control robots was designed
-    //     decades ago for RC aircraft, and today is seriously outdated and expensive.
-    //     The Battleblue is a lightweight and inexpensive Bluetooth-based robot control system.<br/><br/>
-    //     <strong>Key features:</strong>
-    //     <div style="margin-left: 10px">
-    //         <li>Small</li>
-    //         <li>Lightweight</li>
-    //         <li>Controls 2 brushed DC motors, perfect for a drivetrain</li>
-    //         <li>2 configurable PWM channels, perfect for brushless ESCs or servos</li>
-    //         <li>Controlled using a smartphone app instead of an expensive transmitter</li>
-    //     </div>
-    //     <br/>
-    //     <strong>App features:</strong>
-    //     <div style="margin-left: 10px">
-    //         <li>Runs on any device with Android 7.0 and up</li>
-    //         <li>Configurable on-screen joysticks, buttons, and sliders</li>
-    //         <li>Built-in channel mixing</li>
-    //         <li>Advanced channel mixing</li>
-    //         <li>iOS and physical controller support coming soon</li>
-    //     </div>
-    //     <br/><hr/><br/>
-	// 	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiqjvcJdVbMs6H7IabbahszrhP_y4192kgPJw7qlW_2tNQ1w/viewform?embedded=true" width=100% height=460px frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
-    // },
-    // {
-    //     name: "E Deck",
-    //     link: "e-deck",
-    //     image: "e-deck-1.png",
-    //     price: "$20.69",
-    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    //     <input type="hidden" name="cmd" value="_s-xclick">
-    //     <input type="hidden" name="hosted_button_id" value="69LVA6B52TFWS">
-    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    //     </form>`,
-    //     blurb: `A deep-fried meme card deck.`,
-    //     description: `
-    //     <div style="margin-left: 10px">
-    //         <li>We can absolutely guarantee these are the lowest quality high quality cards money can buy</li>
-    //         <li>This is my magnum opus, I spent like 60hrs on it</li>
-    //         <li>Full list of cards: <object><a href=http://bitly.com/98K8eH>http://bitly.com/98K8eH</a></object></li>
-    //         <li>But don't just take our word for it, hear it from our customers:</li>
-    //     </div>
-    //     <blockquote>
-    //     “Oh dude yea you gotta buy this deck. It doesn't come with a box and some of the cat memes kinda suck, but the cards are often quite hard to read”
-    //     </blockquote>`
-    // }
 ]
