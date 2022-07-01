@@ -9,8 +9,10 @@ let products = [
             <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
             <input type="hidden" name="on0" value="Kit Variations">Kit Variations
             <select class="browser-default" name="os0" style="width: 200px">
-                <option value="NoU Kit">NoU Kit $34.43</option>
-                <option value="Uno Kit">Uno Kit $28.69</option>
+                <option value="NoU Kit">NoU Kit $34.43 USD</option>
+                <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
+                <option value="Uno Kit">Uno Kit $28.69 USD</option>
+                <option value="Uno Kit (soldered)">Uno Kit (soldered) $34.31 USD</option>
             </select>
             <div style="height: 10px"/>
             <input type="hidden" name="currency_code" value="USD">
