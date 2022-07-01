@@ -20,7 +20,7 @@ let products = [
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>`,
         blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with either a ESP32 and NoU2 (pictured) or an Uno and Adafruit motor shield.`,
-        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>.
+        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>. Also see our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for the NoU kit.
         <br/><br/>
         <strong>This bundle contains:</strong>
         <div style="margin-left:10px">
@@ -84,13 +84,14 @@ let products = [
             <li>Library support for motors and servos</li>
             <li>Improved GPIO pin layout</li>
         </ul>
-        For more details, see our <a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">hardware documentation</a>, and to get started programming your NoU2, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU2">software library</a>, which will walk you through the basics of uploading code to an ESP32 and getting a NoU2 moving.
+        For more details, see our <a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">hardware documentation</a> and <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a>. To get started programming your NoU2, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU2">software library</a>, which will walk you through the basics of uploading code to an ESP32 and getting a NoU2 moving.
         <br\><br\>
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/Alfredo NoU2 (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
             <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU2">Software library (GitHub)</a></li>
             <li><a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">Hardware documentation (Google Docs)</a></li>
+            <li><a href="https://youtu.be/rcdbkeYA1rs">Robot build tutorial (YouTube)</a></li>
         </ul>`
     },
     {
