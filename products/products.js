@@ -26,7 +26,6 @@ let products = [
             <li>4 <a href="/products/tt-motor">TT motors and wheels</a></li>
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
-            <li>1 <a href="/products/power-cell">power cell</a></li>
             <li>For the Uno kit ($28.69):</li>
             <ul class="browser-default">
                 <li>1 <a href="/products/uno/">Uno microcontroller</a> with USB-B upload cable</li>
