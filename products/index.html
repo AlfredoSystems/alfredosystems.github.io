@@ -41,6 +41,7 @@
 
 	<script type="text/javascript" src="products.js"></script>
 	<script type="text/javascript">
+		products = products.filter(product => !product.unlisted);
 		$("#product-list").append($.templates("#product-template").render(products));
 		function formatForScreenSize() {
 			$(".product-text").each(function() {
