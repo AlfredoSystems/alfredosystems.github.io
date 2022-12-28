@@ -49,12 +49,13 @@ let products = [
         image: "9v-li-ion-battery-1.png",
         price: "$6.31",
         blurb: `More powerful than ones you’ll find on store shelves, these Li-ion 9V batteries are perfect for powering small projects that require more current than conventional AAs and 9Vs. Comes complete with a built-in micro USB port for recharging.`,
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="PDUSJPSBXURBG">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        // `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        // <input type="hidden" name="cmd" value="_s-xclick">
+        // <input type="hidden" name="hosted_button_id" value="PDUSJPSBXURBG">
+        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        // </form>`,
         description: `These Lithium-ion (Li-ion) batteries come with short, overcharge, and over-discharge protection, making them a great choice for projects where extra care is a necessity. Compared to the typical alkaline AA and 9V batteries, they can deliver significantly more current in a tiny package, making them perfect for smaller robotics applications.  Thanks to a micro USB port for recharging, you will save money in the long run by not having to constantly replace your batteries.<br/>
         Check out our <a href="/news/fun-facts-about-batteries/">news post about these batteries</a> that breaks down what to expect from these and other Li-ion batteries.
         <br\><br\>
@@ -113,20 +114,20 @@ let products = [
         link: "tt-motor",
         image: "tt-motor-unsoldered.png",
         price: "$2.86–$4.24",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
-        <input type="hidden" name="on0" value="Soldered?">Soldered?
-        <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
-            <option value="Unsoldered">Unsoldered $2.86</option>
-            <option value="Soldered">Soldered $4.24</option>
-        </select>
-        <div style="height: 10px"/>
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        `,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        // <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        // <input type="hidden" name="cmd" value="_s-xclick">
+        // <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
+        // <input type="hidden" name="on0" value="Soldered?">Soldered?
+        // <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
+        //     <option value="Unsoldered">Unsoldered $2.86</option>
+        //     <option value="Soldered">Soldered $4.24</option>
+        // </select>
+        // <div style="height: 10px"/>
+        // <input type="hidden" name="currency_code" value="USD">
+        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        // </form>`,
         blurb: `Often used in small robot drivetrains and winches, this motor comes equipped with a gearbox for added torque, as well as a removable plastic wheel.`,
         description: `An inexpensive and reliable package with a motor, gearbox, and wheel that’ll keep your robot moving forward. There are two terminals on the back of the motor for attaching wires. Simply reverse the polarity on these wires to change direction. Operating at 9 volts, these motors are a great choice to run off of either an <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object> or an <object><a href="alfredo-nou2">Alfredo NoU2</a></object>.
         <br/><br/>
@@ -250,20 +251,20 @@ let products = [
         blurb: `A wireless Bluetooth module with an easy-to-use four-pin interface.  This module makes communicating with your project wirelessly a piece of cake by turning Bluetooth communication into a standard Serial port, allowing you to wirelessly send input to your microcontroller as if you were connected over USB.`,
         description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They’re a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Uno</a></object> and a variety of other platforms.`
     },
-    {
-        name: "Chip0",
-        link: "chip0",
-        image: "chip0-1.png",
-        price: "$1.37",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
-        description: ``
-    },
+    // {
+    //     name: "Chip0",
+    //     link: "chip0",
+    //     image: "chip0-1.png",
+    //     price: "$1.37",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
+    //     description: ``
+    // },
     {
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
