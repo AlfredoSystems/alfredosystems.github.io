@@ -4,21 +4,22 @@ let products = [
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.png",
         price: "$28.69-$34.43",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
-            <input type="hidden" name="on0" value="Kit Variations">Kit Variations
-            <select class="browser-default" name="os0" style="width: 200px">
-                <option value="NoU Kit">NoU Kit $34.43 USD</option>
-                <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
-                <option value="Uno Kit">Uno Kit $28.69 USD</option>
-                <option value="Uno Kit (soldered)">Uno Kit (soldered) $34.31 USD</option>
-            </select>
-            <div style="height: 10px"/>
-            <input type="hidden" name="currency_code" value="USD">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>`,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        //     <input type="hidden" name="cmd" value="_s-xclick">
+        //     <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
+        //     <input type="hidden" name="on0" value="Kit Variations">Kit Variations
+        //     <select class="browser-default" name="os0" style="width: 200px">
+        //         <option value="NoU Kit">NoU Kit $34.43 USD</option>
+        //         <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
+        //         <option value="Uno Kit">Uno Kit $28.69 USD</option>
+        //         <option value="Uno Kit (soldered)">Uno Kit (soldered) $34.31 USD</option>
+        //     </select>
+        //     <div style="height: 10px"/>
+        //     <input type="hidden" name="currency_code" value="USD">
+        //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        //     </form>`,
         blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with either a ESP32 and NoU2 (pictured) or an Uno and Adafruit motor shield.`,
         description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>. Also see our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for the NoU kit.
         <br/><br/>
