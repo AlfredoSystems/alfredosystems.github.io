@@ -12,37 +12,25 @@ let products = [
         //     <select class="browser-default" name="os0" style="width: 200px">
         //         <option value="NoU Kit">NoU Kit $34.43 USD</option>
         //         <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
-        //         <option value="Uno Kit">Uno Kit $28.69 USD</option>
-        //         <option value="Uno Kit (soldered)">Uno Kit (soldered) $34.31 USD</option>
         //     </select>
         //     <div style="height: 10px"/>
         //     <input type="hidden" name="currency_code" value="USD">
         //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         //     </form>`,
-        blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with either a ESP32 and NoU2 (pictured) or an Uno and Adafruit motor shield.`,
-        description: `With two bundle options, this kit will give you and your team the basics to get yourself on the field. Buyers get the choice of either an <a href="/products/uno/">Uno</a> with the <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> or the <a href="/products/esp32/">ESP32</a> with the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> as their desired controller. Learn more about the difference between the two kits <a href="/news/minifrc-control-system-guide/">in this news post</a>. Also see our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for the NoU kit.
+        blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with an ESP32 and NoU2.`,
+        description: `This kit will give you and your team the basics to get yourself on the field. Comes with an <a href="/products/esp32/">ESP32</a> microcontroller and the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> motor shield. Check out our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for help getting started.
         <br/><br/>
         <strong>This bundle contains:</strong>
         <div style="margin-left:10px">
             <ul class="browser-default">
+            <li>1 <a href="/products/esp32">ESP32 microcontroller</a></li>
+            <li>1 <a href="/products/alfredo-nou2">Alfredo NoU2 motor shield</a></li>
             <li>4 <a href="/products/tt-motor">TT motors and wheels</a></li>
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
-            <li>For the Uno kit ($28.69):</li>
-            <ul class="browser-default">
-                <li>1 <a href="/products/uno/">Uno microcontroller</a> with USB-B upload cable</li>
-                <li>1 <a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a> with female headers</li>
-                <li>1 <a href="/products/bt06">BT06 Bluetooth module</a></li>
-                <li>1 <a href="/products/chip0">Chip0</a></li>
-            </ul>
-            </li>
-            <li>For the NoU kit ($34.43):</li>
-            <ul class="browser-default">
-                <li>1 <a href="/products/esp32">ESP32 microcontroller</a></li>
-                <li>1 <a href="/products/alfredo-nou2">Alfredo NoU2 motor shield</a></li>
-            </ul>
-        </div>`
+        </div>
+        <em>Note: Alfredo Systems no longer carries Uno kits as a bundle. Components of the Uno kit are still for sale individually.`
     },
     {
         name: "9V Rechargable Li-ion Battery",
