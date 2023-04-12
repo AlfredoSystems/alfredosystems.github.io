@@ -4,20 +4,19 @@ let products = [
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.png",
         price: "$28.69-$34.43",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        //     <input type="hidden" name="cmd" value="_s-xclick">
-        //     <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
-        //     <input type="hidden" name="on0" value="Kit Variations">Kit Variations
-        //     <select class="browser-default" name="os0" style="width: 200px">
-        //         <option value="NoU Kit">NoU Kit $34.43 USD</option>
-        //         <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
-        //     </select>
-        //     <div style="height: 10px"/>
-        //     <input type="hidden" name="currency_code" value="USD">
-        //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        //     </form>`,
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
+            <input type="hidden" name="on0" value="Kit Variations">Kit Variations
+            <select class="browser-default" name="os0" style="width: 200px">
+                <option value="NoU Kit">NoU Kit $34.43 USD</option>
+                <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
+            </select>
+            <div style="height: 10px"/>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>`,
         blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with an ESP32 and NoU2.`,
         description: `This kit will give you and your team the basics to get yourself on the field. Comes with an <a href="/products/esp32/">ESP32</a> microcontroller and the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> motor shield. Check out our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for help getting started.
         <br/><br/>
@@ -38,13 +37,12 @@ let products = [
         image: "9v-li-ion-battery-1.png",
         price: "$6.31",
         blurb: `More powerful than ones you’ll find on store shelves, these Li-ion 9V batteries are perfect for powering small projects that require more current than conventional AAs and 9Vs. Comes complete with a built-in micro USB port for recharging.`,
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        // `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="hosted_button_id" value="PDUSJPSBXURBG">
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        // </form>`,
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="PDUSJPSBXURBG">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
         description: `These Lithium-ion (Li-ion) batteries come with short, overcharge, and over-discharge protection, making them a great choice for projects where extra care is a necessity. Compared to the typical alkaline AA and 9V batteries, they can deliver significantly more current in a tiny package, making them perfect for smaller robotics applications.  Thanks to a micro USB port for recharging, you will save money in the long run by not having to constantly replace your batteries.<br/>
         Check out our <a href="/news/fun-facts-about-batteries/">news post about these batteries</a> that breaks down what to expect from these and other Li-ion batteries.
         <br\><br\>
@@ -103,20 +101,19 @@ let products = [
         link: "tt-motor",
         image: "tt-motor-unsoldered.png",
         price: "$2.86–$4.24",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        // <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
-        // <input type="hidden" name="on0" value="Soldered?">Soldered?
-        // <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
-        //     <option value="Unsoldered">Unsoldered $2.86</option>
-        //     <option value="Soldered">Soldered $4.24</option>
-        // </select>
-        // <div style="height: 10px"/>
-        // <input type="hidden" name="currency_code" value="USD">
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        // </form>`,
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
+        <input type="hidden" name="on0" value="Soldered?">Soldered?
+        <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
+            <option value="Unsoldered">Unsoldered $2.86</option>
+            <option value="Soldered">Soldered $4.24</option>
+        </select>
+        <div style="height: 10px"/>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
         blurb: `Often used in small robot drivetrains and winches, this motor comes equipped with a gearbox for added torque, as well as a removable plastic wheel.`,
         description: `An inexpensive and reliable package with a motor, gearbox, and wheel that’ll keep your robot moving forward. There are two terminals on the back of the motor for attaching wires. Simply reverse the polarity on these wires to change direction. Operating at 9 volts, these motors are a great choice to run off of either an <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object> or an <object><a href="alfredo-nou2">Alfredo NoU2</a></object>.
         <br/><br/>
