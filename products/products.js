@@ -129,7 +129,7 @@ let products = [
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
         blurb: `The classic yellow wheel. Often used in small robot drivetrains, this wheel connects perfectly to any <object><a href="/products/tt-motor">TT Motor</a></object>.`,
-        description: `An inexpensive and reliable wheel that will keep your robot moving forward. For years, TT wheels have been used as the workhorse drivetrain solution for smaller sized robots. They’re easy to connect to the output of a <object><a href="/products/tt-motor">TT Motor</a></object>.
+        description: `An inexpensive and reliable wheel that will keep your robot moving forward. For years, TT wheels have been used as the workhorse drivetrain solution for smaller sized robots. They’re easy to connect to the output of a <object><a href="/products/tt-motor">TT motor</a></object>.
         <br/><br/>
         <strong>Specifications</strong>
         <div style="margin-left: 10px">
