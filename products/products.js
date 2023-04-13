@@ -99,23 +99,16 @@ let products = [
     {
         name: "TT Motor",
         link: "tt-motor",
-        image: "tt-motor-unsoldered.png",
-        price: "$2.86–$4.24",
+        image: "tt-motor-1.png",
+        price: "$1.87",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="5H5AX8XYDEUWE">
-        <input type="hidden" name="on0" value="Soldered?">Soldered?
-        <select class="browser-default" name="os0" id="tt-motor-dropdown" onchange="updateImage()" style="width: 200px">
-            <option value="Unsoldered">Unsoldered $2.86</option>
-            <option value="Soldered">Soldered $4.24</option>
-        </select>
-        <div style="height: 10px"/>
-        <input type="hidden" name="currency_code" value="USD">
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
-        blurb: `Often used in small robot drivetrains and winches, this motor comes equipped with a gearbox for added torque, as well as a removable plastic wheel.`,
-        description: `An inexpensive and reliable package with a motor, gearbox, and wheel that’ll keep your robot moving forward. There are two terminals on the back of the motor for attaching wires. Simply reverse the polarity on these wires to change direction. Operating at 9 volts, these motors are a great choice to run off of either an <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object> or an <object><a href="alfredo-nou2">Alfredo NoU2</a></object>.
+        blurb: `The classic yellow motor. Often used in small robot drivetrains, this wheel comes equipped with a gearbox for added torque. Corresponding <object><a href="/products/tt-wheel">TT wheel</a></object> sold separately.`,
+        description: `For years, TT motors have been used as the workhorse drive motors for smaller-sized robots. They’re easy to mount and each has an integrated gearbox to ensure the motors have a manageable drive speed. TT motors are compatible with both the <object><a href="alfredo-nou2">Alfredo NoU</a></object> system and <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield</a></object> systems. Comes with wires pre-soldered. <strong style="color: red">TT wheel sold separately</strong>.
         <br/><br/>
         <strong>Specifications</strong>
         <div style="margin-left: 10px">
@@ -123,14 +116,36 @@ let products = [
             <li>No load current: 112 mA</li>
             <li>Stall current: 0.98 A</li>
             <li>Maximum voltage: 9V</li>
-            <li>Motor mass: 25g</li>
-            <li>Wheel diameter: 67 mm</li>
-            <li>Wheel mass: 29g</li>
+            <li>Mass: 25g</li>
         </div>
         <br\><br\>
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/TT Motor (ACP).SLDPRT" download>Motor CAD (.SLDPRT)</a></li>
+        </ul>`
+    },
+    {
+        name: "TT Wheel",
+        link: "tt-wheel",
+        image: "tt-wheel-1.png",
+        price: "$0.99",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="ANPLQ5PTKT9WY">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: `The classic yellow wheel. Often used in small robot drivetrains, this wheel connects perfectly to any <object><a href="/products/tt-motor">TT Motor</a></object>.`,
+        description: `An inexpensive and reliable wheel that will keep your robot moving forward. For years, TT wheels have been used as the workhorse drivetrain solution for smaller sized robots. They’re easy to connect to the output of a <object><a href="/products/tt-motor">TT Motor</a></object>.
+        <br/><br/>
+        <strong>Specifications</strong>
+        <div style="margin-left: 10px">
+            <li>Diameter: 67 mm</li>
+            <li>Mass: 29g</li>
+        </div>
+        <br\><br\>
+        Resources:
+        <ul class="browser-default">
             <li><a href="/downloads/TT Wheel (ACP).SLDPRT" download>Wheel CAD (.SLDPRT)</a></li>
         </ul>`
     },
