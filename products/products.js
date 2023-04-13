@@ -5,18 +5,11 @@ let products = [
         image: "nou2-minifrc-kit-of-parts-1.png",
         price: "$28.69-$34.43",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
-            <input type="hidden" name="on0" value="Kit Variations">Kit Variations
-            <select class="browser-default" name="os0" style="width: 200px">
-                <option value="NoU Kit">NoU Kit $34.43 USD</option>
-                <option value="NoU Kit (soldered)">NoU Kit (soldered) $39.95 USD</option>
-            </select>
-            <div style="height: 10px"/>
-            <input type="hidden" name="currency_code" value="USD">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>`,
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
         blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with an ESP32 and NoU2.`,
         description: `This kit will give you and your team the basics to get yourself on the field. Comes with an <a href="/products/esp32/">ESP32</a> microcontroller and the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> motor shield. Check out our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for help getting started.
         <br/><br/>
@@ -29,7 +22,7 @@ let products = [
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
         </div>
-        <em>Note: Alfredo Systems no longer carries Uno kits as a bundle. Components of the Uno kit are still for sale individually.`
+        <em>Note: Alfredo Systems no longer sells Uno kits as a bundle. Components of the Uno kit are still for sale individually.</em>`
     },
     {
         name: "9V Rechargable Li-ion Battery",
@@ -187,6 +180,31 @@ let products = [
         name: "9g Servo",
         link: "9g-servo",
         image: "9g-servo-1.png",
+        price: "$3.27",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="KWWTS5ZQSVD5S">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: `These miniature actuators are used to move to precise angles. Weighing a total of 9 grams, these servos are a great way to add finer and more complex movement to your projects.`,
+        description: `Hook it up to power, ground, and a PPM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and three servo horns of various sizes.
+        <br/><br/>
+        <strong>Specifications</strong>
+        <div style="margin-left: 10px">
+            <li>Range: 180 degrees</li>
+            <li>Size: 22.8 mm × 12.2 mm × 31.4 mm</li>
+            <li>Angular velocity: 60 degrees / 0.3 seconds</li>
+            <li>Max torque: 1.5 kg·cm</li>
+            <li>Mass: 9 g</li>
+            <li>Working voltage: 4.2 V–6 V</li>
+            <li>Three servo horns included</li>
+        </div>`
+    },
+    {
+        name: "60g Servo",
+        link: "60g-servo",
+        image: "60g-servo-1.png",
         price: "$3.27",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
