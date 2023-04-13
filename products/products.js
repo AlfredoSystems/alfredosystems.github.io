@@ -3,7 +3,7 @@ let products = [
         name: "MiniFRC Kit of Parts",
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.png",
-        price: "$28.69-$34.43",
+        price: "$34.43",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
@@ -202,28 +202,28 @@ let products = [
         </div>`
     },
     {
-        name: "60g Servo",
-        link: "60g-servo",
-        image: "60g-servo-1.png",
-        price: "$3.27",
+        name: "50g Servo",
+        link: "50g-servo",
+        image: "50g-servo-1.png",
+        price: "$5.93",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="KWWTS5ZQSVD5S">
+        <input type="hidden" name="hosted_button_id" value="7CNRKCW5NLEXW">
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
-        blurb: `These miniature actuators are used to move to precise angles. Weighing a total of 9 grams, these servos are a great way to add finer and more complex movement to your projects.`,
-        description: `Hook it up to power, ground, and a PPM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and three servo horns of various sizes.
+        blurb: `These actuators are the bigger brother of the 9g servo. Weighing a total of 50 grams, these servos are a great way to add strong and precise movement to your projects.`,
+        description: `Hook it up to power, ground, and a PPM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and four servo horns of various sizes.
         <br/><br/>
         <strong>Specifications</strong>
         <div style="margin-left: 10px">
             <li>Range: 180 degrees</li>
-            <li>Size: 22.8 mm × 12.2 mm × 31.4 mm</li>
-            <li>Angular velocity: 60 degrees / 0.3 seconds</li>
-            <li>Max torque: 1.5 kg·cm</li>
-            <li>Mass: 9 g</li>
-            <li>Working voltage: 4.2 V–6 V</li>
-            <li>Three servo horns included</li>
+            <li>Size: 20 mm × 40 mm × 41 mm</li>
+            <li>Angular velocity: 60 rpm</li>
+            <li>Max torque: 13 kg·cm</li>
+            <li>Mass: 50 g</li>
+            <li>Working voltage: 3 V–7.2 V</li>
+            <li>Four servo horns included</li>
         </div>`
     },
     {
@@ -270,20 +270,21 @@ let products = [
         blurb: `A wireless Bluetooth module with an easy-to-use four-pin interface.  This module makes communicating with your project wirelessly a piece of cake by turning Bluetooth communication into a standard Serial port, allowing you to wirelessly send input to your microcontroller as if you were connected over USB.`,
         description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They’re a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Uno</a></object> and a variety of other platforms.`
     },
-    // {
-    //     name: "Chip0",
-    //     link: "chip0",
-    //     image: "chip0-1.png",
-    //     price: "$1.37",
-    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    //     <input type="hidden" name="cmd" value="_s-xclick">
-    //     <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
-    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    //     </form>`,
-    //     blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
-    //     description: ``
-    // },
+    {
+        name: "Chip0",
+        unlisted: true,
+        link: "chip0",
+        image: "chip0-1.png",
+        price: "$1.37",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
+        description: ``
+    },
     {
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
@@ -320,10 +321,10 @@ let products = [
     },
     {
         name: "Power Cell",
+        unlisted: true,
         link: "power-cell",
         image: "power-cell-1.png",
         price: "$0.67",
-        unlisted: true,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
