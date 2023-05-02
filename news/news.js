@@ -1,5 +1,23 @@
 let newsList = [
     {
+        title: "Alfredo Systems 2022 Recap",
+        link: "/news/alfredo-2022-recap/",
+        image: "alfredo-2022-recap-1.png",
+        blurb: "Last year was a busy one for Alfredo Systems! Learn about what we were up to in 2022.",
+        author: "Jacob Williams",
+        date: "28 April, 2023",
+        contents: "contents"
+    },
+    {
+        title: "Bulk Ordering",
+        link: "/news/bulk-ordering/",
+        image: "bulk-ordering-1.png",
+        blurb: "If you would like to order many kits at a time from Alfredo, please follow these steps!",
+        author: "Jacob Williams",
+        date: "28 April, 2023",
+        contents: "contents"
+    },
+    {
         title: "Shipping Update for MiniFRC 7.1",
         link: "/news/shipping-update-for-minifrc-7.1/",
         image: "shipping-update-for-minifrc-7.1-1.png",
