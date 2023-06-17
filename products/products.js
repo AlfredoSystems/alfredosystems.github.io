@@ -300,26 +300,6 @@ let products = [
         description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
     },
     {
-        name: "Boulder",
-        link: "boulder",
-        image: "boulder-1.png",
-        price: "$0.67",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="J9RALZNV7ZP9C">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        `,
-        blurb: "Tiny 2\" foam boulder for MiniFRC: Stronghold.",
-        description: `
-        <ul class="browser-default">
-            <li>Nominal diameter: 2 in</li>
-            <li>Material: foam</li>
-            <li>Expression: &nbsp; ：）</li>
-        <ul/>`
-    },
-    {
         name: "Power Cell",
         unlisted: true,
         link: "power-cell",
