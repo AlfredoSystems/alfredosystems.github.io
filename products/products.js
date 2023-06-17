@@ -25,6 +25,46 @@ let products = [
         <em>Note: Alfredo Systems no longer sells Uno kits as a bundle. Components of the Uno kit are still for sale individually.</em>`
     },
     {
+        name: "MiniFRC Charged Up Cube",
+        link: "charged-up-cube",
+        image: "charged-up-cube-1.png",
+        price: "$1.00",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="RAJA3ULW3JFAJ">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: "Purple Cube game piece for MiniFRC: Charged Up.",
+        description: `
+        Purple Cube game piece for MiniFRC: Charged Up. These lightweight cubes are custom cut from high density polyurethane foam. 
+        <ul class="browser-default">
+            <li>Dimensions: 2 in x 2 in x 2 in (nominal)</li>
+            <li>Material: PU foam</li>
+            <li>Mass: 2 g</li>
+        <ul/>`
+    },
+    {
+        name: "MiniFRC Charged Up Cone",
+        link: "charged-up-cone",
+        image: "charged-up-cone-1.png",
+        price: "$1.00",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="FZ68FMG4ESJJY">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: "Yellow Cone game piece for MiniFRC: Charged Up.",
+        description: `
+        Yellow Cone game piece for MiniFRC: Charged Up. These cones are 3D-printed custom for the 2023 MiniFRC game using a Prusa i3 Mk3. 3D printing is not a perfect technology, and as such some cones may have “aesthetic blemishes” (strings/boogers). We only QA pass cones that meet our standards and guarantee all dimensions are nominally correct.
+        <ul class="browser-default">
+            <li>Dimensions: 2 in x 2 in x 3 in (nominal)</li>
+            <li>Material: Shore 95A TPU</li>
+            <li>Mass: 14 g</li>
+        <ul/>`
+    },
+    {
         name: "9V Rechargable Li-ion Battery",
         link: "9v-li-ion-battery",
         image: "9v-li-ion-battery-1.png",
@@ -298,6 +338,44 @@ let products = [
         </form>`,
         blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It’s as simple as that!`,
         description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
+    },
+    {
+        name: "Mini Screwdriver",
+        link: "mini-screwdriver",
+        image: "mini-screwdriver-1.png",
+        price: "$0.50",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="EKDRU7E7WM2JE">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: "Phillips head mini-screwdriver, good for NoU2 terminals.",
+        description: `
+        Ever go to tighten down the terminal blocks on the NoU2, but you don’t have a precision screwdriver? This mini screwdriver is perfect for the NoU2 terminal blocks. We carry these to help out folks who don't have labs or tools but want to build robots.
+        <ul class="browser-default">
+            <li>Length: 1.75 in</li>
+            <li>Mass: 1.2 g</li>
+        <ul/>`
+    },
+    {
+        name: "Micro-USB Cable",
+        link: "microusb",
+        image: "microusb-1.png",
+        price: "$2.00",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="BGQ3TECH5NN6Y">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: "3-ft Micro-USB cable for ESP32s and charging 9V Li-ion batteries.",
+        description: `
+        As USB-C takes over, fewer and fewer people have Micro-USB cables laying around. If that's you, then we have you covered. This 3-ft Micro-USB cable is just what you need. Micro-USB cables are important to MiniFRC teams so they can upload code to their ESP32s and charge their 9V Li-ion batteries.
+        <ul class="browser-default">
+            <li>Length: 3 ft</li>
+            <li>Mass: 12 g</li>
+        <ul/>`
     },
     {
         name: "Power Cell",
