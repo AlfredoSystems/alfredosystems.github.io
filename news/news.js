@@ -1,5 +1,14 @@
 let newsList = [
     {
+        title: "2023 Summer of MiniFRC Recap",
+        link: "/news/2023-summer-of-minifrc-recap/",
+        image: "2023-summer-of-minifrc-recap-1.jpg",
+        blurb: "Last Saturday marked the end of the longest and most successful summer of MiniFRC to date! Learn more about how it went here.",
+        author: "Jacob Williams",
+        date: "18 July, 2023",
+        contents: "contents"
+    },
+    {
         title: "Alfredo Systems 2022 Recap",
         link: "/news/alfredo-2022-recap/",
         image: "alfredo-2022-recap-1.png",
