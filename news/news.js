@@ -9,6 +9,15 @@ let newsList = [
         contents: "contents"
     },
     {
+        title: "Don't Sleep on Input Curves!",
+        link: "/news/input-curves/",
+        image: "input-curves-1.png",
+        blurb: "In this post I discuss why every robot controlled by a joystick should use input curves and how to use the functions on your robot.",
+        author: "Jacob Williams",
+        date: "28 June, 2023",
+        contents: "contents"
+    },
+    {
         title: "Alfredo Systems 2022 Recap",
         link: "/news/alfredo-2022-recap/",
         image: "alfredo-2022-recap-1.png",
