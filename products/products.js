@@ -29,12 +29,13 @@ let products = [
         link: "charged-up-cube",
         image: "charged-up-cube-1.png",
         price: "$1.00",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="RAJA3ULW3JFAJ">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        // <input type="hidden" name="cmd" value="_s-xclick">
+        // <input type="hidden" name="hosted_button_id" value="RAJA3ULW3JFAJ">
+        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        // </form>`,
         blurb: "Purple Cube game piece for MiniFRC: Charged Up.",
         description: `
         Purple Cube game piece for MiniFRC: Charged Up. These lightweight cubes are custom cut from high density polyurethane foam. 
@@ -49,12 +50,13 @@ let products = [
         link: "charged-up-cone",
         image: "charged-up-cone-1.png",
         price: "$1.00",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="FZ68FMG4ESJJY">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        // <input type="hidden" name="cmd" value="_s-xclick">
+        // <input type="hidden" name="hosted_button_id" value="FZ68FMG4ESJJY">
+        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        // </form>`,
         blurb: "Yellow Cone game piece for MiniFRC: Charged Up.",
         description: `
         Yellow Cone game piece for MiniFRC: Charged Up. These cones are 3D-printed custom for the 2023 MiniFRC game using a Prusa i3 Mk3. 3D printing is not a perfect technology, and as such some cones may have “aesthetic blemishes” (strings/boogers). We only QA pass cones that meet our standards and guarantee all dimensions are nominally correct.
