@@ -29,13 +29,14 @@ let products = [
             <ul class="browser-default">
             <li><a href="https://cad.onshape.com/documents/96a67694c959c5256ba3888e/w/d53a317a26ca35360c404af6/e/cd4bd5a4145918ba604ba612?bomType=flattened&renderMode=0&rightPanel=BOMPanel&uiState=6618cac3be94de6a65ae8d71">Field CAD</a></li>
             <li><a href="https://docs.google.com/document/d/1RmumBkXWaTyRvJN086SgkmbpiR8PneCvn1Q0SXBj8KA/edit?usp=sharing">Field Build Guide</a></li>
+            <li><a href="https://www.printables.com/model/841732-mountain-mayhem-field-parts">Printables</a></li>
         </div>
 
         <br/>
         <strong>Must be sourced elsewhere:</strong>
         <div style="margin-left:10px">
             <ul class="browser-default">
-            <li>3d-printed parts. Printing the field and game pieces takes about two kilograms of filament. Download field parts from Printables!</li>
+            <li>3d-printed parts. Printing the field and game pieces takes about two kilograms of filament. Download field parts from <a href="https://www.printables.com/model/841732-mountain-mayhem-field-parts">Printables!</a></li>
             <li>6 sections of 0.5in schedule 40 PVC pipe, each 4ft long, can be bought and cut at any hardware store.</li>
             
         </div>
