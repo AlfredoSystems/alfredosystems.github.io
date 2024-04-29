@@ -25,9 +25,9 @@ let products = [
         <em>Note: Alfredo Systems no longer sells Uno kits as a bundle. Components of the Uno kit are still for sale individually.</em>`
     },
     {
-        name: "MiniFRC Charged Up Cube",
-        link: "charged-up-cube",
-        image: "charged-up-cube-1.png",
+        name: "MiniFRC Crescendo Note",
+        link: "crescendo-note",
+        image: "crescendo-note.jpg",
         price: "$1.00",
         buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -36,19 +36,19 @@ let products = [
         // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         // </form>`,
-        blurb: "Purple Cube game piece for MiniFRC: Charged Up.",
+        blurb: "Orange ring game piece for MiniFRC: Crescendo.",
         description: `
-        Purple Cube game piece for MiniFRC: Charged Up. These lightweight cubes are custom cut from high density polyurethane foam. 
+        Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles. 
         <ul class="browser-default">
-            <li>Dimensions: 2 in x 2 in x 2 in (nominal)</li>
+            <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
             <li>Material: PU foam</li>
             <li>Mass: 2 g</li>
         <ul/>`
     },
     {
-        name: "MiniFRC Charged Up Cone",
-        link: "charged-up-cone",
-        image: "charged-up-cone-1.png",
+        name: "Mini Flywheel: Wagon Wheels",
+        link: "wagon-wheel",
+        image: "wagon-wheels.jpg",
         price: "$1.00",
         buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -57,13 +57,15 @@ let products = [
         // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         // </form>`,
-        blurb: "Yellow Cone game piece for MiniFRC: Charged Up.",
+        blurb: "Green Flywheel designed for shooting MiniFRC Crescendo Notes.",
         description: `
-        Yellow Cone game piece for MiniFRC: Charged Up. These cones are 3D-printed custom for the 2023 MiniFRC game using a Prusa i3 Mk3. 3D printing is not a perfect technology, and as such some cones may have “aesthetic blemishes” (strings/boogers). We only QA pass cones that meet our standards and guarantee all dimensions are nominally correct.
+        Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.
+
+        The design is <a href="https://cad.onshape.com/documents/e4ebaf21dddc1aa93671f50c/w/797eb4be6b4a374baa2352ce/e/3c2cffb37dd74197daed8e96?renderMode=0&uiState=662f3b5dd924e4018106efa2">open source on OnShape</a>, feel free to print your own!
         <ul class="browser-default">
-            <li>Dimensions: 2 in x 2 in x 3 in (nominal)</li>
-            <li>Material: Shore 95A TPU</li>
-            <li>Mass: 14 g</li>
+            <li>Dimensions: 34mm diameter x 18mm tall x 2mm shaft hole</li>
+            <li>Material: Green PETG</li>
+            <li>Mass: 1 g</li>
         <ul/>`
     },
     {

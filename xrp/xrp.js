@@ -3,10 +3,12 @@ let products = [
         name: "Mountain Mayhem DIY Field Kit",
         link: "mountain-mayhem-field-diy",
         image: "xrp-field-diy.jpg",
-        price: "$145.00",
+        price: "$95.89",
         buy: `<strong style="color: blue">10 in stock. Email alfredopurchases@gmail.com for info</strong><br/>`,
         blurb: `The hardest to source parts for the Mountain Mayhem game field.`,
         description: `Mountain Mayhem is an exciting and accessible robot game designed for the <a href="https://www.sparkfun.com/products/22230">XRP platform</a>. Created in collaboration with FIRST, Mountain Mayhem is the perfect arena to hone one's roboting skills. Good for educators, students, FIRST teams, hobbyists, and more. In this game, take on the challenge of clearing the slide area, scoring snow in the reservoirs, scoring rocks in the quarry, and parking on the pass at the end of the game for big bonus points!
+        <br/><br/>
+        These field parts are sourced from SendCutSend, Bolt Depot, and Amazon, sold at cost! Provided as a service to the community.
         <br/><br/>
         <strong>This bundle contains:</strong>
         <div style="margin-left:10px">
