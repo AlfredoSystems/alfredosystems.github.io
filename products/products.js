@@ -29,13 +29,12 @@ let products = [
         link: "crescendo-note",
         image: "crescendo-note.jpg",
         price: "$1.00",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="hosted_button_id" value="RAJA3ULW3JFAJ">
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        // </form>`,
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="P3UW8NTWSL6DN" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         blurb: "Orange ring game piece for MiniFRC: Crescendo.",
         description: `
         Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles. 
@@ -50,13 +49,12 @@ let products = [
         link: "wagon-wheel",
         image: "wagon-wheels.jpg",
         price: "$1.00",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="hosted_button_id" value="FZ68FMG4ESJJY">
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        // </form>`,
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="MXBGDMP8UMYY2" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         blurb: "Green Flywheel designed for shooting MiniFRC Crescendo Notes.",
         description: `
         Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.

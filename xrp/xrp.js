@@ -4,7 +4,12 @@ let products = [
         link: "mountain-mayhem-field-diy",
         image: "xrp-field-diy.jpg",
         price: "$95.89",
-        buy: `<strong style="color: blue">10 in stock. Email alfredopurchases@gmail.com for info</strong><br/>`,
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="LSXPCGV594WK8" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         blurb: `The hardest to source parts for the Mountain Mayhem game field.`,
         description: `Mountain Mayhem is an exciting and accessible robot game designed for the <a href="https://www.sparkfun.com/products/22230">XRP platform</a>. Created in collaboration with FIRST, Mountain Mayhem is the perfect arena to hone one's roboting skills. Good for educators, students, FIRST teams, hobbyists, and more. In this game, take on the challenge of clearing the slide area, scoring snow in the reservoirs, scoring rocks in the quarry, and parking on the pass at the end of the game for big bonus points!
         <br/><br/>
