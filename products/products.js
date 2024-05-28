@@ -146,17 +146,19 @@ let products = [
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
         blurb: `The classic yellow motor. Often used in small robot drivetrains, this wheel comes equipped with a gearbox for added torque. Corresponding <object><a href="/products/tt-wheel">TT wheel</a></object> sold separately.`,
-        description: `For years, TT motors have been used as the workhorse drive motors for smaller-sized robots. They’re easy to mount and each has an integrated gearbox to ensure the motors have a manageable drive speed. TT motors are compatible with both the <object><a href="alfredo-nou2">Alfredo NoU</a></object> system and <object><a href="adafruit-motor-shield-v1">Adafruit Motor Shield</a></object> systems. Comes with wires pre-soldered. <strong style="color: red">TT wheel sold separately</strong>.
+        description: `For years, TT motors have been used as the workhorse drive motors for smaller-sized robots. They’re easy to mount and each has an integrated gearbox to ensure the motors have a manageable drive speed. TT motors are compatible with the <object><a href="alfredo-nou2">Alfredo NoU</a></object> system. Comes with wires pre-soldered. <strong style="color: red">TT wheel sold separately</strong>.
         <br/><br/>
-        <strong>Specifications</strong>
+        <table class="striped" style="width: auto">
+            <thead><tr><th align="center">TT Motor Specifications</th></tr></thead>
+            <tr><th>RPM at 9V</th><th>Stall torque</th><th>Stall current</th><th>No load current</th></tr>
+            <tr><th>320 RPM</th>  <td>2.7 kg-cm</td>  <td>0.98 A</td>       <td>112 mA</td>          <tr>
+        </table>
+        <br/><br/>
         <div style="margin-left: 10px">
-            <li>Motor speed (9V): 320 RPM</li>
-            <li>No load current: 112 mA</li>
-            <li>Stall current: 0.98 A</li>
-            <li>Maximum voltage: 9V</li>
             <li>Mass: 25g</li>
+            <li>Max Voltage: 9V</li>
         </div>
-        <br\><br\>
+        <br/>
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/TT Motor (ACP).SLDPRT" download>Motor CAD (.SLDPRT)</a></li>
@@ -181,7 +183,7 @@ let products = [
             <li>Diameter: 67 mm</li>
             <li>Mass: 29g</li>
         </div>
-        <br\><br\>
+        <br/>
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/TT Wheel (ACP).SLDPRT" download>Wheel CAD (.SLDPRT)</a></li>
@@ -206,7 +208,7 @@ let products = [
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
         blurb: `N20 motors are compact and versatile gearbox/motor combo nearly as powerful as <object><a href="/products/tt-motor">TT motors</a></object> at one-third the weight. These brushed DC motors are perfect for manipulator and intake mechanisms in your next robotics project.`,
-        description: `These tiny brushed DC gearmotors come in three ratios and can be supplied up to 9V.
+        description: `These tiny brushed DC gearmotors weight just 10 grams. They come in three ratios and can be supplied up to 9V.
         </br></br>
         <table class="striped" style="width: auto">
             <thead><tr><th align="center">N20 Motor Specifications</th></tr></thead>
@@ -215,7 +217,7 @@ let products = [
             <tr><th>650 RPM</th>  <td>0.75 kg-cm</td>  <td>0.61 A</td>       <td>41 mA</td>          <tr>
             <tr><th>1350 RPM</th> <td>0.25 kg-cm</td>  <td>0.30 A</td>       <td>30 mA</td>          <tr>
         </table><br/>
-        <br\><br\>
+        <br\>
         Resources:
         <ul class="browser-default">
             <li><a href="/downloads/N20 Motor (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
