@@ -25,6 +25,29 @@ let products = [
         <em>Note: Alfredo Systems no longer sells Uno kits as a bundle. Components of the Uno kit are still for sale individually.</em>`
     },
     {
+        name: "MiniFRC Crescendo Note",
+        link: "crescendo-note",
+        image: "crescendo-note.jpg",
+        price: "$1.00",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="P3UW8NTWSL6DN" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: "Orange ring game piece for MiniFRC: Crescendo.",
+        description: `
+        Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
+
+        IMPORTANT: Alfredo is not shipping notes yet, any order placed with notes will not be shipped until the MiniFRC manual and Field CAD is released by 4561. Until then, contact us if you need a refund.
+        
+        <ul class="browser-default">
+            <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
+            <li>Material: PU foam</li>
+            <li>Mass: 2 g</li>
+        <ul/>`
+    },
+    {
         name: "Mini Flywheel: Wagon Wheels",
         link: "wagon-wheel",
         image: "wagon-wheels.jpg",
