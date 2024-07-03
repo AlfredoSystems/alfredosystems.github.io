@@ -39,7 +39,7 @@ let products = [
         description: `
         Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
 
-        IMPORTANT: Alfredo is not shipping notes yet, any order placed with notes will not be shipped until the MiniFRC manual and Field CAD is released by 4561. Until then, contact us if you need a refund.
+        IMPORTANT: For MiniFRC Teams, please dont order more notes than you need! We will limit each team to 10 notes, if you order more than that we will refund you.
         
         <ul class="browser-default">
             <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
