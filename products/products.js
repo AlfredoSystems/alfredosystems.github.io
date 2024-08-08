@@ -94,7 +94,7 @@ let products = [
         name: "NoU3",
         link: "alfredo-nou3",
         image: "nou3-1.png",
-        price: "$24.99",
+        price: "$TBA",
         buy: `<strong style="color: red">Coming Soon!</strong><br/>`,
         //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         //    <input type="hidden" name="cmd" value="_s-xclick">
