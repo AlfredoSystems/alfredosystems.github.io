@@ -91,17 +91,16 @@ let products = [
         </ul>`
     },
     {
-        name: "NoU3",
+        name: "NoU3 BETA",
         link: "alfredo-nou3",
         image: "nou3-1.png",
-        price: "$TBA",
-        buy: `<strong style="color: red">Coming Soon!</strong><br/>`,
-        //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        //    <input type="hidden" name="cmd" value="_s-xclick">
-        //    <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
-        //    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        //    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        //    </form>`,
+        price: "<s>$24.99</s> $19.99!",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         blurb: `The NoU3 is the core of any amazing robot. Motor control, servo control, wireless capibilities, inertial measurement, and more. All in one package.`,
         description: `Five years after the release of the NoU2, and following 18 months of developement, Alfredo Systems is proud to offer the NoU3! This is our Magnum Opus. Perfect for powering any little robot. An all-in-one solution. Features:
         <ul class="browser-default">
@@ -112,12 +111,14 @@ let products = [
             <li>USB-C for reliable code upload</li>
             <li>Great power management: switch mode regulators and high bulk capacatance means reduced risk of brownouts</li>
         </ul>
-        For more details, see our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a>. To get started programming your NoU3, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU3">software library</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
+        For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU3">software library</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
         <br\><br\>
         Resources:
         <ul class="browser-default">
-            <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Software library (GitHub)</a></li>
-            <li><a href="https://youtu.be/rcdbkeYA1rs">Robot build tutorial (YouTube)</a></li>
+        <li><a href="https://alfredo-nou3.readthedocs.io/robot_programming_tutorial_Pesto_Link.html">Software Tutorial (ReadTheDocs)</a></li>
+        <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Arduino Software Library (GitHub)</a></li>
+        <li><a href="https://alfredo-nou3.readthedocs.io/api_reference.html">Software Documentation (ReadTheDocs)</a></li>
+        <li><a href="https://github.com/AlfredoSystems/NoU3-Hardware">Hardware Files (GitHub)</a></li>
         </ul>`
     },
     {
