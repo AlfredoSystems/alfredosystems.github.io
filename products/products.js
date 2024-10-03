@@ -110,6 +110,7 @@ let products = [
             <li>Built in accelerometer, gyroscope, and magnetometer for 9 DOF sensor fusion.</li>
             <li>USB-C for reliable code upload</li>
             <li>Great power management: switch mode regulators and high bulk capacatance means reduced risk of brownouts</li>
+            <li><a href="https://www.sparkfun.com/qwiic">Qwiic compatible!</a></li>
         </ul>
         For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU3">software library</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
         <br\><br\>
