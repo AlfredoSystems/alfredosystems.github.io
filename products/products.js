@@ -120,6 +120,7 @@ let products = [
         <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Arduino Software Library (GitHub)</a></li>
         <li><a href="https://alfredo-nou3.readthedocs.io/api_reference.html">Software Documentation (ReadTheDocs)</a></li>
         <li><a href="https://github.com/AlfredoSystems/NoU3-Hardware">Hardware Files (GitHub)</a></li>
+        <li><a href="https://cad.onshape.com/documents/9bf9b4802216ce706d4c94ae/w/5bff36603f7e63b4268706f2/e/2c113add0320ed51336751b2?renderMode=0&uiState=6702f30fc65fe7754b7a618d">CAD file (OnShape)</a></li>
         </ul>`
     },
     {
