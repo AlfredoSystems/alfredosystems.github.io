@@ -106,7 +106,7 @@ let products = [
         <ul class="browser-default">
             <li>Built in ESP32-S3 means no extra dev-board "hat" required. All in one!</li>
             <li>8 DC motor ports. (Two more than the NoU2, Double that of the original NoU!)</li>
-            <li>6 of the motor ports are also accessible through JST connectors, providing easy encoder support.</li>
+            <li>6 of the motor ports are alternitively accessible through 6 pin JST-SH connectors, providing easy encoder support. (For example, with <a href="https://www.sparkfun.com/products/24053">these</a> motors).</li>
             <li>Built in accelerometer, gyroscope, and magnetometer for 9 DOF sensor fusion.</li>
             <li>USB-C for reliable code upload</li>
             <li>Great power management: switch mode regulators and high bulk capacatance means reduced risk of brownouts</li>
