@@ -23,8 +23,7 @@ let products = [
             <li>2 - reservoir basin (polycarbonate)</li>
             <li>2 - reservoir slope (hardboard)</li>
             <li>8 - slope wall (polycarbonate)</li>
-            <li>50 - #6-32 0.5in countersunk screw</li>
-            <li>30 - #6-32 0.5in button head screw</li>
+            <li>80 - #6-32 0.5in button head screw</li>
             <li>10ft - white gaffers tape</li>
             <li>10ft - red gaffers tape</li>
             <li>10ft - blue gaffers tape</li>
