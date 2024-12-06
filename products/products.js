@@ -112,6 +112,14 @@ let products = [
             <li>Great power management: switch mode regulators and high bulk capacatance means reduced risk of brownouts</li>
             <li><a href="https://www.sparkfun.com/qwiic">Qwiic compatible!</a></li>
         </ul>
+        <br\><br\>
+        <b>Why is the NoU3 in Beta?</b>
+        <br\>
+        The hardware design for the NoU3 is finailzed. The reason the NoU3 is in Beta is because software support and documentation is a work in progress. All the features you would expect like motors, servos, and wireless connection is supported. Here is what is coming soon to the NoU3 Arduino library:
+        <li>9 DOF sensor reading</li>
+        <li>Sensor fusion</li>
+        <li>Encoder support</li>
+        <br\><br\>
         For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU3">software library</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
         <br\><br\>
         Resources:
