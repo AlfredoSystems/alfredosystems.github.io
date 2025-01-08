@@ -95,12 +95,13 @@ let products = [
         link: "alfredo-nou3",
         image: "nou3-1.png",
         price: "<s>$24.99</s> $19.99!",
-        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        </form>`,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        //buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        //<input type="hidden" name="cmd" value="_s-xclick" />
+        //<input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
+        //<input type="hidden" name="currency_code" value="USD" />
+        //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        //</form>`,
         blurb: `The NoU3 is the core of any amazing robot. Motor control, servo control, wireless capibilities, inertial measurement, and more. All in one package.`,
         description: `Five years after the release of the NoU2, and following 18 months of developement, Alfredo Systems is proud to offer the NoU3! This is our Magnum Opus. Perfect for powering any little robot. An all-in-one solution. Features:
         <ul class="browser-default">
