@@ -102,7 +102,7 @@ let products = [
         //<input type="hidden" name="currency_code" value="USD" />
         //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
         //</form>`,
-        blurb: `The NoU3 is the core of any amazing robot. Motor control, servo control, wireless capibilities, inertial measurement, and more. All in one package.`,
+        blurb: `The NoU3 is the core of any amazing robot. Motor control, servo control, wireless capabilities, inertial measurement, and more. All in one package.`,
         description: `Five years after the release of the NoU2, and following 18 months of developement, Alfredo Systems is proud to offer the NoU3! This is our Magnum Opus. Perfect for powering any little robot. An all-in-one solution. Features:
         <ul class="browser-default">
             <li>Built in ESP32-S3 means no extra dev-board "hat" required. All in one!</li>
@@ -120,6 +120,7 @@ let products = [
         <li>9 DOF sensor reading</li>
         <li>Sensor fusion</li>
         <li>Encoder support</li>
+        <li>Improved upload stability</li>
         <br\><br\>
         For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU3">software library</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
         <br\><br\>
