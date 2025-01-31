@@ -55,16 +55,16 @@ let products = [
         image: "power-electronics-kit.png",
         price: "$49.95",
         buy: `<strong style="color: black">Coming Soon.</strong><br/>`,
-        //buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        //<input type="hidden" name="cmd" value="_s-xclick" />
-        //<input type="hidden" name="hosted_button_id" value="LSXPCGV594WK8" />
-        //<input type="hidden" name="currency_code" value="USD" />
-        //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        //</form>`,
-        blurb: `This 2-in-1 electronics kit is a platform for learning about solar power, battery charging, and wireless power transmission.`,
-        description: `Discover the power of renewable energy with this 2-in-1 Power Electronics Kit! Build a solar-powered battery charger and a wireless phone charger while learning about solar panels, battery storage, and wireless power. With easy-to-follow tutorials and 3D-printed enclosures, you'll assemble real working electronics like an engineer. Perfect for young inventors who love hands-on learning and exploring how energy works!
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="VEGVW3FESDDGE" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+            </form>`,
+        blurb: `This 2-in-1 electronics kit is a platform for learning about solar power, battery charging, and wireless power transmission!`,
+        description: `Discover the power of renewable energy! Build a solar-powered battery charger and a wireless phone charger while learning about solar panels, battery storage, and wireless power. With easy-to-follow tutorials and 3D-printed enclosures, you'll assemble real working electronics like an engineer. Perfect for young inventors who love hands-on learning and exploring how energy works!
         <br/><br/>
-        <strong>This kit contains:</strong>
+        <strong>This kit contains:</strong> 
         <div style="margin-left:10px">
             <ul class="browser-default">
             <li>IEEE Power Electronics Board
