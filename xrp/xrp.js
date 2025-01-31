@@ -47,7 +47,49 @@ let products = [
             <li>6 sections of 0.5in schedule 40 PVC pipe, each 4ft long, can be bought and cut at any hardware store.</li>
             
         </div>
+        `
+    },
+    {
+        name: "Power Electronics Kit",
+        link: "power-electronics-kit",
+        image: "power-electronics-kit.png",
+        price: "$49.95",
+        buy: `<strong style="color: black">Coming Soon.</strong><br/>`,
+        //buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        //<input type="hidden" name="cmd" value="_s-xclick" />
+        //<input type="hidden" name="hosted_button_id" value="LSXPCGV594WK8" />
+        //<input type="hidden" name="currency_code" value="USD" />
+        //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        //</form>`,
+        blurb: `This 2-in-1 electronics kit is a platform for learning about solar power, battery charging, and wireless power transmission.`,
+        description: `Discover the power of renewable energy with this 2-in-1 Power Electronics Kit! Build a solar-powered battery charger and a wireless phone charger while learning about solar panels, battery storage, and wireless power. With easy-to-follow tutorials and 3D-printed enclosures, you'll assemble real working electronics like an engineer. Perfect for young inventors who love hands-on learning and exploring how energy works!
+        <br/><br/>
+        <strong>This kit contains:</strong>
+        <div style="margin-left:10px">
+            <ul class="browser-default">
+            <li>IEEE Power Electronics Board
+            <li>Solar panel
+            <li>Wireless charging board
+            <li>Battery cable
+            <li>Li-ion battery
+            <li>OLED Display
+            <li>OLED Display cable
+            <li>Micro-USB cable
+            <li>Mini-screwdriver
+            <li>3D printed enclosure
+        </div>
 
-        <em>Note: Lead times are dependant on stock. Early orders will be shipped immediately. After that the shipping delay may increase, up to but no longer than 2 weeks.</em>`
+        <br/>
+        <strong>Resources:</strong>
+        <div style="margin-left:10px">
+            <ul class="browser-default">
+            <li><a href="https://powerkit.readthedocs.io/en/latest/hardware_overview.html">Hardware Overview</a></li>
+            <li><a href="https://powerkit.readthedocs.io/en/latest/tutorial_solar_charger.html">Solar Charger Tutorial</a></li>
+            <li><a href="https://powerkit.readthedocs.io/en/latest/tutorial_phone_charger.html">Phone Charger Tutorial</a></li>
+            <li><a href="https://github.com/AlfredoSystems/I3ESC-Hardware">Open Source PCB Design</a></li>
+            <li><a href="https://www.printables.com/model/1040370-solar-charger">Solar Charger Printables</a></li>
+            <li><a href="https://www.printables.com/model/1040306-wireless-phone-charger">Phone Charger Printables</a></li>
+        </div>
+   `
     }
 ]
