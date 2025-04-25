@@ -2,7 +2,7 @@ let newsList = [
     {
         title: "MKCad for MiniFRC: The Updated Alfredo CAD Package",
         link: "/news/onshape-alfredo-cad-package/",
-        image: "onshape-alfredo-cad-package.png",
+        image: "onshape-alfredo-cad-package.jpg",
         blurb: "Streamline your MiniFRC robot design with the OnShape native Alfredo CAD Package!",
         author: "Jacob Williams",
         date: "4 April, 2025",
