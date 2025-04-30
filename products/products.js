@@ -22,8 +22,7 @@ let products = [
             <li>4 <a href="/products/tt-motor">TT motors and wheels</a></li>
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
-        </div>
-        <em>Note: Alfredo Systems no longer sells Uno kits as a bundle. Components of the Uno kit are still for sale individually.</em>`
+        </div>`
     },
     {
         name: "MiniFRC Crescendo Note",
@@ -39,8 +38,6 @@ let products = [
         blurb: "Orange ring game piece for MiniFRC: Crescendo.",
         description: `
         Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
-
-        IMPORTANT: For MiniFRC Teams, please dont order more notes than you need! We will limit each team to 10 notes, if you order more than that we will refund you.
         
         <ul class="browser-default">
             <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
@@ -63,7 +60,7 @@ let products = [
         description: `
         Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.
 
-        The design is <a href="https://cad.onshape.com/documents/e4ebaf21dddc1aa93671f50c/w/797eb4be6b4a374baa2352ce/e/3c2cffb37dd74197daed8e96?renderMode=0&uiState=662f3b5dd924e4018106efa2">open source on OnShape</a>, feel free to print your own!
+        The design is <a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">open source on OnShape</a>, feel free to print your own!
         <ul class="browser-default">
             <li>Dimensions: 34mm diameter x 18mm tall x 2mm shaft hole</li>
             <li>Material: Green PETG</li>
@@ -87,7 +84,7 @@ let products = [
         <br\><br\>
         Resources:
         <ul class="browser-default">
-            <li><a href="/downloads/9V Battery (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
         </ul>`
     },
     {
@@ -130,7 +127,7 @@ let products = [
         <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Arduino Software Library (GitHub)</a></li>
         <li><a href="https://alfredo-nou3.readthedocs.io/api_reference.html">Software Documentation (ReadTheDocs)</a></li>
         <li><a href="https://github.com/AlfredoSystems/NoU3-Hardware">Hardware Files (GitHub)</a></li>
-        <li><a href="https://cad.onshape.com/documents/9bf9b4802216ce706d4c94ae/w/5bff36603f7e63b4268706f2/e/2c113add0320ed51336751b2?renderMode=0&uiState=6702f30fc65fe7754b7a618d">CAD file (OnShape)</a></li>
+        <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">CAD file (OnShape)</a></li>
         </ul>`
     },
     {
@@ -159,7 +156,7 @@ let products = [
         <br\><br\>
         Resources:
         <ul class="browser-default">
-            <li><a href="/downloads/Alfredo NoU2 (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
             <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU2">Software library (GitHub)</a></li>
             <li><a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">Hardware documentation (Google Docs)</a></li>
             <li><a href="https://youtu.be/rcdbkeYA1rs">Robot build tutorial (YouTube)</a></li>
@@ -207,7 +204,7 @@ let products = [
         <br/>
         Resources:
         <ul class="browser-default">
-            <li><a href="/downloads/TT Motor (ACP).SLDPRT" download>Motor CAD (.SLDPRT)</a></li>
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
         </ul>`
     },
     {
@@ -232,7 +229,7 @@ let products = [
         <br/>
         Resources:
         <ul class="browser-default">
-            <li><a href="/downloads/TT Wheel (ACP).SLDPRT" download>Wheel CAD (.SLDPRT)</a></li>
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
         </ul>`
     },
     {
@@ -266,7 +263,7 @@ let products = [
         <br\>
         Resources:
         <ul class="browser-default">
-            <li><a href="/downloads/N20 Motor (ACP).SLDPRT" download>CAD (.SLDPRT)</a></li>
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
         </ul>`
     },
     {
@@ -292,7 +289,12 @@ let products = [
             <li>Mass: 9 g</li>
             <li>Working voltage: 4.2 V–6 V</li>
             <li>Three servo horns included</li>
-        </div>`
+        </div>
+        <br/><br/>
+        Resources:
+        <ul class="browser-default">
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
+        </ul>`
     },
     {
         name: "50g Servo",
@@ -317,7 +319,12 @@ let products = [
             <li>Mass: 50 g</li>
             <li>Working voltage: 3 V–7.2 V</li>
             <li>Four servo horns included</li>
-        </div>`
+        </div>
+        <br/><br/>
+        Resources:
+        <ul class="browser-default">
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
+        </ul>`
     },
     {
         name: "Arduino Uno Clone",

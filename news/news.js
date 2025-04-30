@@ -90,15 +90,6 @@ let newsList = [
         contents: "contents"
     },
     {
-        title: "The Alfredo CAD Package",
-        link: "/news/alfredo-cad-package/",
-        image: "alfredo-cad-package-1.png",
-        blurb: "Download all the CAD for our products in one place.",
-        author: "Jacob Williams",
-        date: "5 May, 2020",
-        contents: "contents"
-    },
-    {
         title: "MiniFRC Control System Guide",
         link: "/news/minifrc-control-system-guide/",
         image: "minifrc-control-system-guide-2.png",
