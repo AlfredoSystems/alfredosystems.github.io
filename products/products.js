@@ -25,54 +25,11 @@ let products = [
         </div>`
     },
     {
-        name: "MiniFRC Crescendo Note",
-        link: "crescendo-note",
-        image: "crescendo-note.jpg",
-        price: "$1.00",
-        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="P3UW8NTWSL6DN" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        </form>`,
-        blurb: "Orange ring game piece for MiniFRC: Crescendo.",
-        description: `
-        Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
-        
-        <ul class="browser-default">
-            <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
-            <li>Material: PU foam</li>
-            <li>Mass: 2 g</li>
-        <ul/>`
-    },
-    {
-        name: "Mini Flywheel: Wagon Wheels",
-        link: "wagon-wheel",
-        image: "wagon-wheels.jpg",
-        price: "$1.00",
-        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="MXBGDMP8UMYY2" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        </form>`,
-        blurb: "Green Flywheel designed for shooting MiniFRC Crescendo Notes.",
-        description: `
-        Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.
-
-        The design is <a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">open source on OnShape</a>, feel free to print your own!
-        <ul class="browser-default">
-            <li>Dimensions: 34mm diameter x 18mm tall x 2mm shaft hole</li>
-            <li>Material: Green PETG</li>
-            <li>Mass: 1 g</li>
-        <ul/>`
-    },
-    {
         name: "9V Rechargable Li-ion Battery",
         link: "9v-li-ion-battery",
         image: "9v-li-ion-battery-1.png",
         price: "$6.31",
-        blurb: `More powerful than ones you’ll find on store shelves, these Li-ion 9V batteries are perfect for powering small projects that require more current than conventional AAs and 9Vs. Comes complete with a built-in micro USB port for recharging.`,
+        blurb: `More powerful than ones you'll find on store shelves, these Li-ion 9V batteries are perfect for powering small projects that require more current than conventional AAs and 9Vs. Comes complete with a built-in micro USB port for recharging.`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="PDUSJPSBXURBG">
@@ -91,14 +48,13 @@ let products = [
         name: "NoU3 BETA",
         link: "alfredo-nou3",
         image: "nou3-1.png",
-        price: "<s>$24.99</s> $19.99!",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        //buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        //<input type="hidden" name="cmd" value="_s-xclick" />
-        //<input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
-        //<input type="hidden" name="currency_code" value="USD" />
-        //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        //</form>`,
+        price: "$24.99!",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         blurb: `The NoU3 is the core of any amazing robot. Motor control, servo control, wireless capabilities, inertial measurement, and more. All in one package.`,
         description: `Five years after the release of the NoU2, and following 18 months of developement, Alfredo Systems is proud to offer the NoU3! This is our Magnum Opus. Perfect for powering any little robot. An all-in-one solution. Features:
         <ul class="browser-default">
@@ -236,7 +192,7 @@ let products = [
         name: "N20 Motor",
         link: "n20-motor",
         image: "n20-motor-1.png",
-        price: "$5.33",
+        price: "<s>$5.33</s> $4.49",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="CX5VJLUR6A9U8">
@@ -260,6 +216,27 @@ let products = [
             <tr><th>650 RPM</th>  <td>0.75 kg-cm</td>  <td>0.61 A</td>       <td>41 mA</td>          <tr>
             <tr><th>1350 RPM</th> <td>0.25 kg-cm</td>  <td>0.30 A</td>       <td>30 mA</td>          <tr>
         </table><br/>
+        <br\>
+        Resources:
+        <ul class="browser-default">
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
+        </ul>`
+    },
+    {
+        name: "Encodered N20 Motor",
+        link: "n20-motor-with-encoder",
+        image: "n20-motor-with-encoder-1.png",
+        price: "$6.49",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="YKN6G38RUW2J4" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: `N20 motors are compact and versatile gearbox/motor combo nearly as powerful as <object><a href="/products/tt-motor">TT motors</a></object> at one-third the weight. These brushed DC motors are perfect for manipulator and intake mechanisms in your next robotics project.`,
+        description: `These tiny brushed DC gearmotors weight just 10 grams and can be supplied up to 9V.
+        </br></br>
+        This version comes with a quadrature encorder and 6 pin JST-SH cable, designed for compatibility with the NoU3 encoder ports.
         <br\>
         Resources:
         <ul class="browser-default">
@@ -389,7 +366,7 @@ let products = [
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
         image: "9v-barrel-jack-1.png",
-        price: "$2.93",
+        price: "<s>$2.93</s> $1.50",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="RYY2YVJLRCKZN">
@@ -398,6 +375,20 @@ let products = [
         </form>`,
         blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It’s as simple as that!`,
         description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
+    },
+    {
+        name: "Right Angled 9V Battery Barrel Jack Cable",
+        link: "9v-barrel-jack-right-angled",
+        image: "9v-barrel-jack-right-angle-1.png",
+        price: "$1.99",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="Z6PMCXJWT8KV8">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: `A right angled form factor for the common 9V barrel jack cable.`,
+        description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, now in a right-angled form factor!`
     },
     {
         name: "Mini Screwdriver",
@@ -435,6 +426,68 @@ let products = [
         <ul class="browser-default">
             <li>Length: 3 ft</li>
             <li>Mass: 12 g</li>
+        <ul/>`
+    },
+    {
+        name: "USB-C Cable",
+        link: "usbc",
+        image: "usbc-1.png",
+        price: "$2.00",
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="U88NVYZ3GXPVW">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
+        blurb: "3-ft USB-C cable for NoU3.",
+        description: `
+        USB-C Cables are important to MiniFRC teams so they can upload code to their NoU3s.
+        <ul class="browser-default">
+            <li>Length: 3 ft</li>
+            <li>Mass: 12 g</li>
+        <ul/>`
+    },
+    {
+        name: "MiniFRC Crescendo Note",
+        link: "crescendo-note",
+        image: "crescendo-note.jpg",
+        price: "$1.00",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="P3UW8NTWSL6DN" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: "Orange ring game piece for MiniFRC: Crescendo.",
+        description: `
+        Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
+        
+        <ul class="browser-default">
+            <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
+            <li>Material: PU foam</li>
+            <li>Mass: 2 g</li>
+        <ul/>`
+    },
+    {
+        name: "Mini Flywheel: Wagon Wheels",
+        link: "wagon-wheel",
+        image: "wagon-wheels.jpg",
+        price: "$1.00",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="MXBGDMP8UMYY2" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: "Green Flywheel designed for shooting MiniFRC Crescendo Notes.",
+        description: `
+        Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.
+
+        The design is <a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">open source on OnShape</a>, feel free to print your own!
+        <ul class="browser-default">
+            <li>Dimensions: 34mm diameter x 18mm tall x 2mm shaft hole</li>
+            <li>Material: Green PETG</li>
+            <li>Mass: 1 g</li>
         <ul/>`
     },
     {
