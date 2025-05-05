@@ -2,7 +2,7 @@ let products = [
     {
         name: "MiniFRC Kit of Parts",
         link: "minifrc-kit-of-parts",
-        image: "nou2-minifrc-kit-of-parts-1.png",
+        image: "nou2-minifrc-kit-of-parts-1.jpg",
         price: "$34.43",
         //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -27,7 +27,7 @@ let products = [
     {
         name: "9V Rechargable Li-ion Battery",
         link: "9v-li-ion-battery",
-        image: "9v-li-ion-battery-1.png",
+        image: "9v-li-ion-battery-1.jpg",
         price: "$6.31",
         blurb: `More powerful than ones you'll find on store shelves, these Li-ion 9V batteries are perfect for powering small projects that require more current than conventional AAs and 9Vs. Comes complete with a built-in micro USB port for recharging.`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -47,7 +47,7 @@ let products = [
     {
         name: "NoU3 BETA",
         link: "alfredo-nou3",
-        image: "nou3-1.png",
+        image: "nou3-1.jpg",
         price: "$24.99!",
         buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
@@ -89,7 +89,7 @@ let products = [
     {
         name: "NoU2",
         link: "alfredo-nou2",
-        image: "nou2-1.png",
+        image: "nou2-1.jpg",
         price: "$13.27",
         //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -121,7 +121,7 @@ let products = [
     {
         name: "ESP32",
         link: "esp32",
-        image: "esp32-1.png",
+        image: "esp32-1.jpg",
         price: "$6.71",
         //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -136,7 +136,7 @@ let products = [
     {
         name: "TT Motor",
         link: "tt-motor",
-        image: "tt-motor-1.png",
+        image: "tt-motor-1.jpg",
         price: "$1.87",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -166,7 +166,7 @@ let products = [
     {
         name: "TT Wheel",
         link: "tt-wheel",
-        image: "tt-wheel-1.png",
+        image: "tt-wheel-1.jpg",
         price: "$0.99",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -191,7 +191,7 @@ let products = [
     {
         name: "N20 Motor",
         link: "n20-motor",
-        image: "n20-motor-1.png",
+        image: "n20-motor-1.jpg",
         price: "<s>$5.33</s> $4.49",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -225,7 +225,7 @@ let products = [
     {
         name: "Encodered N20 Motor",
         link: "n20-motor-with-encoder",
-        image: "n20-motor-with-encoder-1.png",
+        image: "n20-motor-with-encoder-1.jpg",
         price: "$6.49",
         buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
@@ -246,7 +246,7 @@ let products = [
     {
         name: "9g Servo",
         link: "9g-servo",
-        image: "9g-servo-1.png",
+        image: "9g-servo-1.jpg",
         price: "$3.27",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -255,16 +255,16 @@ let products = [
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
         blurb: `These miniature actuators are used to move to precise angles. Weighing a total of 9 grams, these servos are a great way to add finer and more complex movement to your projects.`,
-        description: `Hook it up to power, ground, and a PPM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and three servo horns of various sizes.
+        description: `Hook it up to power, ground, and a PPM signal, and it's ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and three servo horns of various sizes.
         <br/><br/>
         <strong>Specifications</strong>
         <div style="margin-left: 10px">
             <li>Range: 180 degrees</li>
-            <li>Size: 22.8 mm × 12.2 mm × 31.4 mm</li>
+            <li>Size: 22.8 mm x 12.2 mm x 31.4 mm</li>
             <li>Angular velocity: 60 degrees / 0.3 seconds</li>
             <li>Max torque: 1.5 kg·cm</li>
             <li>Mass: 9 g</li>
-            <li>Working voltage: 4.2 V–6 V</li>
+            <li>Working voltage: 4.2 V-6 V</li>
             <li>Three servo horns included</li>
         </div>
         <br/><br/>
@@ -276,7 +276,7 @@ let products = [
     {
         name: "50g Servo",
         link: "50g-servo",
-        image: "50g-servo-1.png",
+        image: "50g-servo-1.jpg",
         price: "$5.93",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -285,16 +285,16 @@ let products = [
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
         blurb: `These actuators are the bigger brother of the 9g servo. Weighing a total of 50 grams, these servos are a great way to add strong and precise movement to your projects.`,
-        description: `Hook it up to power, ground, and a PPM signal, and it’s ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and four servo horns of various sizes.
+        description: `Hook it up to power, ground, and a PPM signal, and it's ready to be used in any project from a miniature robotic arm to an intake mechanism. Comes with fasteners and four servo horns of various sizes.
         <br/><br/>
         <strong>Specifications</strong>
         <div style="margin-left: 10px">
             <li>Range: 180 degrees</li>
-            <li>Size: 20 mm × 40 mm × 41 mm</li>
+            <li>Size: 20 mm x 40 mm x 41 mm</li>
             <li>Angular velocity: 60 rpm</li>
             <li>Max torque: 13 kg·cm</li>
             <li>Mass: 50 g</li>
-            <li>Working voltage: 3 V–7.2 V</li>
+            <li>Working voltage: 3 V-7.2 V</li>
             <li>Four servo horns included</li>
         </div>
         <br/><br/>
@@ -306,7 +306,7 @@ let products = [
     {
         name: "Arduino Uno Clone",
         link: "uno",
-        image: "arduino-uno-1.png",
+        image: "arduino-uno-1.jpg",
         price: "$4.65",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -320,7 +320,7 @@ let products = [
     {
         name: "Adafruit Motor Shield v1 Clone",
         link: "adafruit-motor-shield-v1",
-        image: "adafruit-motor-shield-1.png",
+        image: "adafruit-motor-shield-1.jpg",
         price: "$4.65",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -331,12 +331,12 @@ let products = [
         blurb: `Streamline and simplify projects that require multiple motors by adding this simple motor shield. Just mount the shield to an <object><a href="/products/uno">Uno</a></object>, add up to 4 DC motors, and plug a power source into the screw-down terminals to get started.`,
         description: `The <object><a href="/products/uno">Uno</a></object> on its own often can’t supply motors with the voltage and current they need. This shield provides a compact solution by adding ports for four DC motors and two servos, all powered by an external power source up to 25V. For help with setup and programming, check out <object><a href="https://learn.adafruit.com/adafruit-motor-shield/overview">Adafruit's step-by-step guide</a></object>.
         <br/><br/>
-        If you’re going to be using this shield with a <object><a href="/products/bt06/">BT06 Bluetooth module</a></object>, check out the <object><a href="/products/chip0-1.png">Chip0</a></object> for a simple option to robustly connect the two.`
+        If you're going to be using this shield with a <object><a href="/products/bt06/">BT06 Bluetooth module</a></object>, check out the <object><a href="/products/chip0-1.jpg">Chip0</a></object> for a simple option to robustly connect the two.`
     },
     {
         name: "BT06",
         link: "bt06",
-        image: "bt06-1.png",
+        image: "bt06-1.jpg",
         price: "$3.32",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -345,13 +345,13 @@ let products = [
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
         blurb: `A wireless Bluetooth module with an easy-to-use four-pin interface.  This module makes communicating with your project wirelessly a piece of cake by turning Bluetooth communication into a standard Serial port, allowing you to wirelessly send input to your microcontroller as if you were connected over USB.`,
-        description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They’re a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Uno</a></object> and a variety of other platforms.`
+        description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They're a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Uno</a></object> and a variety of other platforms.`
     },
     {
         name: "Chip0",
         unlisted: true,
         link: "chip0",
-        image: "chip0-1.png",
+        image: "chip0-1.jpg",
         price: "$1.37",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -365,7 +365,7 @@ let products = [
     {
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
-        image: "9v-barrel-jack-1.png",
+        image: "9v-barrel-jack-1.jpg",
         price: "<s>$2.93</s> $1.50",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -373,13 +373,13 @@ let products = [
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
-        blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It’s as simple as that!`,
+        blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It's as simple as that!`,
         description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
     },
     {
         name: "Right Angled 9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack-right-angled",
-        image: "9v-barrel-jack-right-angle-1.png",
+        image: "9v-barrel-jack-right-angle-1.jpg",
         price: "$1.99",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -393,7 +393,7 @@ let products = [
     {
         name: "Mini Screwdriver",
         link: "mini-screwdriver",
-        image: "mini-screwdriver-1.png",
+        image: "mini-screwdriver-1.jpg",
         price: "$0.50",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -403,7 +403,7 @@ let products = [
         </form>`,
         blurb: "Phillips head mini-screwdriver, good for NoU2 terminals.",
         description: `
-        Ever go to tighten down the terminal blocks on the NoU2, but you don’t have a precision screwdriver? This mini screwdriver is perfect for the NoU2 terminal blocks. We carry these to help out folks who don't have labs or tools but want to build robots.
+        Ever go to tighten down the terminal blocks on the NoU2, but you don't have a precision screwdriver? This mini screwdriver is perfect for the NoU2 terminal blocks. We carry these to help out folks who don't have labs or tools but want to build robots.
         <ul class="browser-default">
             <li>Length: 1.75 in</li>
             <li>Mass: 1.2 g</li>
@@ -412,7 +412,7 @@ let products = [
     {
         name: "Micro-USB Cable",
         link: "microusb",
-        image: "microusb-1.png",
+        image: "microusb-1.jpg",
         price: "$2.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -431,7 +431,7 @@ let products = [
     {
         name: "USB-C Cable",
         link: "usbc",
-        image: "usbc-1.png",
+        image: "usbc-1.jpg",
         price: "$2.00",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -494,7 +494,7 @@ let products = [
         name: "Power Cell",
         unlisted: true,
         link: "power-cell",
-        image: "power-cell-1.png",
+        image: "power-cell-1.jpg",
         price: "$0.67",
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -507,7 +507,7 @@ let products = [
         <ul class="browser-default">
             <li>Nominal diameter: 1.5 in</li>
             <li>Material: foam</li>
-            <li>Expression: &nbsp; ：）</li>
+            <li>Expression: &nbsp; :) </li>
         <ul/>`
     },
 ]
