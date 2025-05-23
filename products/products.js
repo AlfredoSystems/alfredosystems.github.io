@@ -8,20 +8,37 @@ let products = [
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <input type="hidden" name="on0" value="Varient:">Varient:
+        <select class="browser-default" name="os0" style="width: 200px">
+          <option value="NoU2"> NoU2 $35.00 USD </option>
+          <option value="NoU3"> NoU3 $40.00 USD </option>
+        </select>
+        <div style="height: 10px"/>
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>`,
-        blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with an ESP32 and NoU2.`,
-        description: `This kit will give you and your team the basics to get yourself on the field. Comes with an <a href="/products/esp32/">ESP32</a> microcontroller and the Alfredo-custom <a href="/products/alfredo-nou2/">NoU2</a> motor shield. Check out our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for help getting started.
+        blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with NoU, motors, battery, and more.`,
+        description: `This kit will give you and your team the basics to get yourself on the field. Check out our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for help getting started.
         <br/><br/>
         <strong>This bundle contains:</strong>
         <div style="margin-left:10px">
             <ul class="browser-default">
-            <li>1 <a href="/products/esp32">ESP32 microcontroller</a></li>
-            <li>1 <a href="/products/alfredo-nou2">Alfredo NoU2 motor shield</a></li>
             <li>4 <a href="/products/tt-motor">TT motors and wheels</a></li>
             <li>1 <a href="/products/9v-li-ion-battery">rechargeable 9V Li-ion battery</a></li>
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
+        </div>
+        <br/>
+        <strong>NoU3 varient includes:</strong>
+        <div style="margin-left:10px">
+            <ul class="browser-default">
+            <li>1 <a href="/products/esp32">ESP32 microcontroller</a></li>
+            <li>1 <a href="/products/alfredo-nou2">Alfredo NoU2</a></li>
+        </div>
+        <br/>
+        <strong>NoU3 varient includes:</strong>
+        <div style="margin-left:10px">
+            <ul class="browser-default">
+            <li>1 <a href="/products/alfredo-nou3">Alfredo NoU3</a></li>
         </div>`
     },
     {
