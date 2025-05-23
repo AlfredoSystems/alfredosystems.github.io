@@ -3,7 +3,7 @@ let products = [
         name: "MiniFRC Kit of Parts",
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.jpg",
-        price: "$34.43",
+        price: "$35.00 - $40.00",
         //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
