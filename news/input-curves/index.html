@@ -28,15 +28,15 @@
 					<li>The slower your robot goes, the more control you need</li>
 				    <li>Some robots are just too fast to drive</li>
 				</ol>
-				Hiding deep within the NoU2 codebase lies four functions: <code>setInputDeadband()</code>, <code>setMinimumOutput()</code>, <code>setInputExponent()</code>, and <code>setMaximumOutput()</code>. These functions collectively are known as “Input Curves” or sometimes “Motor Curves” and are what we use to solve the problems listed above.
+				Hiding deep within the NoU2 codebase lies four functions: <code>setDeadband()</code>, <code>setMinimumOutput()</code>, <code>setExponent()</code>, and <code>setMaximumOutput()</code>. These functions collectively are known as “Input Curves” or sometimes “Motor Curves” and are what we use to solve the problems listed above.
 
 				<h5>How to use these functions in your code</h5>
 				Each function takes a single float as an input and can be called from <code>setup()</code>. Start by adding these four lines to your <code>setup()</code> function, these set the four values to their default. Change the value passed to each function as you tune your robot.
 				<pre><code>
 				// default function parameters
 				drivetrain.setMinimumOutput(0.0);
-				drivetrain.setInputDeadband(0.0);
-				drivetrain.setInputExponent(1.0);
+				drivetrain.setDeadband(0.0);
+				drivetrain.setExponent(1.0);
 				drivetrain.setMaximumOutput(1.0);
 				</code></pre>
 				
@@ -52,12 +52,12 @@
 				</code></pre>
 
 				<h5>Your controller is not perfect</h5>
-				No gamepad is perfect. The joysticks will almost always send some small value, even if you are not touching them. This region, where the joystick returns to when you let go of it, is known as the deadzone or deadband. You never want your robot to move when the stick is in the deadband, this is what the function <code>setInputDeadband()</code> is for.
+				No gamepad is perfect. The joysticks will almost always send some small value, even if you are not touching them. This region, where the joystick returns to when you let go of it, is known as the deadzone or deadband. You never want your robot to move when the stick is in the deadband, this is what the function <code>setDeadband()</code> is for.
 				<img src="/images/input-curves-4.png" style="width: 100%; max-width: 100%; margin: 10px 0"/>
 				For example, by looking at AlfredoConnect-Desktop, I found an error of at least 0.08 when I was not touching the sticks. My drivetrain is being sent 8% of its max voltage even though I'm not driving! Sometimes I will use a value as high as 0.1 just to be safe.
 				<pre><code>
 				// recommended starting value
-				drivetrain.setInputDeadband(0.1);
+				drivetrain.setDeadband(0.1);
 				</code></pre>
 				
 				<h5>The slower your robot goes, the more control you need</h5>
@@ -66,7 +66,7 @@
 				<a href="https://www.desmos.com/calculator/3lb8zpj37q">If this explanation didn't make sense to you I recommend you play around with this Desmos graph</a>. It shows you how the exponent and the other constants change how your controller input values map to your motor output values. And like the other constants, the important part is to play around with different values and find ones you like.
 				<pre><code>
 				// recommended starting value
-				drivetrain.setInputExponent(1.5);
+				drivetrain.setExponent(1.5);
 				</code></pre>
 
 				<h5>Some robots are just too fast to drive</h5>
@@ -83,8 +83,8 @@
 				Input curve functions are an underutilized tool to improve robot performance. It’s a good idea to experiment with different values to find what you feel the most comfortable with. And as always, if you have trouble with this or other code please reach out to the <a href="https://discord.com/invite/AZGHrrDyVF">MiniFRC Discord server</a>!
 				<pre><code>
 				drivetrain.setMinimumOutput(0.3);
-				drivetrain.setInputDeadband(0.1);
-				drivetrain.setInputExponent(1.5);
+				drivetrain.setDeadband(0.1);
+				drivetrain.setExponent(1.5);
 				drivetrain.setMaximumOutput(1);
 				</code></pre>
 
