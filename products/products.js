@@ -62,6 +62,48 @@ let products = [
         </ul>`
     },
     {
+        name: "MiniFRC Reefscape Algae",
+        link: "reefscape-algae",
+        image: "reefscape-algae.jpg",
+        price: "$2.00",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="PWPE3KZVECZLY" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: "Foam ball game piece for MiniFRC: Reefscape.",
+        description: `
+        Aqua ball game piece for MiniFRC: Reefscape. These lightweight foam balls are custom printed with the MiniFRC logo!
+        
+        <ul class="browser-default">
+            <li>Dimensions: 3.68 in OD</li>
+            <li>Material: foam</li>
+            <li>Mass: 2 g</li>
+        <ul/>`
+    },
+    {
+        name: "MiniFRC Reefscape Coral",
+        link: "reefscape-coral",
+        image: "reefscape-coral.jpg",
+        price: "$1.00",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="XFLJPF2DY8T46" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: "Plastic pipe game piece for MiniFRC: Reefscape.",
+        description: `
+        Plastic pipe game piece for MiniFRC: Reefscape. Why arn't they cut PVC pipes? Stop asking questions!
+        
+        <ul class="browser-default">
+            <li>Dimensions: 1.2in diameter, 2.6in long</li>
+            <li>Material: PLA</li>
+            <li>Mass: 2g</li>
+        <ul/>`
+    },
+    {
         name: "NoU3 BETA",
         link: "alfredo-nou3",
         image: "nou3-1.jpg",
