@@ -77,9 +77,9 @@ let products = [
         Aqua ball game piece for MiniFRC: Reefscape. These lightweight foam balls are custom printed with the MiniFRC logo!
         
         <ul class="browser-default">
-            <li>Dimensions: 3.68 in OD</li>
+            <li>Dimensions: 2.70 in nominal OD</li>
             <li>Material: foam</li>
-            <li>Mass: 2 g</li>
+            <li>Mass: 26g</li>
         <ul/>`
     },
     {
@@ -100,7 +100,7 @@ let products = [
         <ul class="browser-default">
             <li>Dimensions: 1.2in diameter, 2.6in long</li>
             <li>Material: PLA</li>
-            <li>Mass: 2g</li>
+            <li>Mass: 14g</li>
         <ul/>`
     },
     {
