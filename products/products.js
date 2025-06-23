@@ -77,7 +77,7 @@ let products = [
         Aqua ball game piece for MiniFRC: Reefscape. These lightweight foam balls are custom printed with the MiniFRC logo!
         
         <ul class="browser-default">
-            <li>Dimensions: 2.70 in nominal OD</li>
+            <li>Dimensions: 2.70 inch nominal OD</li>
             <li>Material: foam</li>
             <li>Mass: 26g</li>
         <ul/>`
@@ -98,7 +98,7 @@ let products = [
         Plastic pipe game piece for MiniFRC: Reefscape. Why arn't they cut PVC pipes? Stop asking questions!
         
         <ul class="browser-default">
-            <li>Dimensions: 1.2in diameter, 2.6in long</li>
+            <li>Dimensions: 1.2 inch diameter, 2.6 inches long</li>
             <li>Material: PLA</li>
             <li>Mass: 14g</li>
         <ul/>`
@@ -134,15 +134,15 @@ let products = [
         <li>Encoder support</li>
         <li>Improved upload stability</li>
         <br\><br\>
-        For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU3">software library</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
+        For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://alfredo-nou3.readthedocs.io/robot_programming_tutorial_Pesto_Link.html">programming tutorial</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
         <br\><br\>
         Resources:
         <ul class="browser-default">
-        <li><a href="https://alfredo-nou3.readthedocs.io/robot_programming_tutorial_Pesto_Link.html">Software Tutorial (ReadTheDocs)</a></li>
-        <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Arduino Software Library (GitHub)</a></li>
+        <li><a href="hhttps://alfredo-nou3.readthedocs.io/hardware_documentation.html">Hardware Documentation (ReadTheDocs)</a></li>
         <li><a href="https://alfredo-nou3.readthedocs.io/api_reference.html">Software Documentation (ReadTheDocs)</a></li>
-        <li><a href="https://github.com/AlfredoSystems/NoU3-Hardware">Hardware Files (GitHub)</a></li>
+        <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Arduino Software Library (GitHub)</a></li>
         <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">CAD file (OnShape)</a></li>
+        <li><a href="https://github.com/AlfredoSystems/NoU3-Hardware">Hardware Files (GitHub)</a></li>
         </ul>`
     },
     {
