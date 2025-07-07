@@ -5,12 +5,12 @@ let products = [
         image: "nou2-minifrc-kit-of-parts-1.jpg",
         price: "$35.00 - $40.00",
         //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        //<option value="NoU2"> NoU2 $35.00 USD </option>
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
         <input type="hidden" name="on0" value="Varient:">Varient:
         <select class="browser-default" name="os0" style="width: 200px">
-          <option value="NoU2"> NoU2 $35.00 USD </option>
           <option value="NoU3"> NoU3 $40.00 USD </option>
         </select>
         <div style="height: 10px"/>
@@ -150,13 +150,13 @@ let products = [
         link: "alfredo-nou2",
         image: "nou2-1.jpg",
         price: "$13.27",
-        //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>`,
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        //    <input type="hidden" name="cmd" value="_s-xclick">
+        //    <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
+        //    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        //    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        //    </form>`,
         blurb: `Give power to your projects with this Alfredo-original <object><a href="/products/esp32">ESP32</a></object> shield. Built with six DC motor ports, support for four servos, a custom and intuitive library, and a sleek, compact design, the NoU2 is perfect for virtually any small robotics project.`,
         description: `Simply plug a <object><a href="/products/9v-li-ion-battery">9V power source</a></object> into the <object><a href="/products/9v-barrel-jack">barrel jack</a></object> and the NoU2 is ready to drive your latest robotics project. The NoU2 marks the next advancement in Alfredo’s multipurpose small robotics technology. This shield improves on the features pioneered by the original NoU, including:
         <ul class="browser-default">
