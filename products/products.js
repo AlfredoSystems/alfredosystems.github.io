@@ -138,7 +138,7 @@ let products = [
         <br\><br\>
         Resources:
         <ul class="browser-default">
-        <li><a href="hhttps://alfredo-nou3.readthedocs.io/hardware_documentation.html">Hardware Documentation (ReadTheDocs)</a></li>
+        <li><a href="https://alfredo-nou3.readthedocs.io/hardware_documentation.html">Hardware Documentation (ReadTheDocs)</a></li>
         <li><a href="https://alfredo-nou3.readthedocs.io/api_reference.html">Software Documentation (ReadTheDocs)</a></li>
         <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU3">Arduino Software Library (GitHub)</a></li>
         <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">CAD file (OnShape)</a></li>
