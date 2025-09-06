@@ -297,7 +297,13 @@ let products = [
         description: `These tiny brushed DC gearmotors weight just 10 grams and can be supplied up to 9V.
         </br></br>
         This version comes with a quadrature encorder and 6 pin JST-SH cable, designed for compatibility with the NoU3 encoder ports.
-        <br\>
+        </br></br>
+        <table class="striped" style="width: auto">
+            <thead><tr><th align="center">N20 Motor Specifications</th></tr></thead>
+            <tr><th>RPM at 9V</th><th>Stall torque</th><th>Stall current</th><th>No load current</th></tr>
+            <tr><th>650 RPM</th>  <td>0.76 kg-cm</td>  <td>0.60 A</td>       <td>43 mA</td>          <tr>
+        </table>
+        <br/><br/>
         Resources:
         <ul class="browser-default">
             <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
