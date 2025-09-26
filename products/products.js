@@ -256,10 +256,9 @@ let products = [
         buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="CX5VJLUR6A9U8">
-        <input type="hidden" name="on0" value="RPM Selection">RPM Selection
+        <input type="hidden" name="on0" value="RPM Selection">RPM Selection (Out of stock: 650 RPM)
         <select class="browser-default" name="os0" style="width: 200px">
             <option value="290 RPM">290 RPM </option>
-            <option value="650 RPM">650 RPM </option>
             <option value="1350 RPM">1350 RPM </option>
         </select>
         <div style="height: 10px"/>
