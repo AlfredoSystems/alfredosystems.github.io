@@ -293,7 +293,7 @@ let products = [
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
         </form>`,
         blurb: `N20 motors are compact and versatile gearbox/motor combo nearly as powerful as <object><a href="/products/tt-motor">TT motors</a></object> at one-third the weight. These brushed DC motors are perfect for manipulator and intake mechanisms in your next robotics project.`,
-        description: `These tiny brushed DC gearmotors weight just 10 grams and can be supplied up to 9V.
+        description: `These tiny brushed DC gearmotors weight just 10 grams and can be supplied up to 9V. The encoder produces 800 ticks-per-revolution of the output shaft.
         </br></br>
         This version comes with a quadrature encorder and 6 pin JST-SH cable, designed for compatibility with the NoU3 encoder ports.
         </br></br>
