@@ -28,7 +28,7 @@ let products = [
             <li>1 <a href="/products/9v-barrel-jack">9V barrel jack cable</a></li>
         </div>
         <br/>
-        <strong>NoU3 varient includes:</strong>
+        <strong>NoU2 varient includes:</strong>
         <div style="margin-left:10px">
             <ul class="browser-default">
             <li>1 <a href="/products/esp32">ESP32 microcontroller</a></li>
