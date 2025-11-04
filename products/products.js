@@ -481,13 +481,13 @@ let products = [
         link: "microusb",
         image: "microusb-1.jpg",
         price: "$2.00",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="hosted_button_id" value="BGQ3TECH5NN6Y">
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        // <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        // </form>`,
+        //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="BGQ3TECH5NN6Y">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
         blurb: "3-ft Micro-USB cable for ESP32s and charging 9V Li-ion batteries.",
         description: `
         As USB-C takes over, fewer and fewer people have Micro-USB cables laying around. If that's you, then we have you covered. This 3-ft Micro-USB cable is just what you need. Micro-USB cables are important to MiniFRC teams so they can upload code to their ESP32s and charge their 9V Li-ion batteries.
