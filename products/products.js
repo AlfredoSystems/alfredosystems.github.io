@@ -3,20 +3,20 @@ let products = [
         name: "MiniFRC Kit of Parts",
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.jpg",
-        price: "$35.00 - $40.00",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        price: "$40.00",
+        //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         //<option value="NoU2"> NoU2 $35.00 USD </option>
-        //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        //<input type="hidden" name="cmd" value="_s-xclick">
-        //<input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
-        //<input type="hidden" name="on0" value="Varient:">Varient:
-        //<select class="browser-default" name="os0" style="width: 200px">
-        //  <option value="NoU3"> NoU3 $40.00 USD </option>
-        //</select>
-        //<div style="height: 10px"/>
-        //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal">
-        //<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        //</form>`,
+        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
+        <input type="hidden" name="on0" value="Varient:">Varient:
+        <select class="browser-default" name="os0" style="width: 200px">
+          <option value="NoU3"> NoU3 $40.00 USD </option>
+        </select>
+        <div style="height: 10px"/>
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>`,
         blurb: `This kit includes all of the fundamentals a robot needs to compete in MiniFRC. Comes with NoU, motors, battery, and more.`,
         description: `This kit will give you and your team the basics to get yourself on the field. Check out our <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a> for help getting started.
         <br/><br/>
@@ -104,36 +104,28 @@ let products = [
         <ul/>`
     },
     {
-        name: "NoU3 BETA",
+        name: "NoU3",
         link: "alfredo-nou3",
         image: "nou3-1.jpg",
         price: "$24.99",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        //buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        //<input type="hidden" name="cmd" value="_s-xclick" />
-        //<input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
-        //<input type="hidden" name="currency_code" value="USD" />
-        //<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        //</form>`,
+        //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="QSEZ9DXZAXF6C" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         blurb: `The NoU3 is the core of any amazing robot. Motor control, servo control, wireless capabilities, inertial measurement, and more. All in one package.`,
         description: `Five years after the release of the NoU2, and following 18 months of developement, Alfredo Systems is proud to offer the NoU3! This is our Magnum Opus. Perfect for powering any little robot. An all-in-one solution. Features:
         <ul class="browser-default">
             <li>Built in ESP32-S3 means no extra dev-board "hat" required. All in one!</li>
             <li>8 DC motor ports. (Two more than the NoU2, Double that of the original NoU!)</li>
             <li>6 of the motor ports are alternitively accessible through 6 pin JST-SH connectors, providing easy encoder support. (For example, with <a href="https://www.sparkfun.com/products/24053">these</a> motors).</li>
-            <li>Built in accelerometer, gyroscope, and magnetometer for 9 DOF sensor fusion.</li>
+            <li>Built in accelerometer and gyroscope for 6 DOF sensor fusion.</li>
             <li>USB-C for reliable code upload</li>
             <li>Great power management: switch mode regulators and high bulk capacatance means reduced risk of brownouts</li>
             <li><a href="https://www.sparkfun.com/qwiic">Qwiic compatible!</a></li>
         </ul>
-        <br\><br\>
-        <b>Why is the NoU3 in Beta?</b>
-        <br\>
-        The hardware design for the NoU3 is finailzed. The reason the NoU3 is in Beta is because software support and documentation is a work in progress. All the features you would expect like motors, servos, and wireless connection is supported. Here is what is coming soon to the NoU3 Arduino library:
-        <li>9 DOF sensor reading</li>
-        <li>Sensor fusion</li>
-        <li>Encoder support</li>
-        <li>Improved upload stability</li>
         <br\><br\>
         For more details, see our robot build tutorial (coming soon!). To get started programming your NoU3, see our <a href="https://alfredo-nou3.readthedocs.io/robot_programming_tutorial_Pesto_Link.html">programming tutorial</a>, which will walk you through the basics of uploading code and getting a NoU3 moving.
         <br\><br\>
