@@ -129,54 +129,21 @@ let products = [
         <li><a href="https://github.com/AlfredoSystems/NoU3-Hardware">Hardware Files (GitHub)</a></li>
         </ul>`
     },
-    {
-        name: "NoU2",
-        link: "alfredo-nou2",
-        image: "nou2-1.jpg",
-        price: "$13.27",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        //    <input type="hidden" name="cmd" value="_s-xclick">
-        //    <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
-        //    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        //    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        //    </form>`,
-        blurb: `Give power to your projects with this Alfredo-original <object><a href="/products/esp32">ESP32</a></object> shield. Built with six DC motor ports, support for four servos, a custom and intuitive library, and a sleek, compact design, the NoU2 is perfect for virtually any small robotics project.`,
-        description: `Simply plug a <object><a href="/products/9v-li-ion-battery">9V power source</a></object> into the <object><a href="/products/9v-barrel-jack">barrel jack</a></object> and the NoU2 is ready to drive your latest robotics project. The NoU2 marks the next advancement in Alfredo’s multipurpose small robotics technology. This shield improves on the features pioneered by the original NoU, including:
-        <ul class="browser-default">
-            <li>6 DC motor ports, two more than the original NoU</li>
-            <li>3.3V and 5V switch mode regulators reduce the risk of brownouts</li>
-            <li>Better power management using bulk and distributive capacitors</li>
-            <li>A power in barrel jack, lowering the chance of shorting your board</li>
-            <li>Library support for motors and servos</li>
-            <li>Improved GPIO pin layout</li>
-        </ul>
-        For more details, see our <a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">hardware documentation</a> and <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a>. To get started programming your NoU2, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU2">software library</a>, which will walk you through the basics of uploading code to an ESP32 and getting a NoU2 moving.
-        <br\><br\>
-        Resources:
-        <ul class="browser-default">
-            <li><a href="https://alfredo-nou2.readthedocs.io/en/latest/robot_programming_tutorial_Pesto_Link.html">Software Tutorial (ReadTheDocs)</a></li>
-            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
-            <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU2">Software library (GitHub)</a></li>
-            <li><a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">Hardware documentation (Google Docs)</a></li>
-            <li><a href="https://youtu.be/rcdbkeYA1rs">Robot build tutorial (YouTube)</a></li>
-        </ul>`
-    },
-    {
-        name: "ESP32",
-        link: "esp32",
-        image: "esp32-1.jpg",
-        price: "$6.71",
-        //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="QGQ9J4N7552BL">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `The ESP32 is a high-performance microcontroller perfect for projects ranging from small robots to large-scale IoT implementations. The ESP32 comes with built-in Wi-Fi and Bluetooth capability, making it an outstanding choice to wrap logic, wireless communication, and input/output into an elegant, tiny package.`,
-        description: `The ESP32 can be programmed with the <object><a href="https://www.arduino.cc/reference/en">Arduino language</a></object>, <object><a href="https://micropython.org/">MicroPython</a></object>, <object><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/">ESP-IDF</a></object>, and many more. Because of its integrated Bluetooth Low Energy chip, the ESP32 is ideal for hobby robotics applications.`
-    },
+    // {
+    //     name: "ESP32",
+    //     link: "esp32",
+    //     image: "esp32-1.jpg",
+    //     price: "$6.71",
+    //     //buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="QGQ9J4N7552BL">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `The ESP32 is a high-performance microcontroller perfect for projects ranging from small robots to large-scale IoT implementations. The ESP32 comes with built-in Wi-Fi and Bluetooth capability, making it an outstanding choice to wrap logic, wireless communication, and input/output into an elegant, tiny package.`,
+    //     description: `The ESP32 can be programmed with the <object><a href="https://www.arduino.cc/reference/en">Arduino language</a></object>, <object><a href="https://micropython.org/">MicroPython</a></object>, <object><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/">ESP-IDF</a></object>, and many more. Because of its integrated Bluetooth Low Energy chip, the ESP32 is ideal for hobby robotics applications.`
+    // },
     {
         name: "TT Motor",
         link: "tt-motor",
@@ -353,65 +320,65 @@ let products = [
             <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
         </ul>`
     },
-    {
-        name: "Arduino Uno Clone",
-        link: "uno",
-        image: "arduino-uno-1.jpg",
-        price: "$4.65",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="FTG4WJRY2AYAY">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `A classic microcontroller to bring any project to life. Connect servos, LEDs, switches, or other devices to the pins and program using the free <object><a href="https://www.arduino.cc/en/main/software">programming IDE provided by Arduino</a></object></object>.`,
-        description: `With thousands of tutorials crafted by members of the community, the Uno is a great microcontroller for any beginner project. An Uno can be powered through the barrel jack, USB-B port, or directly through its pins, offering a wide range of options. A versatile tool, the Uno can be used anywhere from simple robotics applications to complex home automation. An Uno can even be extended to fit any project requirements due to the <object><a href="https://learn.sparkfun.com/tutorials/arduino-shields/all">dozens of different shields</a></object> available, including the <object><a href="/products/adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object>.`
-    },
-    {
-        name: "Adafruit Motor Shield v1 Clone",
-        link: "adafruit-motor-shield-v1",
-        image: "adafruit-motor-shield-1.jpg",
-        price: "$4.65",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="7UKZC36MC5JE4">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `Streamline and simplify projects that require multiple motors by adding this simple motor shield. Just mount the shield to an <object><a href="/products/uno">Uno</a></object>, add up to 4 DC motors, and plug a power source into the screw-down terminals to get started.`,
-        description: `The <object><a href="/products/uno">Uno</a></object> on its own often can’t supply motors with the voltage and current they need. This shield provides a compact solution by adding ports for four DC motors and two servos, all powered by an external power source up to 25V. For help with setup and programming, check out <object><a href="https://learn.adafruit.com/adafruit-motor-shield/overview">Adafruit's step-by-step guide</a></object>.
-        <br/><br/>
-        If you're going to be using this shield with a <object><a href="/products/bt06/">BT06 Bluetooth module</a></object>, check out the <object><a href="/products/chip0-1.jpg">Chip0</a></object> for a simple option to robustly connect the two.`
-    },
-    {
-        name: "BT06",
-        link: "bt06",
-        image: "bt06-1.jpg",
-        price: "$3.32",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="46CMEPGSCCULJ">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `A wireless Bluetooth module with an easy-to-use four-pin interface.  This module makes communicating with your project wirelessly a piece of cake by turning Bluetooth communication into a standard Serial port, allowing you to wirelessly send input to your microcontroller as if you were connected over USB.`,
-        description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They're a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Uno</a></object> and a variety of other platforms.`
-    },
-    {
-        name: "Chip0",
-        unlisted: true,
-        link: "chip0",
-        image: "chip0-1.jpg",
-        price: "$1.37",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
-        description: ``
-    },
+    // {
+    //     name: "Arduino Uno Clone",
+    //     link: "uno",
+    //     image: "arduino-uno-1.jpg",
+    //     price: "$4.65",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="FTG4WJRY2AYAY">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `A classic microcontroller to bring any project to life. Connect servos, LEDs, switches, or other devices to the pins and program using the free <object><a href="https://www.arduino.cc/en/main/software">programming IDE provided by Arduino</a></object></object>.`,
+    //     description: `With thousands of tutorials crafted by members of the community, the Uno is a great microcontroller for any beginner project. An Uno can be powered through the barrel jack, USB-B port, or directly through its pins, offering a wide range of options. A versatile tool, the Uno can be used anywhere from simple robotics applications to complex home automation. An Uno can even be extended to fit any project requirements due to the <object><a href="https://learn.sparkfun.com/tutorials/arduino-shields/all">dozens of different shields</a></object> available, including the <object><a href="/products/adafruit-motor-shield-v1">Adafruit Motor Shield v1</a></object>.`
+    // },
+    // {
+    //     name: "Adafruit Motor Shield v1 Clone",
+    //     link: "adafruit-motor-shield-v1",
+    //     image: "adafruit-motor-shield-1.jpg",
+    //     price: "$4.65",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="7UKZC36MC5JE4">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `Streamline and simplify projects that require multiple motors by adding this simple motor shield. Just mount the shield to an <object><a href="/products/uno">Uno</a></object>, add up to 4 DC motors, and plug a power source into the screw-down terminals to get started.`,
+    //     description: `The <object><a href="/products/uno">Uno</a></object> on its own often can’t supply motors with the voltage and current they need. This shield provides a compact solution by adding ports for four DC motors and two servos, all powered by an external power source up to 25V. For help with setup and programming, check out <object><a href="https://learn.adafruit.com/adafruit-motor-shield/overview">Adafruit's step-by-step guide</a></object>.
+    //     <br/><br/>
+    //     If you're going to be using this shield with a <object><a href="/products/bt06/">BT06 Bluetooth module</a></object>, check out the <object><a href="/products/chip0-1.jpg">Chip0</a></object> for a simple option to robustly connect the two.`
+    // },
+    // {
+    //     name: "BT06",
+    //     link: "bt06",
+    //     image: "bt06-1.jpg",
+    //     price: "$3.32",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="46CMEPGSCCULJ">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `A wireless Bluetooth module with an easy-to-use four-pin interface.  This module makes communicating with your project wirelessly a piece of cake by turning Bluetooth communication into a standard Serial port, allowing you to wirelessly send input to your microcontroller as if you were connected over USB.`,
+    //     description: `BT06 modules have been a staple in wireless communication for small robotics projects for many years. They're a great option to send input using Bluetooth Classic to an <object><a href="/products/uno">Uno</a></object> and a variety of other platforms.`
+    // },
+    // {
+    //     name: "Chip0",
+    //     unlisted: true,
+    //     link: "chip0",
+    //     image: "chip0-1.jpg",
+    //     price: "$1.37",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="UMT9FCF7RJ4PJ">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
+    //     description: ``
+    // },
     {
         name: "9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack",
@@ -440,25 +407,25 @@ let products = [
         blurb: `A right angled form factor for the common 9V barrel jack cable.`,
         description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, now in a right-angled form factor!`
     },
-    {
-        name: "Mini Screwdriver",
-        link: "mini-screwdriver",
-        image: "mini-screwdriver-1.jpg",
-        price: "$0.50",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="EKDRU7E7WM2JE">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: "Phillips head mini-screwdriver, good for NoU2 terminals.",
-        description: `
-        Ever go to tighten down the terminal blocks on the NoU2, but you don't have a precision screwdriver? This mini screwdriver is perfect for the NoU2 terminal blocks. We carry these to help out folks who don't have labs or tools but want to build robots.
-        <ul class="browser-default">
-            <li>Length: 1.75 in</li>
-            <li>Mass: 1.2 g</li>
-        <ul/>`
-    },
+    // {
+    //     name: "Mini Screwdriver",
+    //     link: "mini-screwdriver",
+    //     image: "mini-screwdriver-1.jpg",
+    //     price: "$0.50",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="EKDRU7E7WM2JE">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: "Phillips head mini-screwdriver, good for NoU2 terminals.",
+    //     description: `
+    //     Ever go to tighten down the terminal blocks on the NoU2, but you don't have a precision screwdriver? This mini screwdriver is perfect for the NoU2 terminal blocks. We carry these to help out folks who don't have labs or tools but want to build robots.
+    //     <ul class="browser-default">
+    //         <li>Length: 1.75 in</li>
+    //         <li>Mass: 1.2 g</li>
+    //     <ul/>`
+    // },
     {
         name: "Micro-USB Cable",
         link: "microusb",
@@ -498,67 +465,100 @@ let products = [
             <li>Mass: 12 g</li>
         <ul/>`
     },
-    {
-        name: "MiniFRC Crescendo Note",
-        link: "crescendo-note",
-        image: "crescendo-note.jpg",
-        price: "$1.00",
-        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="P3UW8NTWSL6DN" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        </form>`,
-        blurb: "Orange ring game piece for MiniFRC: Crescendo.",
-        description: `
-        Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
+    // {
+    //     name: "MiniFRC Crescendo Note",
+    //     link: "crescendo-note",
+    //     image: "crescendo-note.jpg",
+    //     price: "$1.00",
+    //     buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    //     <input type="hidden" name="cmd" value="_s-xclick" />
+    //     <input type="hidden" name="hosted_button_id" value="P3UW8NTWSL6DN" />
+    //     <input type="hidden" name="currency_code" value="USD" />
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+    //     </form>`,
+    //     blurb: "Orange ring game piece for MiniFRC: Crescendo.",
+    //     description: `
+    //     Orange ring game piece for MiniFRC: Crescendo. These lightweight rings are custom cut from jumbo pool noodles.
         
-        <ul class="browser-default">
-            <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
-            <li>Material: PU foam</li>
-            <li>Mass: 2 g</li>
-        <ul/>`
-    },
-    {
-        name: "Mini Flywheel: Wagon Wheels",
-        link: "wagon-wheel",
-        image: "wagon-wheels.jpg",
-        price: "$1.00",
-        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="MXBGDMP8UMYY2" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        </form>`,
-        blurb: "Green Flywheel designed for shooting MiniFRC Crescendo Notes.",
-        description: `
-        Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.
+    //     <ul class="browser-default">
+    //         <li>Dimensions: 3.5 in OD x 1 in ID x 0.5in thick</li>
+    //         <li>Material: PU foam</li>
+    //         <li>Mass: 2 g</li>
+    //     <ul/>`
+    // },
+    // {
+    //     name: "Mini Flywheel: Wagon Wheels",
+    //     link: "wagon-wheel",
+    //     image: "wagon-wheels.jpg",
+    //     price: "$1.00",
+    //     buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    //     <input type="hidden" name="cmd" value="_s-xclick" />
+    //     <input type="hidden" name="hosted_button_id" value="MXBGDMP8UMYY2" />
+    //     <input type="hidden" name="currency_code" value="USD" />
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+    //     </form>`,
+    //     blurb: "Green Flywheel designed for shooting MiniFRC Crescendo Notes.",
+    //     description: `
+    //     Named after the pasta, these flywheels are meant to make playing MiniFRC Cresendo easier for everyone. These flywheels are designed for motors with 2mm shafts, like the ones found on TT-motors. check out our guide on <a href="https://www.alfredosys.com/news/tt-motor-flywheel-guide/">how to disassemble a TT-motor</a> to be used with a flywheel.
 
-        The design is <a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">open source on OnShape</a>, feel free to print your own!
-        <ul class="browser-default">
-            <li>Dimensions: 34mm diameter x 18mm tall x 2mm shaft hole</li>
-            <li>Material: Green PETG</li>
-            <li>Mass: 1 g</li>
-        <ul/>`
-    },
+    //     The design is <a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">open source on OnShape</a>, feel free to print your own!
+    //     <ul class="browser-default">
+    //         <li>Dimensions: 34mm diameter x 18mm tall x 2mm shaft hole</li>
+    //         <li>Material: Green PETG</li>
+    //         <li>Mass: 1 g</li>
+    //     <ul/>`
+    // },
+    // {
+    //     name: "Power Cell",
+    //     unlisted: true,
+    //     link: "power-cell",
+    //     image: "power-cell-1.jpg",
+    //     price: "$0.67",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: "Tiny 1.5\" foam power cell for MiniFRC: Infinite Recharge.",
+    //     description: `
+    //     <ul class="browser-default">
+    //         <li>Nominal diameter: 1.5 in</li>
+    //         <li>Material: foam</li>
+    //         <li>Expression: &nbsp; :) </li>
+    //     <ul/>`
+    // },
     {
-        name: "Power Cell",
-        unlisted: true,
-        link: "power-cell",
-        image: "power-cell-1.jpg",
-        price: "$0.67",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="7NEMB2BWQ4ZPG">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: "Tiny 1.5\" foam power cell for MiniFRC: Infinite Recharge.",
-        description: `
+        name: "NoU2",
+        link: "alfredo-nou2",
+        image: "nou2-1.jpg",
+        price: "$13.27",
+        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        //    <input type="hidden" name="cmd" value="_s-xclick">
+        //    <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
+        //    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        //    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        //    </form>`,
+        blurb: `Give power to your projects with this Alfredo-original <object><a href="/products/esp32">ESP32</a></object> shield. Built with six DC motor ports, support for four servos, a custom and intuitive library, and a sleek, compact design, the NoU2 is perfect for virtually any small robotics project.`,
+        description: `Simply plug a <object><a href="/products/9v-li-ion-battery">9V power source</a></object> into the <object><a href="/products/9v-barrel-jack">barrel jack</a></object> and the NoU2 is ready to drive your latest robotics project. The NoU2 marks the next advancement in Alfredo’s multipurpose small robotics technology. This shield improves on the features pioneered by the original NoU, including:
         <ul class="browser-default">
-            <li>Nominal diameter: 1.5 in</li>
-            <li>Material: foam</li>
-            <li>Expression: &nbsp; :) </li>
-        <ul/>`
+            <li>6 DC motor ports, two more than the original NoU</li>
+            <li>3.3V and 5V switch mode regulators reduce the risk of brownouts</li>
+            <li>Better power management using bulk and distributive capacitors</li>
+            <li>A power in barrel jack, lowering the chance of shorting your board</li>
+            <li>Library support for motors and servos</li>
+            <li>Improved GPIO pin layout</li>
+        </ul>
+        For more details, see our <a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">hardware documentation</a> and <a href="https://youtu.be/rcdbkeYA1rs">robot build tutorial</a>. To get started programming your NoU2, see our <a href="https://github.com/AlfredoSystems/Alfredo-NoU2">software library</a>, which will walk you through the basics of uploading code to an ESP32 and getting a NoU2 moving.
+        <br\><br\>
+        Resources:
+        <ul class="browser-default">
+            <li><a href="https://alfredo-nou2.readthedocs.io/en/latest/robot_programming_tutorial_Pesto_Link.html">Software Tutorial (ReadTheDocs)</a></li>
+            <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
+            <li><a href="https://github.com/AlfredoSystems/Alfredo-NoU2">Software library (GitHub)</a></li>
+            <li><a href="https://docs.google.com/document/d/1xatrMuHrZ7HsmaopmlK5GsymU6mwvFDWN0sumO9AQQ0/edit?usp=sharing">Hardware documentation (Google Docs)</a></li>
+            <li><a href="https://youtu.be/rcdbkeYA1rs">Robot build tutorial (YouTube)</a></li>
+        </ul>`
     },
 ]
