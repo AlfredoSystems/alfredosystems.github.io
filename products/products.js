@@ -379,20 +379,20 @@ let products = [
     //     blurb: `The Chip0 (affectionately pronounced "chippo") robustly connects a <object><a href="/products/bt06">BT06 Bluetooth module</a></object> to an <object><a href="/products/adafruit-motor-shield-v1">Adafruit motor shield v1</a></object>.`,
     //     description: ``
     // },
-    {
-        name: "9V Battery Barrel Jack Cable",
-        link: "9v-barrel-jack",
-        image: "9v-barrel-jack-1.jpg",
-        price: "<s>$2.93</s> $1.50",
-        buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="RYY2YVJLRCKZN">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>`,
-        blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It's as simple as that!`,
-        description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
-    },
+    // {
+    //     name: "9V Battery Barrel Jack Cable",
+    //     link: "9v-barrel-jack",
+    //     image: "9v-barrel-jack-1.jpg",
+    //     price: "<s>$2.93</s> $1.50",
+    //     buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    //     <input type="hidden" name="cmd" value="_s-xclick">
+    //     <input type="hidden" name="hosted_button_id" value="RYY2YVJLRCKZN">
+    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    //     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    //     </form>`,
+    //     blurb: `Just snap any 9V battery into this cable and connect the barrel jack to your board. It's as simple as that!`,
+    //     description: `These cables connect a 9 volt battery to any 5.5 mm x 2.1 mm female barrel jack. For robotics applications, these come highly recommended as a way to reduce the likelihood of a short from loose power or ground wires.`
+    // },
     {
         name: "Right Angled 9V Battery Barrel Jack Cable",
         link: "9v-barrel-jack-right-angled",
