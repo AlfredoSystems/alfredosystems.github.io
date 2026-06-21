@@ -52,27 +52,26 @@ let products = [
             <li><a href="https://cad.onshape.com/documents/ea965d4ce80ccd296b5afb94/w/3eb5d4d7aff49c1380c0f78a/e/9b89d15597199d74b8685b98?renderMode=0&uiState=68126de7672a723c74bd1359">OnShape CAD</a></li>
         </ul>`
     },
-    // {
-    //     name: "MiniFRC Reefscape Coral",
-    //     link: "reefscape-coral",
-    //     image: "reefscape-coral.jpg",
-    //     price: "$1.00",
-    //     buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-    //     <input type="hidden" name="cmd" value="_s-xclick" />
-    //     <input type="hidden" name="hosted_button_id" value="XFLJPF2DY8T46" />
-    //     <input type="hidden" name="currency_code" value="USD" />
-    //     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-    //     </form>`,
-    //     blurb: "Plastic pipe game piece for MiniFRC: Reefscape.",
-    //     description: `
-    //     Plastic pipe game piece for MiniFRC: Reefscape. Why arn't they cut PVC pipes? Stop asking questions!
-        
-    //     <ul class="browser-default">
-    //         <li>Dimensions: 1.2 inch diameter, 2.6 inches long</li>
-    //         <li>Material: PLA</li>
-    //         <li>Mass: 14g</li>
-    //     <ul/>`
-    // },
+    {
+        name: "MiniFRC Rebuilt Fuel (qty 3)",
+        link: "rebuilt-fuel",
+        image: "fuel-1.jpg",
+        price: "$1.00",
+        buy: `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="JQWX935PQGEPJ" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
+        blurb: "Foam fuel for MiniFRC: Rebuilt.",
+        description: `
+        <ul class="browser-default">
+            <li>Dimensions: 29mm diameter</li>
+            <li>Material: foam</li>
+            <li>Mass: 3g</li>
+            <li>Expression: &nbsp; :) </li>
+        <ul/>`
+    },
     {
         name: "NoU3",
         link: "alfredo-nou3",
