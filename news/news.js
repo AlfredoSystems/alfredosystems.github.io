@@ -1,5 +1,14 @@
 let newsList = [
     {
+        title: "Introducing borc.io: The Blue Alliance for MiniFRC",
+        link: "/news/borc/",
+        image: "borc-1.png",
+        blurb: "MiniFRC rankings, match results, robot photos, and awards for every event, all in one place.",
+        author: "Jacob Williams",
+        date: "5 August, 2026",
+        contents: "contents"
+    },
+    {
         title: "MKCad for MiniFRC: The Updated Alfredo CAD Package",
         link: "/news/onshape-alfredo-cad-package/",
         image: "onshape-alfredo-cad-package.jpg",
