@@ -88,8 +88,8 @@ let products = [
         description: `Five years after the release of the NoU2, and following 18 months of developement, Alfredo Systems is proud to offer the NoU3! This is our Magnum Opus. Perfect for powering any little robot. An all-in-one solution. Features:
         <ul class="browser-default">
             <li>Built in ESP32-S3 means no extra dev-board "hat" required. All in one!</li>
-            <li>8 DC motor ports. (Two more than the NoU2, Double that of the original NoU!)</li>
-            <li>6 of the motor ports are alternitively accessible through 6 pin JST-SH connectors, providing easy encoder support. (For example, with <a href="https://www.sparkfun.com/products/24053">these</a> motors).</li>
+            <li>eight DC motor ports. (Two more than the NoU2, Double that of the original NoU!)</li>
+            <li>seven of the motor ports are alternitively accessible through JST-SH connectors, providing easy encoder support. (For example, with <a href="https://www.sparkfun.com/products/24053">these</a> motors).</li>
             <li>Built in accelerometer and gyroscope for 6 DOF sensor fusion.</li>
             <li>USB-C for reliable code upload</li>
             <li>Great power management: switch mode regulators and high bulk capacatance means reduced risk of brownouts</li>
@@ -511,7 +511,7 @@ let products = [
         link: "alfredo-nou2",
         image: "nou2-1.jpg",
         price: "$13.27",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        buy: `<strong style="color: red">Discontinued!</strong><br/>`,
         //buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         //    <input type="hidden" name="cmd" value="_s-xclick">
         //    <input type="hidden" name="hosted_button_id" value="7CB7HWP37ALSE">
