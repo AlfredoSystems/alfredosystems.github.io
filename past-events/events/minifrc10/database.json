@@ -1,0 +1,2528 @@
+{
+    "teams": [
+        {
+            "Number": 11,
+            "Name": "",
+            "id": "d812e036-ef04-478c-d3e5-364107037092"
+        },
+        {
+            "Number": 25,
+            "Name": "",
+            "id": "c56ae305-1ff3-4907-c8bb-d37a713c2e42"
+        },
+        {
+            "Number": 30,
+            "Name": "",
+            "id": "bcbdcfb5-88e8-428c-a871-1ea88b24f6f5"
+        },
+        {
+            "Number": 31,
+            "Name": "",
+            "id": "0773368f-ff15-4f06-b2c7-ed6ab0544666"
+        },
+        {
+            "Number": 37,
+            "Name": "",
+            "id": "88b93415-59ed-48e7-ad4e-13198d5ba073"
+        },
+        {
+            "Number": 40,
+            "Name": "",
+            "id": "a86aa8dc-e894-40c9-b303-f1cf15c657c5"
+        },
+        {
+            "Number": 42,
+            "Name": "",
+            "id": "14c12433-873d-4bb9-ef49-f1b41fd10e9a"
+        },
+        {
+            "Number": 43,
+            "Name": "",
+            "id": "71ba7ff6-163f-46b9-859a-033f69188d7c"
+        },
+        {
+            "Number": 46,
+            "Name": "",
+            "id": "1ce22cb6-0631-4205-ea6b-1a804600e0e1"
+        },
+        {
+            "Number": 49,
+            "Name": "",
+            "id": "270261d0-7a41-4a20-9b8a-9865a11554df"
+        },
+        {
+            "Number": 54,
+            "Name": "",
+            "id": "e0669ab9-f9e1-4a02-aa3f-50164209d5e8"
+        },
+        {
+            "Number": 57,
+            "Name": "",
+            "id": "f724441a-4bb9-4e46-fad8-51b6bbe197e7"
+        },
+        {
+            "Number": 59,
+            "Name": "",
+            "id": "0d18f3dd-60b4-4060-ece9-89c9e14e9fd9"
+        },
+        {
+            "Number": 67,
+            "Name": "",
+            "id": "e6f28540-8e10-4b12-f2d9-26e1216e6837"
+        },
+        {
+            "Number": 68,
+            "Name": "",
+            "id": "dcf87a8b-eb6d-491a-8e00-3608ea43786a"
+        },
+        {
+            "Number": 70,
+            "Name": "",
+            "id": "a0338d8d-985f-4b74-a18b-9833f0106bbc"
+        },
+        {
+            "Number": 72,
+            "Name": "",
+            "id": "cadf4b5f-6d76-42bd-f1ca-864bf4099bb0"
+        },
+        {
+            "Number": 73,
+            "Name": "",
+            "id": "cd6fcebb-0971-42ff-9b75-8e23090aa494"
+        },
+        {
+            "Number": 74,
+            "Name": "",
+            "id": "06cdd3d2-ea51-4181-c3ae-2956faa7acde"
+        },
+        {
+            "Number": 75,
+            "Name": "",
+            "id": "226a3984-2bc6-41fc-c240-3a7f924817a1"
+        },
+        {
+            "Number": 76,
+            "Name": "",
+            "id": "76428ce2-538a-40f7-eb13-ce72ec0ba07b"
+        },
+        {
+            "Number": 77,
+            "Name": "",
+            "id": "5ae66a4f-dbf9-4276-f4f1-80708f1b437f"
+        }
+    ],
+    "matches": [
+        {
+            "number": 1,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                75,
+                73,
+                68
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 7,
+            "redLeaves": 0,
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 1,
+            "redSpeakerNotes": 3,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": true,
+            "redStage": [
+                0,
+                0,
+                0
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                25,
+                40,
+                59
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 23,
+            "blueLeaves": "1",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": true,
+            "blueStage": [
+                1,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 1,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "d33358c8-8161-407e-fbdb-6f81b9ed5a4b"
+        },
+        {
+            "number": 2,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                74,
+                49,
+                57
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 14,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": true,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                37,
+                11,
+                42
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 30,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 4,
+            "blueSpeakerNotes": 2,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "30183cca-f31c-466b-ce4c-8684deef8b30"
+        },
+        {
+            "number": 3,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                31,
+                70,
+                54
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 25,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 6,
+            "redSpeakerNotes": 3,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 1,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                76,
+                77,
+                30
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 14,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 2,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 1,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "e49d81ec-3e03-4794-a1de-ed6f75972332"
+        },
+        {
+            "number": 4,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                72,
+                37,
+                67
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 10,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                11,
+                43,
+                46
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 18,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 1,
+            "blueSpeakerNotes": 6,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                0,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "b0e4ffae-df07-4a00-dac6-8f7d68945364"
+        },
+        {
+            "number": 5,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                54,
+                57,
+                40
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 38,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 3,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                75,
+                74,
+                25
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 3,
+            "blueLeaves": 0,
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "13eb0107-c7d2-436c-e584-725e0e36151e"
+        },
+        {
+            "number": 6,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                72,
+                42,
+                30
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 21,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 1,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                68,
+                43,
+                70
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 36,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 8,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "598bde69-d2ad-4c45-c8bc-972ec6462388"
+        },
+        {
+            "number": 7,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                59,
+                76,
+                49
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 26,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                3,
+                3,
+                3
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 3,
+            "redMelody": false,
+            "redEnsemble": true,
+            "blueTeams": [
+                67,
+                31,
+                73
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 15,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 2,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "c888cb87-1c19-4065-e353-8ff40a412682"
+        },
+        {
+            "number": 8,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                46,
+                75,
+                70
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 25,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 1,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 3,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                77,
+                54,
+                43
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 40,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 2,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "0018a552-021f-4671-b021-7fcb3663caca"
+        },
+        {
+            "number": 9,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Tie",
+            "redTeams": [
+                67,
+                11,
+                57
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 24,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 5,
+            "redSpeakerNotes": 3,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": true,
+            "redStage": [
+                0,
+                0,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                31,
+                30,
+                40
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 24,
+            "blueLeaves": "1",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": true,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "83f1b5e4-7908-49ce-f134-131ca7ce0a90"
+        },
+        {
+            "number": 10,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                73,
+                37,
+                49
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 9,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 3,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                76,
+                72,
+                68
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 12,
+            "blueLeaves": "1",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 2,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "7bb32d3e-774c-454c-e59c-ef3cc329f258"
+        },
+        {
+            "number": 11,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                42,
+                77,
+                74
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 31,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 5,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                3,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                59,
+                46,
+                25
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 9,
+            "blueLeaves": 0,
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 4,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "ce29e0a3-dbb1-426a-ad37-86fc53fc6213"
+        },
+        {
+            "number": 12,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                49,
+                72,
+                43
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 15,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 2,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                57,
+                76,
+                75
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 30,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 6,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "50c7d92e-b490-4528-bc38-caa1182c30fd"
+        },
+        {
+            "number": 13,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                77,
+                46,
+                67
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 7,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                0,
+                0
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 1,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                40,
+                54,
+                37
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 34,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 5,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "ab8302fc-0d3b-4a65-c9ea-ecefbe6f70da"
+        },
+        {
+            "number": 14,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                68,
+                25,
+                11
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 22,
+            "redLeaves": "0",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 1,
+            "redSpeakerNotes": 5,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 2,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                30,
+                70,
+                74
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 12,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 1,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 1,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                3
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "7629e12d-4b8c-4500-f971-30733e458fa9"
+        },
+        {
+            "number": 15,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                73,
+                59,
+                77
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 7,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 1,
+            "redSpeakerNotes": 1,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                42,
+                31,
+                57
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 29,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": true,
+            "blueStage": [
+                1,
+                1,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "950d7d84-cf4f-4438-86a6-e3b049408f9e"
+        },
+        {
+            "number": 16,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                68,
+                30,
+                75
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 11,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 1,
+            "redSpeakerNotes": 3,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                25,
+                67,
+                76
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 32,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 2,
+            "blueSpeakerNotes": 7,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "67edab27-341b-47af-d487-c4aa6a079df5"
+        },
+        {
+            "number": 17,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                31,
+                59,
+                43
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 14,
+            "redLeaves": 0,
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 6,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                37,
+                74,
+                46
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 23,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 4,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "f4f4c0f2-6226-4f86-f061-8630340b23e6"
+        },
+        {
+            "number": 18,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                11,
+                40,
+                72
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 36,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 2,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                3,
+                3,
+                3
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 2,
+            "redMelody": false,
+            "redEnsemble": true,
+            "blueTeams": [
+                73,
+                42,
+                54
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 28,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 6,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "b99c8fbc-50b6-4113-843f-74b38e4acdf3"
+        },
+        {
+            "number": 19,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                59,
+                57,
+                70
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 20,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 1,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                49,
+                30,
+                46
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 16,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 5,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                3,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "fe7edab2-49ae-4d97-b92c-75c175a0417a"
+        },
+        {
+            "number": 20,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                75,
+                40,
+                42
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 40,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 2,
+            "redAmpedSpeakerNotes": 3,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 1,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                37,
+                76,
+                31
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 16,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 5,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 1,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "13239ae9-79a1-4d8d-c809-984ad26f2f9d"
+        },
+        {
+            "number": 21,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                74,
+                67,
+                68
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 31,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 3,
+            "redSpeakerNotes": 3,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": true,
+            "redStage": [
+                1,
+                1,
+                3
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                70,
+                72,
+                77
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 12,
+            "blueLeaves": "1",
+            "blueAutoAmpNotes": 1,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 4,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": true,
+            "blueStage": [
+                1,
+                1,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "b14cdd82-6bf3-4cf7-bef3-b6e866315bc9"
+        },
+        {
+            "number": 22,
+            "set": 0,
+            "type": "Qualification",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                43,
+                25,
+                73
+            ],
+            "redNumber": 0,
+            "redMatchPoints": 17,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 5,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                54,
+                49,
+                11
+            ],
+            "blueNumber": 0,
+            "blueMatchPoints": 24,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 8,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 2,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "d31819d7-6fcc-4a71-b668-2227db080660"
+        },
+        {
+            "number": 1,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                42,
+                68,
+                30
+            ],
+            "redNumber": 4,
+            "redMatchPoints": 29,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 5,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                76,
+                43,
+                73
+            ],
+            "blueNumber": 5,
+            "blueMatchPoints": 22,
+            "blueLeaves": "1",
+            "blueAutoAmpNotes": 1,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 1,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 1,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "c8dcb12f-5d4d-4829-a6d8-6ff1b37fde2a"
+        },
+        {
+            "number": 2,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                11,
+                46,
+                31
+            ],
+            "redNumber": 2,
+            "redMatchPoints": 15,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                0,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 1,
+            "redTechFouls": 2,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                70,
+                25,
+                49
+            ],
+            "blueNumber": 7,
+            "blueMatchPoints": 40,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 1,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 5,
+            "blueSpeakerNotes": 3,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 3,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "eed83085-ae03-4303-d04d-e773b924cd8c"
+        },
+        {
+            "number": 3,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                57,
+                67,
+                72
+            ],
+            "redNumber": 3,
+            "redMatchPoints": 21,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                0,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                37,
+                74,
+                59
+            ],
+            "blueNumber": 6,
+            "blueMatchPoints": 25,
+            "blueLeaves": "1",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 2,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                3
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 2,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "1f0e7b10-bbaa-4a3b-bd24-d907fbf744a5"
+        },
+        {
+            "number": 4,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                11,
+                46,
+                31
+            ],
+            "redNumber": 2,
+            "redMatchPoints": 12,
+            "redLeaves": "1",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 3,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                0,
+                0
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 1,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                57,
+                67,
+                72
+            ],
+            "blueNumber": 3,
+            "blueMatchPoints": 40,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 3,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "0e2985f5-7bf5-4bb1-97f0-7a556e26923d"
+        },
+        {
+            "number": 5,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                40,
+                54,
+                77
+            ],
+            "redNumber": 1,
+            "redMatchPoints": 29,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 1,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 1,
+            "redAmpedSpeakerNotes": 2,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                42,
+                68,
+                30
+            ],
+            "blueNumber": 4,
+            "blueMatchPoints": 52,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 2,
+            "blueSpeakerNotes": 7,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "b14d589c-89b4-41fa-b35a-138997bd0311"
+        },
+        {
+            "number": 6,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                70,
+                25,
+                49
+            ],
+            "redNumber": 7,
+            "redMatchPoints": 18,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 6,
+            "redSpeakerNotes": 2,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                37,
+                74,
+                59
+            ],
+            "blueNumber": 6,
+            "blueMatchPoints": 19,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "6f169732-db71-4a7c-dc23-01a9970b1c80"
+        },
+        {
+            "number": 7,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                40,
+                54,
+                77
+            ],
+            "redNumber": 1,
+            "redMatchPoints": 33,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 2,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                57,
+                67,
+                72
+            ],
+            "blueNumber": 3,
+            "blueMatchPoints": 32,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 4,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "85cb1c0b-a037-4454-d776-0425cff42ba9"
+        },
+        {
+            "number": 8,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                70,
+                25,
+                49
+            ],
+            "redNumber": 7,
+            "redMatchPoints": 31,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 5,
+            "redSpeakerNotes": 4,
+            "redAmpedSpeakerNotes": 2,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                76,
+                43,
+                73
+            ],
+            "blueNumber": 5,
+            "blueMatchPoints": 26,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 1,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 3,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 2,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "faad2889-a24a-4a9e-cbac-760b8a6443fb"
+        },
+        {
+            "number": 9,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Red win",
+            "redTeams": [
+                42,
+                68,
+                30
+            ],
+            "redNumber": 4,
+            "redMatchPoints": 38,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 7,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                37,
+                74,
+                59
+            ],
+            "blueNumber": 6,
+            "blueMatchPoints": 31,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 4,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "6ee52c5d-2f09-49b2-c994-d9f64f54c677"
+        },
+        {
+            "number": 10,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                70,
+                25,
+                49
+            ],
+            "redNumber": 7,
+            "redMatchPoints": 23,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 1,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 5,
+            "redSpeakerNotes": 1,
+            "redAmpedSpeakerNotes": 1,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                40,
+                54,
+                77
+            ],
+            "blueNumber": 1,
+            "blueMatchPoints": 36,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 7,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 1,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "12d4309a-493e-4973-c56c-f227d72802ac"
+        },
+        {
+            "number": 11,
+            "set": 0,
+            "type": "Playoff",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                37,
+                74,
+                59
+            ],
+            "redNumber": 6,
+            "redMatchPoints": 21,
+            "redLeaves": "3",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                3,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                40,
+                54,
+                77
+            ],
+            "blueNumber": 1,
+            "blueMatchPoints": 28,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 1,
+            "blueAmpNotes": 3,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 1,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "280b84e4-c23c-42e4-f13b-cfad0636c6a9"
+        },
+        {
+            "number": 1,
+            "set": 0,
+            "type": "Final",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                42,
+                68,
+                30
+            ],
+            "redNumber": 4,
+            "redMatchPoints": 33,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 2,
+            "redSpeakerNotes": 7,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                40,
+                54,
+                77
+            ],
+            "blueNumber": 1,
+            "blueMatchPoints": 37,
+            "blueLeaves": "2",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 3,
+            "blueAmpNotes": 4,
+            "blueSpeakerNotes": 3,
+            "blueAmpedSpeakerNotes": 1,
+            "blueCoopertition": false,
+            "blueStage": [
+                1,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "7148b258-af14-4bca-b6cd-0909d225fc6b"
+        },
+        {
+            "number": 2,
+            "set": 0,
+            "type": "Final",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Blue win",
+            "redTeams": [
+                42,
+                68,
+                30
+            ],
+            "redNumber": 4,
+            "redMatchPoints": 34,
+            "redLeaves": "2",
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 2,
+            "redAmpNotes": 4,
+            "redSpeakerNotes": 4,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                1,
+                1,
+                1
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 1,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                40,
+                54,
+                77
+            ],
+            "blueNumber": 1,
+            "blueMatchPoints": 35,
+            "blueLeaves": "3",
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 2,
+            "blueAmpNotes": 5,
+            "blueSpeakerNotes": 1,
+            "blueAmpedSpeakerNotes": 2,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                1,
+                1
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "0996d586-bc7b-4386-a79a-47e6a5c48e40"
+        },
+        {
+            "number": 3,
+            "set": 0,
+            "type": "Final",
+            "disqualifications": [],
+            "surrogates": [],
+            "result": "Undetermined",
+            "redTeams": [
+                42,
+                68,
+                30
+            ],
+            "redNumber": 4,
+            "redMatchPoints": 0,
+            "redLeaves": 0,
+            "redAutoAmpNotes": 0,
+            "redAutoSpeakerNotes": 0,
+            "redAmpNotes": 0,
+            "redSpeakerNotes": 0,
+            "redAmpedSpeakerNotes": 0,
+            "redCoopertition": false,
+            "redStage": [
+                0,
+                0,
+                0
+            ],
+            "redTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "redHarmony": 0,
+            "redFouls": 0,
+            "redTechFouls": 0,
+            "redMelody": false,
+            "redEnsemble": false,
+            "blueTeams": [
+                40,
+                54,
+                77
+            ],
+            "blueNumber": 1,
+            "blueMatchPoints": 0,
+            "blueLeaves": 0,
+            "blueAutoAmpNotes": 0,
+            "blueAutoSpeakerNotes": 0,
+            "blueAmpNotes": 0,
+            "blueSpeakerNotes": 0,
+            "blueAmpedSpeakerNotes": 0,
+            "blueCoopertition": false,
+            "blueStage": [
+                0,
+                0,
+                0
+            ],
+            "blueTrapNotes": [
+                false,
+                false,
+                false
+            ],
+            "blueHarmony": 0,
+            "blueFouls": 0,
+            "blueTechFouls": 0,
+            "blueMelody": false,
+            "blueEnsemble": false,
+            "id": "143e3c89-6849-4632-db80-68cb3e4c79bf"
+        }
+    ]
+}

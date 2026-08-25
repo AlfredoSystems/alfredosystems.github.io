@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Events | Alfredo Systems</title>
+    <!-- Alfredo Systems site chrome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Load Tailwind CSS for simple, clean, and responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Use Inter font globally */
+        body { font-family: 'Inter', sans-serif; background-color: #f4f7f9; }
+        .borc-card { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+        .accent-border { border-color: #4dae50; }
+        .accent-text { color: #4dae50; }
+        .event-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .event-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+    <style>
+        /* Reconcile the Materialize navbar with Tailwind's reset on this page */
+        /* Materialize scales the root font size by breakpoint; this page's layout assumes 16px */
+        html { font-size: 16px; }
+        /* body has padding here, so anchor the fixed nav to the viewport instead of its static spot */
+        .navbar-fixed nav { top: 0; left: 0; }
+        .navbar-fixed img, .navbar-fixed input[type="image"] { display: inline-block; vertical-align: middle; }
+        .navbar-fixed nav ul, #mobile-sidenav { list-style: none; }
+        .navbar-fixed .brand-logo { text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        body tr { border-bottom: none; }
+        body td, body th { border-radius: 0; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Page Header -->
+        <div class="bg-white borc-card p-6 rounded-xl mb-8 border-t-4 accent-border">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-800">
+                MiniFRC Event Index
+            </h1>
+            <p class="mt-2 text-gray-600">Like The Blue Alliance, but for MiniFRC! Click on an event to see details, match results, and more.</p>
+        </div>
+
+        <!-- Event List Container -->
+        <div id="event-list" class="space-y-4">
+            <!-- Events will be dynamically inserted here -->
+            <p id="loading-message" class="text-center text-gray-500">Loading events...</p>
+        </div>
+    </div>
+
+    <!-- JavaScript to Fetch and Display Data -->
+    <script>
+        document.addEventListener('DOMContentLoaded', loadEventList);
+
+        /**
+         * Fetches a manifest of event IDs, then fetches details for each event,
+         * sorts them by date, and renders them on the page.
+         */
+        async function loadEventList() {
+            const eventListContainer = document.getElementById('event-list');
+            const loadingMessage = document.getElementById('loading-message');
+
+            try {
+                // 1. Define the list of event IDs directly in the script.
+                // To add a new event, add its JSON filename (without the extension) to this array.
+                const eventIds = ["minifrc12", "minifrc11.5", "minifrc11", "minifrc10.5", "minifrc10", "minifrc9.5", "minifrc9se", "minifrc9", "minifrc8", "minifrc6.5", "minifrc6"];
+
+                if (!eventIds || eventIds.length === 0) {
+                    loadingMessage.textContent = 'No events found.';
+                    return;
+                }
+
+                // 2. Fetch details for each event in parallel
+                const eventPromises = eventIds.map(id => 
+                    fetch(`./events/${id}/event_data.json`).then(res => res.json())
+                );
+                const events = await Promise.all(eventPromises);
+
+                // 3. Sort events by date (newest first)
+                events.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                // 4. Clear loading message and render events
+                eventListContainer.innerHTML = '';
+                events.forEach(event => {
+                    const eventCard = document.createElement('a');
+                    eventCard.href = `./event.html?event=${event.event_id}`;
+                    eventCard.className = 'block bg-white borc-card rounded-xl p-5 event-card';
+                    
+                    eventCard.innerHTML = `
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-medium accent-text">${event.game_title || 'Robotics Game'}</p>
+                                <h2 class="text-xl font-bold text-gray-800 mt-1">${event.event_name}</h2>
+                            </div>
+                            <div class="text-right flex-shrink-0 ml-4">
+                                <p class="text-sm font-medium text-gray-700">${new Date(event.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}</p>
+                                <p class="text-xs text-gray-500">${event.location}</p>
+                            </div>
+                        </div>
+                    `;
+                    eventListContainer.appendChild(eventCard);
+                });
+
+            } catch (error) {
+                console.error("Failed to load event list:", error);
+                loadingMessage.innerHTML = `
+                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg" role="alert">
+                        <strong class="font-bold">Error:</strong>
+                        <span class="block sm:inline">${error.message}</span>
+                    </div>
+                `;
+            }
+        }
+    </script>
+    <script src="/templates/navbar.js"></script>
+</body>
+</html>

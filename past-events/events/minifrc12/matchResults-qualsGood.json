@@ -1,0 +1,2144 @@
+[
+  {
+    "matchNumber": 1,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 11
+      },
+      {
+        "minute": 31
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "73",
+          "94",
+          "59"
+        ],
+        "points": 5,
+        "fuelScored": 5,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "122",
+          "126",
+          "109"
+        ],
+        "points": 6,
+        "fuelScored": 6,
+        "autoClimbs": 1,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 2,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 11
+      },
+      {
+        "minute": 43
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "93",
+          "18",
+          "120"
+        ],
+        "points": 14,
+        "fuelScored": 9,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "49",
+          "2",
+          "132"
+        ],
+        "points": 55,
+        "fuelScored": 55,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 3,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 11
+      },
+      {
+        "minute": 54
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "99",
+          "73",
+          "94"
+        ],
+        "points": 21,
+        "fuelScored": 6,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "127",
+          "97",
+          "140"
+        ],
+        "points": 6,
+        "fuelScored": 6,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 1,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 4,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 3
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "49",
+          "40",
+          "39"
+        ],
+        "points": 72,
+        "fuelScored": 62,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "109",
+          "83",
+          "2"
+        ],
+        "points": 122,
+        "fuelScored": 122,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": true,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 5,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 10
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "122",
+          "50",
+          "120"
+        ],
+        "points": 30,
+        "fuelScored": 30,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "18",
+          "94",
+          "128"
+        ],
+        "points": 8,
+        "fuelScored": 8,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 6,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 20
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "129",
+          "99",
+          "39"
+        ],
+        "points": 27,
+        "fuelScored": 17,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 1,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "83",
+          "74",
+          "126"
+        ],
+        "points": 28,
+        "fuelScored": 23,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 7,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 29
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "128",
+          "97",
+          "142"
+        ],
+        "points": 10,
+        "fuelScored": 10,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "131",
+          "127",
+          "18"
+        ],
+        "points": 15,
+        "fuelScored": 5,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 8,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 39
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "40",
+          "132",
+          "120"
+        ],
+        "points": 34,
+        "fuelScored": 29,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "126",
+          "140",
+          "59"
+        ],
+        "points": 9,
+        "fuelScored": 9,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 9,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 49
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "128",
+          "49",
+          "122"
+        ],
+        "points": 23,
+        "fuelScored": 18,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 1,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "99",
+          "50",
+          "39"
+        ],
+        "points": 59,
+        "fuelScored": 49,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 10,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 12
+      },
+      {
+        "minute": 57
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "97",
+          "18",
+          "126"
+        ],
+        "points": 11,
+        "fuelScored": 11,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "109",
+          "131",
+          "74"
+        ],
+        "points": 26,
+        "fuelScored": 11,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 11,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 4
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "120",
+          "73",
+          "93"
+        ],
+        "points": 5,
+        "fuelScored": 5,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "142",
+          "127",
+          "132"
+        ],
+        "points": 5,
+        "fuelScored": 5,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 12,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 10
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "74",
+          "140",
+          "109"
+        ],
+        "points": 22,
+        "fuelScored": 17,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 2,
+        "TechFouls": 1,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "50",
+          "83",
+          "99"
+        ],
+        "points": 55,
+        "fuelScored": 30,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 13,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 18
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "59",
+          "93",
+          "40"
+        ],
+        "points": 46,
+        "fuelScored": 41,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "39",
+          "94",
+          "128"
+        ],
+        "points": 35,
+        "fuelScored": 30,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 1,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 14,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 25
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "109",
+          "129",
+          "122"
+        ],
+        "points": 13,
+        "fuelScored": 13,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "132",
+          "49",
+          "127"
+        ],
+        "points": 67,
+        "fuelScored": 57,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 2,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 15,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 34
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "126",
+          "97",
+          "50"
+        ],
+        "points": 22,
+        "fuelScored": 22,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "2",
+          "131",
+          "93"
+        ],
+        "points": 66,
+        "fuelScored": 56,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 16,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 42
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "73",
+          "40",
+          "74"
+        ],
+        "points": 25,
+        "fuelScored": 10,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 3,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "59",
+          "18",
+          "109"
+        ],
+        "points": 24,
+        "fuelScored": 24,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 17,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 50
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "129",
+          "140",
+          "122"
+        ],
+        "points": 7,
+        "fuelScored": 7,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "126",
+          "50",
+          "97"
+        ],
+        "points": 14,
+        "fuelScored": 14,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 18,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 13
+      },
+      {
+        "minute": 59
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "74",
+          "131",
+          "2"
+        ],
+        "points": 133,
+        "fuelScored": 118,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": true,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "83",
+          "132",
+          "142"
+        ],
+        "points": 25,
+        "fuelScored": 20,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 19,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 14
+      },
+      {
+        "minute": 9
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "99",
+          "73",
+          "122"
+        ],
+        "points": 14,
+        "fuelScored": 14,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "59",
+          "93",
+          "49"
+        ],
+        "points": 85,
+        "fuelScored": 70,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 3,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 20,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 14
+      },
+      {
+        "minute": 17
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "94",
+          "39",
+          "129"
+        ],
+        "points": 53,
+        "fuelScored": 38,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "128",
+          "120",
+          "83"
+        ],
+        "points": 66,
+        "fuelScored": 61,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 2,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 21,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 14
+      },
+      {
+        "minute": 23
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "127",
+          "131",
+          "18"
+        ],
+        "points": 22,
+        "fuelScored": 7,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "142",
+          "93",
+          "140"
+        ],
+        "points": 9,
+        "fuelScored": 9,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 1,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 22,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 14
+      },
+      {
+        "minute": 32
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "74",
+          "40",
+          "129"
+        ],
+        "points": 38,
+        "fuelScored": 13,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 2,
+        "fouls": 3,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "2",
+          "59",
+          "97"
+        ],
+        "points": 100,
+        "fuelScored": 85,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 1,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 23,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 14
+      },
+      {
+        "minute": 38
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "131",
+          "50",
+          "132"
+        ],
+        "points": 17,
+        "fuelScored": 7,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "142",
+          "73",
+          "99"
+        ],
+        "points": 19,
+        "fuelScored": 14,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 24,
+    "matchType": "qualifications",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 14
+      },
+      {
+        "minute": 46
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          "49",
+          "94",
+          "83"
+        ],
+        "points": 70,
+        "fuelScored": 65,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          "128",
+          "39",
+          "120"
+        ],
+        "points": 67,
+        "fuelScored": 62,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 1,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 15
+      },
+      {
+        "minute": 41
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          83,
+          49,
+          122
+        ],
+        "points": 106,
+        "fuelScored": 96,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 2,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          109,
+          127,
+          126
+        ],
+        "points": 15,
+        "fuelScored": 10,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 2,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 15
+      },
+      {
+        "minute": 51
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          93,
+          94,
+          129
+        ],
+        "points": 12,
+        "fuelScored": 12,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 3,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          120,
+          39,
+          128
+        ],
+        "points": 72,
+        "fuelScored": 47,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 3,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 16
+      },
+      {
+        "minute": 7
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          131,
+          132,
+          142
+        ],
+        "points": 20,
+        "fuelScored": 5,
+        "autoClimbs": 0,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          59,
+          73,
+          140
+        ],
+        "points": 34,
+        "fuelScored": 29,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 4,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 16
+      },
+      {
+        "minute": 13
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          74,
+          50,
+          18
+        ],
+        "points": 70,
+        "fuelScored": 55,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 3,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          99,
+          40,
+          97
+        ],
+        "points": 27,
+        "fuelScored": 27,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 5,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 16
+      },
+      {
+        "minute": 22
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          109,
+          127,
+          126
+        ],
+        "points": 19,
+        "fuelScored": 19,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 1,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          93,
+          94,
+          129
+        ],
+        "points": 14,
+        "fuelScored": 9,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 8,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 16
+      },
+      {
+        "minute": 33
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          131,
+          132,
+          142
+        ],
+        "points": 57,
+        "fuelScored": 12,
+        "autoClimbs": 1,
+        "endClimbsL1": 1,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": true,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          99,
+          40,
+          97
+        ],
+        "points": 27,
+        "fuelScored": 27,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 3,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 7,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 16
+      },
+      {
+        "minute": 41
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          83,
+          49,
+          122
+        ],
+        "points": 51,
+        "fuelScored": 46,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      },
+      {
+        "color": "blue",
+        "teams": [
+          120,
+          39,
+          128
+        ],
+        "points": 87,
+        "fuelScored": 77,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 2,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      }
+    ]
+  },
+  {
+    "matchNumber": 6,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 16
+      },
+      {
+        "minute": 50
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          59,
+          73,
+          140
+        ],
+        "points": 33,
+        "fuelScored": 28,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 1,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          74,
+          50,
+          18
+        ],
+        "points": 17,
+        "fuelScored": 7,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 2,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 11,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 17
+      },
+      {
+        "minute": 2
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          83,
+          49,
+          122
+        ],
+        "points": 107,
+        "fuelScored": 97,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 2,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": true,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          131,
+          132,
+          142
+        ],
+        "points": 59,
+        "fuelScored": 14,
+        "autoClimbs": 1,
+        "endClimbsL1": 0,
+        "endClimbsL2": 1,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": true,
+        "win": false
+      }
+    ]
+  },
+  {
+    "matchNumber": 10,
+    "matchType": "playoffs",
+    "time": [
+      {
+        "day": 18
+      },
+      {
+        "month": 7
+      },
+      {
+        "year": 2026
+      },
+      {
+        "hour": 17
+      },
+      {
+        "minute": 9
+      }
+    ],
+    "alliance": [
+      {
+        "color": "red",
+        "teams": [
+          74,
+          50,
+          18
+        ],
+        "points": 0,
+        "fuelScored": 0,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": true
+      },
+      {
+        "color": "blue",
+        "teams": [
+          109,
+          127,
+          126
+        ],
+        "points": 0,
+        "fuelScored": 0,
+        "autoClimbs": 0,
+        "endClimbsL1": 0,
+        "endClimbsL2": 0,
+        "endPark": 0,
+        "fouls": 0,
+        "TechFouls": 0,
+        "energizedRP": false,
+        "superchargedRP": false,
+        "traversalRP": false,
+        "win": false
+      }
+    ]
+  }
+]

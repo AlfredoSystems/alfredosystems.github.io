@@ -1,0 +1,32 @@
+{
+  "event_id": "minifrc11",
+  "event_name": "MiniFRC 11",
+  "date": "07-12-2025",
+  "location": "RTHS",
+  "game_title": "ReefScape",
+  "teams": [
+    {"rank": 1, "team_number": "73", "name": "Mildstang", "record": "5-1-0", "ranked_points": 20}
+  ],
+  "matches": [
+    {"match_id": "Q1", "video_link": "https://youtu.be/GdWHozYs5Jw?t=2898", "red_alliance": ["98", "40", "39"], "blue_alliance": ["74", "103", "97"], "score_red": 21, "score_blue": 19}
+  ],
+  "awards_html": [
+    "<div class=\"bg-white card rounded-xl p-8\">",
+    "    <h2 class=\"text-2xl font-bold text-gray-800 mb-6 text-center\">Event Awards</h2>",
+    "    <div class=\"space-y-6 max-w-3xl mx-auto\">",
+    "        <div><h3 class=\"text-lg font-semibold accent-text\">BYTE AWARD</h3><p class=\"text-gray-700\">– Anonymouse (102)</p></div>",
+    "        <div><h3 class=\"text-lg font-semibold accent-text\">JUDGES AWARD</h3><p class=\"text-gray-700\">– Robo Bulls (96)</p></div>",
+    "        <div><h3 class=\"text-lg font-semibold accent-text\">COMPLEXITY AWARD</h3><p class=\"text-gray-700\">– The Box Trash (43)</p></div>",
+    "        <div><h3 class=\"text-lg font-semibold accent-text\">ROBOT REVEAL</h3><p class=\"text-gray-700\">– CATalytic (67)</p></div>",
+    "        <div><h3 class=\"text-lg font-semibold accent-text\">The Engineering Inspiration Award</h3><p class=\"text-gray-700\">– Mildstang (73)</p></div>",
+    "        <div><h3 class=\"text-lg font-semibold accent-text\">MEMEPACKT</h3><p class=\"text-gray-700\">– Aristocratic Armadillos (100)</p></div>",
+    "        <div class=\"pt-4 border-t border-gray-200\">",
+    "            <h3 class=\"text-lg font-semibold accent-text\">HONORABLE MENTIONS</h3>",
+    "            <p class=\"text-gray-700\">– Burn Bestied (98)</p>",
+    "            <p class=\"text-gray-700\">– BumBotics (54)</p>",
+    "            <p class=\"text-gray-700\">– honse (97)</p>",
+    "        </div>",
+    "    </div>",
+    "</div>"
+  ]
+}
