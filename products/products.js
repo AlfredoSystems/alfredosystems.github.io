@@ -4,14 +4,16 @@ let products = [
         link: "minifrc-kit-of-parts",
         image: "nou2-minifrc-kit-of-parts-1.jpg",
         price: "$40.00",
-        buy: `<strong style="color: red">Out of stock.</strong><br/>`,
+        // buy: `<strong style="color: red">Out of stock.</strong><br/>`,
         //<option value="NoU2"> NoU2 $35.00 USD </option>
-        // buy: `<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        // <input type="hidden" name="cmd" value="_s-xclick">
-        // <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
-        // <input type="hidden" name="currency_code" value="USD" />
-        // <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-        // </form>`,
+        buy: `<strong style="background-color: #fff176; padding: 2px 6px;">Backordered, restock estimate coming soon.</strong><br/>
+        <br/>
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="MKYV4CPE43URU">
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+        </form>`,
         // <input type="hidden" name="on0" value="Varient:">Varient:
         // <select class="browser-default" name="os0" style="width: 200px">
         //   <option value="NoU3"> NoU3 $40.00 USD </option>
