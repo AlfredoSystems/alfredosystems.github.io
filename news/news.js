@@ -1,6 +1,6 @@
 let newsList = [
     {
-        title: "Introducing borc.io: The Blue Alliance for MiniFRC",
+        title: "Introducing the MiniFRC Event Index: The Blue Alliance for MiniFRC",
         link: "/news/borc/",
         image: "borc.png",
         blurb: "MiniFRC rankings, match results, robot photos, and awards for every event, all in one place.",
